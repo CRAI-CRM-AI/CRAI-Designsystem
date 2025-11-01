@@ -3,4 +3,16 @@
 }
 button {
   font-size: 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  &:disabled {
+    background-color: var(--color-primary-disabled);
+    color: var(--color-secondary-disabled);
+    cursor: not-allowed;
+  }
 }

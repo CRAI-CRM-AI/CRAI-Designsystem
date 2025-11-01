@@ -13,6 +13,13 @@
   --crai-green-700: #21392c;
   --crai-green-800: #1a2c22;
   --crai-green-900: #14221a;
+
+  --color-primary: var(--crai-green-500);
+  --color-secondary: var(--crai-green-200);
+  --color-text: var(--crai-green-800);
+  --color-text-inverse: var(--crai-green-50);
+  --color-primary-disabled: var(--crai-green-200);
+  --color-secondary-disabled: var(--crai-green-50);
 }
 
 body {
