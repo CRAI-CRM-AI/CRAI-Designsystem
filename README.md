@@ -1,2 +1,0 @@
-# CRAI-Designsystem
-
