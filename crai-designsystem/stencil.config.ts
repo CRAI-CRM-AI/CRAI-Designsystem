@@ -2,6 +2,7 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'crai-designsystem',
+  globalStyle: 'src/lib/global.css',
   outputTargets: [
     {
       type: 'dist',
@@ -21,6 +22,6 @@ export const config: Config = {
     },
   ],
   testing: {
-    browserHeadless: "shell",
+    browserHeadless: 'shell',
   },
 };
