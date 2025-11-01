@@ -6,6 +6,13 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface CraiButton {
+        /**
+          * The button type
+          * @default 'button'
+         */
+        "type": 'button' | 'submit' | 'reset';
+    }
     interface MyComponent {
         /**
           * The first name
@@ -22,6 +29,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLCraiButtonElement extends Components.CraiButton, HTMLStencilElement {
+    }
+    var HTMLCraiButtonElement: {
+        prototype: HTMLCraiButtonElement;
+        new (): HTMLCraiButtonElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
@@ -29,10 +42,18 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "crai-button": HTMLCraiButtonElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface CraiButton {
+        /**
+          * The button type
+          * @default 'button'
+         */
+        "type"?: 'button' | 'submit' | 'reset';
+    }
     interface MyComponent {
         /**
           * The first name
@@ -48,6 +69,7 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "crai-button": CraiButton;
         "my-component": MyComponent;
     }
 }
@@ -55,6 +77,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "crai-button": LocalJSX.CraiButton & JSXBase.HTMLAttributes<HTMLCraiButtonElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
