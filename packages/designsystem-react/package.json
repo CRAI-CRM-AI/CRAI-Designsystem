@@ -1,0 +1,44 @@
+{
+	"name": "designsystem-react",
+	"version": "0.0.1",
+	"description": "> TODO: description",
+	"homepage": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem#readme",
+	"bugs": {
+		"url": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CRAI-CRM-AI/CRAI-Designsystem.git"
+	},
+	"license": "MIT",
+	"author": "HenrikFalla <henrik.falla@gmail.com>",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/types/index.d.ts",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "node ./__tests__/designsystem-react.test.js",
+		"build": "npm run tsc",
+		"tsc": "tsc -p . --outDir ./dist"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@types/react": "^19.2.2",
+		"react": "^19.2.0",
+		"react-dom": "^19.2.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@stencil/react-output-target": "^1.2.0",
+		"designsystem-core": "*"
+	}
+}
+

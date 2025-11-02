@@ -1,0 +1,12 @@
+{
+  "name": "designsystem-core/hydrate",
+  "description": "DesignsystemCore component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  }
+}
