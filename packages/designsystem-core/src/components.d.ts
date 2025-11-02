@@ -7,6 +7,18 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface CraiButton {
+        /**
+          * @default false
+         */
+        "disabled": boolean;
+        /**
+          * @default 'button'
+         */
+        "type": 'button' | 'submit' | 'reset';
+        /**
+          * @default 'glass'
+         */
+        "variant": 'accent' | 'subtle' | 'glass' | 'text';
     }
     interface MyComponent {
         /**
@@ -58,7 +70,19 @@ declare global {
 }
 declare namespace LocalJSX {
     interface CraiButton {
+        /**
+          * @default false
+         */
+        "disabled"?: boolean;
         "onCraiClicked"?: (event: CraiButtonCustomEvent<MouseEvent>) => void;
+        /**
+          * @default 'button'
+         */
+        "type"?: 'button' | 'submit' | 'reset';
+        /**
+          * @default 'glass'
+         */
+        "variant"?: 'accent' | 'subtle' | 'glass' | 'text';
     }
     interface MyComponent {
         /**

@@ -1511,6 +1511,11 @@ var parsePropertyValue = (propValue, propType, isFormAssociated) => {
     return propValue;
   }
   if (propValue != null && !isComplexType(propValue)) {
+    if (propType & 4 /* Boolean */) {
+      {
+        return propValue === "false" ? false : propValue === "" || !!propValue;
+      }
+    }
     if (propType & 1 /* String */) {
       return String(propValue);
     }
@@ -3117,7 +3122,7 @@ var setScopedSSR = (opts) => {
 var needsScopedSSR = () => scopedSSR;
 var scopedSSR = false;
 
-const craiButtonCss = ":host {\n  display: block;\n  & button {\n    position: relative;\n    background: rgba(81, 81, 81, 0.25);\n    border-radius: 16px;\n    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n    backdrop-filter: blur(4px);\n    -webkit-backdrop-filter: blur(4px);\n    border: 1px solid rgba(255, 255, 255, 0.2);\n    padding: 0.5rem 1rem;\n    font-size: 1rem;\n    color: var(--crai-color-text-inverse, white);\n    cursor: pointer;\n    overflow: hidden;\n    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n    & span {\n      position: absolute;\n      transform: translate(-50%, -50%) scale(0);\n      display: inline-block;\n      opacity: 0.8;\n      width: 25rem;\n      height: 25rem;\n      background-color: #fff;\n      border-radius: 50%;\n      animation: ripple 1.5s ease;\n    }\n  }\n}\n@keyframes ripple {\n  100% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0;\n  }\n}\n";
+const craiButtonCss = ":host {\n  display: block;\n  & button {\n    position: relative;\n    background: rgba(81, 81, 81, 0.25);\n    border-radius: 16px;\n    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n    backdrop-filter: blur(4px);\n    -webkit-backdrop-filter: blur(4px);\n    border: 1px solid rgba(255, 255, 255, 0.2);\n    padding: 0.8rem 1.2rem;\n    font-size: 1rem;\n    color: var(--crai-color-text-inverse, white);\n    cursor: pointer;\n    overflow: hidden;\n    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n    & span {\n      position: absolute;\n      transform: translate(-50%, -50%) scale(0);\n      display: inline-block;\n      opacity: 0.8;\n      width: 25rem;\n      height: 25rem;\n      background-color: #fff;\n      border-radius: 50%;\n      animation: ripple 1.5s ease;\n    }\n  }\n}\n@keyframes ripple {\n  100% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0;\n  }\n}\n";
 
 class CraiButton {
     constructor(hostRef) {
@@ -3125,6 +3130,9 @@ class CraiButton {
         this.craiClicked = createEvent(this, "craiClicked");
     }
     craiClicked;
+    variant = 'glass';
+    type = 'button';
+    disabled = false;
     btn;
     handleClick = (e) => {
         this.craiClicked.emit(e);
@@ -3138,13 +3146,17 @@ class CraiButton {
         }, 1500);
     };
     render() {
-        return (hAsync(Host, { key: '31b12d3601f1c4254e63eb1e71eee3aa9dd12fa3' }, hAsync("button", { key: '7ac8d4b82c9e4604b6ca4731d3326efa57806201', ref: el => (this.btn = el), onClick: this.handleClick }, hAsync("slot", { key: '0b8eb20abbb76ffc369feafbbad51825718ac2f0' }))));
+        return (hAsync(Host, { key: '3f6b5201aba994b29a926dc216a09b0d8ac70186' }, hAsync("button", { key: '68cf6df31411612c433d3e5ba2873add79018ed5', ref: el => (this.btn = el), onClick: this.handleClick }, hAsync("slot", { key: '85ad0d4f4e969d08865dd7a1d18da334f321ec93' }))));
     }
     static get style() { return craiButtonCss; }
     static get cmpMeta() { return {
         "$flags$": 265,
         "$tagName$": "crai-button",
-        "$members$": undefined,
+        "$members$": {
+            "variant": [1],
+            "type": [1],
+            "disabled": [4]
+        },
         "$listeners$": undefined,
         "$lazyBundleId$": "-",
         "$attrsToReflect$": []
@@ -3177,7 +3189,7 @@ class MyComponent {
         return format(this.first, this.middle, this.last);
     }
     render() {
-        return hAsync("div", { key: '82040874a2cb69edb1de0a676cd8511596c90b56' }, "Hello, World! I'm ", this.getText());
+        return hAsync("div", { key: '72e114f7f4133891d9b7b1a5f87da39443642525' }, "Hello, World! I'm ", this.getText());
     }
     static get style() { return myComponentCss; }
     static get cmpMeta() { return {

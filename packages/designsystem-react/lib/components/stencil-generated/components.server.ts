@@ -20,7 +20,11 @@ export type CraiButtonEvents = { onCraiClicked: EventName<CraiButtonCustomEvent<
 
 export const CraiButton: StencilReactComponent<CraiButtonElement, CraiButtonEvents> = /*@__PURE__*/ createComponent<CraiButtonElement, CraiButtonEvents>({
     tagName: 'crai-button',
-    properties: {},
+    properties: {
+        variant: 'variant',
+        type: 'type',
+        disabled: 'disabled'
+    },
     hydrateModule: import('designsystem-core/hydrate') as Promise<HydrateModule>,
     clientModule: clientComponents.CraiButton as ReactWebComponent<CraiButtonElement, CraiButtonEvents>,
     serializeShadowRoot,
