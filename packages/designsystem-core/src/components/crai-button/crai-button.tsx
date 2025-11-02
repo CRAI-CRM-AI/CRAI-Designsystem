@@ -8,12 +8,12 @@ import { Component, Host, h, Event, EventEmitter, Prop } from '@stencil/core';
 export class CraiButton {
   @Event() craiClicked: EventEmitter<MouseEvent>;
 
-  @Prop() variant: 'accent' | 'subtle' | 'glass' | 'text' = 'glass';
+  @Prop() variant: 'strong' | 'subtle' | 'outlined' | 'glass' | 'text' = 'glass';
 
   @Prop() type: 'button' | 'submit' | 'reset' = 'button';
 
   @Prop() disabled: boolean = false;
-  
+
   btn: HTMLButtonElement;
   private handleClick = (e: MouseEvent) => {
     this.craiClicked.emit(e);

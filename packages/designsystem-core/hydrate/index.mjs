@@ -3120,7 +3120,7 @@ var setScopedSSR = (opts) => {
 var needsScopedSSR = () => scopedSSR;
 var scopedSSR = false;
 
-const craiButtonCss = ":host {\n  display: block;\n  & button {\n    position: relative;\n    background: rgba(81, 81, 81, 0.25);\n    border-radius: 16px;\n    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n    backdrop-filter: blur(4px);\n    -webkit-backdrop-filter: blur(4px);\n    border: 1px solid rgba(255, 255, 255, 0.2);\n    padding: 0.8rem 1.2rem;\n    font-size: 1rem;\n    color: var(--crai-color-text-inverse, white);\n    cursor: pointer;\n    overflow: hidden;\n    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n    & span {\n      position: absolute;\n      transform: translate(-50%, -50%) scale(0);\n      display: inline-block;\n      opacity: 0.8;\n      width: 25rem;\n      height: 25rem;\n      background-color: #fff;\n      border-radius: 50%;\n      animation: ripple 1.5s ease;\n    }\n  }\n}\n@keyframes ripple {\n  100% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0;\n  }\n}\n";
+const craiButtonCss = ":host {\n  display: block;\n  & button {\n    all: unset;\n    cursor: pointer;\n  }\n}\n\n:host([variant='glass']) {\n  & button {\n    position: relative;\n    background: rgba(81, 81, 81, 0.25);\n    border-radius: 16px;\n    backdrop-filter: blur(4px);\n    -webkit-backdrop-filter: blur(4px);\n    border: 1px solid rgba(255, 255, 255, 0.2);\n    padding: 0.8rem 1.2rem;\n    font-size: 1rem;\n    color: var(--crai-color-text-inverse, white);\n\n    overflow: hidden;\n    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n    & span {\n      position: absolute;\n      transform: translate(-50%, -50%) scale(0);\n      display: inline-block;\n      opacity: 0.8;\n      width: 25rem;\n      height: 25rem;\n      background-color: #fff;\n      border-radius: 50%;\n      animation: ripple 1.5s ease;\n    }\n  }\n}\n@keyframes ripple {\n  100% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 0;\n  }\n}\n";
 
 class CraiButton {
     constructor(hostRef) {
@@ -3144,7 +3144,7 @@ class CraiButton {
         }, 1500);
     };
     render() {
-        return (hAsync(Host, { key: '3f6b5201aba994b29a926dc216a09b0d8ac70186' }, hAsync("button", { key: '68cf6df31411612c433d3e5ba2873add79018ed5', ref: el => (this.btn = el), onClick: this.handleClick }, hAsync("slot", { key: '85ad0d4f4e969d08865dd7a1d18da334f321ec93' }))));
+        return (hAsync(Host, { key: 'c05d7ca4f4d1a31cb3334107341f9cb3b493eeda' }, hAsync("button", { key: '9f23520a7a45692724d06dc55694dbea0bee3366', ref: el => (this.btn = el), onClick: this.handleClick }, hAsync("slot", { key: '622594b156f0f055984e69cc8531faca2438c7e7' }))));
     }
     static get style() { return craiButtonCss; }
     static get cmpMeta() { return {
@@ -3187,7 +3187,7 @@ class MyComponent {
         return format(this.first, this.middle, this.last);
     }
     render() {
-        return hAsync("div", { key: '72e114f7f4133891d9b7b1a5f87da39443642525' }, "Hello, World! I'm ", this.getText());
+        return hAsync("div", { key: '7b25969608a3d34dbaa5d503fa042fff18a216a6' }, "Hello, World! I'm ", this.getText());
     }
     static get style() { return myComponentCss; }
     static get cmpMeta() { return {

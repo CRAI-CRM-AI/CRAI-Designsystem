@@ -18,7 +18,7 @@ export namespace Components {
         /**
           * @default 'glass'
          */
-        "variant": 'accent' | 'subtle' | 'glass' | 'text';
+        "variant": 'strong' | 'subtle' | 'outlined' | 'glass' | 'text';
     }
     interface MyComponent {
         /**
@@ -82,7 +82,7 @@ declare namespace LocalJSX {
         /**
           * @default 'glass'
          */
-        "variant"?: 'accent' | 'subtle' | 'glass' | 'text';
+        "variant"?: 'strong' | 'subtle' | 'outlined' | 'glass' | 'text';
     }
     interface MyComponent {
         /**

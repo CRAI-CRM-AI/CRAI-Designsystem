@@ -3,6 +3,7 @@ import { reactOutputTarget } from '@stencil/react-output-target';
 
 export const config: Config = {
   namespace: 'designsystem-core',
+  globalStyle: 'src/lib/global.css',
   outputTargets: [
     reactOutputTarget({
       // Relative path to where the React components will be generated
