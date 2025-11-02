@@ -1,5 +1,5 @@
 {
-  "name": "designsystem-core/hydrate",
+  "name": "@crai/designsystem-core/hydrate",
   "description": "DesignsystemCore component hydration app.",
   "main": "index.js",
   "types": "index.d.ts",

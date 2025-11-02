@@ -1,5 +1,5 @@
 {
-	"name": "designsystem-react",
+	"name": "@crai/designsystem-react",
 	"version": "0.0.1",
 	"description": "> TODO: description",
 	"homepage": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem#readme",
@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@stencil/react-output-target": "^1.2.0",
-		"designsystem-core": "*"
+		"@crai/designsystem-core": "*"
 	}
 }
 
