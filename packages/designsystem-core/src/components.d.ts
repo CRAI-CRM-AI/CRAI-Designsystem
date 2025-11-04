@@ -16,7 +16,7 @@ export namespace Components {
          */
         "type": 'button' | 'submit' | 'reset';
         /**
-          * @default 'glass'
+          * @default 'strong'
          */
         "variant": 'strong' | 'subtle' | 'outlined' | 'glass' | 'text';
     }
@@ -80,7 +80,7 @@ declare namespace LocalJSX {
          */
         "type"?: 'button' | 'submit' | 'reset';
         /**
-          * @default 'glass'
+          * @default 'strong'
          */
         "variant"?: 'strong' | 'subtle' | 'outlined' | 'glass' | 'text';
     }

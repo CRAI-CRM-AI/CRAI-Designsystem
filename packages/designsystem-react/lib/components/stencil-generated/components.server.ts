@@ -8,11 +8,11 @@
 // @ts-ignore - ignore potential type issues as the project is importing itself
 import * as clientComponents from 'designsystem-core/client';
 
+import { type CraiButtonCustomEvent } from "@crai/designsystem-core";
+import { CraiButton as CraiButtonElement } from "@crai/designsystem-core/../designsystem-core/components/crai-button.js";
+import { MyComponent as MyComponentElement } from "@crai/designsystem-core/../designsystem-core/components/my-component.js";
 import type { EventName, StencilReactComponent } from '@stencil/react-output-target/runtime';
 import { createComponent, type HydrateModule, type ReactWebComponent, type SerializeShadowRootOptions } from '@stencil/react-output-target/ssr';
-import { type CraiButtonCustomEvent } from "designsystem-core";
-import { CraiButton as CraiButtonElement } from "designsystem-core/../designsystem-core/components/crai-button.js";
-import { MyComponent as MyComponentElement } from "designsystem-core/../designsystem-core/components/my-component.js";
 
 export const serializeShadowRoot: SerializeShadowRootOptions = { default: "declarative-shadow-dom" };
 

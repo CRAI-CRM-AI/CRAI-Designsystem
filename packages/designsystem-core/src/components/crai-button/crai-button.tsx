@@ -1,4 +1,5 @@
 import { Component, Host, h, Event, EventEmitter, Prop } from '@stencil/core';
+import GlassFilter from '../../lib/glass-filter';
 
 @Component({
   tag: 'crai-button',
@@ -8,7 +9,7 @@ import { Component, Host, h, Event, EventEmitter, Prop } from '@stencil/core';
 export class CraiButton {
   @Event() craiClicked: EventEmitter<MouseEvent>;
 
-  @Prop() variant: 'strong' | 'subtle' | 'outlined' | 'glass' | 'text' = 'glass';
+  @Prop() variant: 'strong' | 'subtle' | 'outlined' | 'glass' | 'text' = 'strong';
 
   @Prop() type: 'button' | 'submit' | 'reset' = 'button';
 
@@ -32,6 +33,7 @@ export class CraiButton {
       <Host>
         <button ref={el => (this.btn = el as HTMLButtonElement)} onClick={this.handleClick}>
           <slot></slot>
+          <GlassFilter />
         </button>
       </Host>
     );

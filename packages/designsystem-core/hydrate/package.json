@@ -1,6 +1,6 @@
 {
   "name": "@crai/designsystem-core/hydrate",
-  "description": "DesignsystemCore component hydration app.",
+  "description": "CraiDesignsystemCore component hydration app.",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {

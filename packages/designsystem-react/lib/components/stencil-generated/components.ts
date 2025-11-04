@@ -7,11 +7,11 @@
 
 /* eslint-disable */
 
+import { type CraiButtonCustomEvent } from "@crai/designsystem-core";
+import { CraiButton as CraiButtonElement, defineCustomElement as defineCraiButton } from "@crai/designsystem-core/../designsystem-core/components/crai-button.js";
+import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "@crai/designsystem-core/../designsystem-core/components/my-component.js";
 import type { EventName, StencilReactComponent } from '@stencil/react-output-target/runtime';
 import { createComponent } from '@stencil/react-output-target/runtime';
-import { type CraiButtonCustomEvent } from "designsystem-core";
-import { CraiButton as CraiButtonElement, defineCustomElement as defineCraiButton } from "designsystem-core/../designsystem-core/components/crai-button.js";
-import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "designsystem-core/../designsystem-core/components/my-component.js";
 import React from 'react';
 
 export type CraiButtonEvents = { onCraiClicked: EventName<CraiButtonCustomEvent<MouseEvent>> };
