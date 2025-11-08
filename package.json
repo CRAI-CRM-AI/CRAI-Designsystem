@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "prebootstrap": "npm install",
+    "bootstrap": "lerna bootstrap",
+    "postbootstrap": "lerna run build --concurrency=1",
+    "clean": "lerna clean -y",
+    "postclean": "npm run bootstrap",
+    "watch": "lerna run watch --stream",
+    "build": "lerna run build --concurrency=4",
+    "dev": "lerna run dev:start --stream"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "lerna": "^9.0.0",
+    "typescript": "^5.8.3"
+  }
+}
