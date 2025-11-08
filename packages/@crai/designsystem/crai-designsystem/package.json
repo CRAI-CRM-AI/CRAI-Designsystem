@@ -1,5 +1,5 @@
 {
-  "name": "@crai/crai-designsystem",
+  "name": "crai-designsystem",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -31,11 +31,8 @@
     "dist/",
     "loader/"
   ],
-  "jest": {
-    "preset": "@stencil/core/testing"
-  },
   "scripts": {
-    "build": "stencil build --docs",
+    "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
