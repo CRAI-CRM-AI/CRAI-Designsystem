@@ -31,6 +31,9 @@
     "dist/",
     "loader/"
   ],
+  "jest": {
+    "preset": "@stencil/core/testing"
+  },
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
