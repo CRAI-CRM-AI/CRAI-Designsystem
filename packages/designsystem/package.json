@@ -1,6 +1,6 @@
 {
-  "name": "@crai/designsystem",
-  "version": "0.0.1",
+  "name": "@cr-ai/designsystem",
+  "version": "0.0.2",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -8,6 +8,9 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/designsystem/designsystem.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./dist/designsystem/designsystem.esm.js",
