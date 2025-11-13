@@ -13,6 +13,13 @@
 | `variant` | `variant` | Button variant | `"glass" \| "primary"`            | `'primary'` |
 
 
+## Events
+
+| Event         | Description | Type                      |
+| ------------- | ----------- | ------------------------- |
+| `craiClicked` |             | `CustomEvent<MouseEvent>` |
+
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

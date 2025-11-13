@@ -7,6 +7,7 @@
 
     <script type="module" src="/build/designsystem.esm.js"></script>
     <script nomodule src="/build/designsystem.js"></script>
+    <link rel="stylesheet" href="/build/designsystem.css" />
   </head>
   <style>
     @-webkit-keyframes moveBackground {
@@ -33,15 +34,18 @@
         position: relative;
         place-self: center middle;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 1rem;
         align-items: center;
+        justify-content: center;
         padding: 10rem 0;
         background: url(https://raw.githubusercontent.com/lucasromerodb/liquid-glass-effect-macos/refs/heads/main/assets/flowers.jpg) center center;
-        -webkit-animation: moveBackground 200s linear infinite;
-        animation: moveBackground 200s linear infinite;
+        -webkit-animation: moveBackground 400s linear infinite;
+        animation: moveBackground 400s linear infinite;
       "
     >
       <crai-button variant="glass">Button</crai-button>
+      <crai-button>Button</crai-button>
     </section>
   </body>
 </html>

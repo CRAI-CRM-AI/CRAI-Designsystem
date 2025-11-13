@@ -19,8 +19,23 @@ export namespace Components {
         "variant": 'primary' | 'glass';
     }
 }
+export interface CraiButtonCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLCraiButtonElement;
+}
 declare global {
+    interface HTMLCraiButtonElementEventMap {
+        "craiClicked": MouseEvent;
+    }
     interface HTMLCraiButtonElement extends Components.CraiButton, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLCraiButtonElementEventMap>(type: K, listener: (this: HTMLCraiButtonElement, ev: CraiButtonCustomEvent<HTMLCraiButtonElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLCraiButtonElementEventMap>(type: K, listener: (this: HTMLCraiButtonElement, ev: CraiButtonCustomEvent<HTMLCraiButtonElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
     }
     var HTMLCraiButtonElement: {
         prototype: HTMLCraiButtonElement;
@@ -32,6 +47,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface CraiButton {
+        "onCraiClicked"?: (event: CraiButtonCustomEvent<MouseEvent>) => void;
         /**
           * Button type
           * @default 'button'
