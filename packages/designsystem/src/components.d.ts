@@ -18,20 +18,6 @@ export namespace Components {
          */
         "variant": 'primary' | 'glass';
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
-    }
 }
 declare global {
     interface HTMLCraiButtonElement extends Components.CraiButton, HTMLStencilElement {
@@ -40,15 +26,8 @@ declare global {
         prototype: HTMLCraiButtonElement;
         new (): HTMLCraiButtonElement;
     };
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
-    }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
-    };
     interface HTMLElementTagNameMap {
         "crai-button": HTMLCraiButtonElement;
-        "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
@@ -64,23 +43,8 @@ declare namespace LocalJSX {
          */
         "variant"?: 'primary' | 'glass';
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
-    }
     interface IntrinsicElements {
         "crai-button": CraiButton;
-        "my-component": MyComponent;
     }
 }
 export { LocalJSX as JSX };
@@ -88,7 +52,6 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "crai-button": LocalJSX.CraiButton & JSXBase.HTMLAttributes<HTMLCraiButtonElement>;
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
 }
