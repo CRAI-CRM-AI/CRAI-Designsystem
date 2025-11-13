@@ -1,32 +1,5 @@
 {
-	"name": "crai-designsystem",
-	"version": "1.0.0",
-	"description": "CRAI Design System Monorepo",
-	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
-	"scripts": {
-		"test": "lerna run test",
-		"build": "lerna run build",
-		"dev": "lerna run dev --parallel",
-		"clean": "lerna clean",
-		"bootstrap": "lerna bootstrap",
-		"publish": "lerna publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CRAI-CRM-AI/CRAI-Designsystem.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem/issues"
-	},
-	"homepage": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem#readme",
-	"devDependencies": {
-		"lerna": "^9.0.0"
-	}
+  "devDependencies": {
+    "lerna": "^9.0.0"
+  }
 }
-
