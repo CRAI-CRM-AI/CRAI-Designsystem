@@ -1,53 +1,83 @@
 # CRAI Design System
 
-This is the design system/component library for the CRAI team.
+A collection of reusable, framework-agnostic Web Components built with [StencilJS](https://stenciljs.com/). The CRAI Design System provides a set of high-quality UI components designed for consistency and accessibility.
 
-Build using StencilJS these components are framework agnostic Web Components.
+## Installation
 
-## Getting Started
-
-To start building a new web component using Stencil, clone this repo to a new directory:
+Install the package from npm:
 
 ```bash
-git clone https://github.com/stenciljs/component-starter.git my-component
-cd my-component
-git remote rm origin
+npm install @cr-ai/designsystem
 ```
 
-and run:
+## Components
+
+### crai-button
+
+A versatile button component with support for multiple variants and ripple effects.
+
+**Props:**
+
+- `variant` - `'primary' | 'glass'` (default: `'primary'`) - Button style variant
+- `type` - `'button' | 'submit' | 'reset'` (default: `'button'`) - Button type
+- `disabled` - `boolean` (default: `false`) - Disabled state
+
+**Events:**
+
+- `craiClicked` - Emitted when button is clicked
+
+**Example:**
+
+```html
+<crai-button variant="primary">Click me</crai-button>
+<crai-button variant="glass" type="submit">Submit</crai-button>
+<crai-button disabled>Disabled</crai-button>
+```
+
+## Development
+
+### Setup
 
 ```bash
 npm install
 npm start
 ```
 
-To build the component for production, run:
+### Build
 
 ```bash
 npm run build
 ```
 
-To run the unit tests for the components, run:
+### Testing
 
 ```bash
 npm test
 ```
 
-Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-component).
+Watch mode:
 
-## Naming Components
+```bash
+npm run test.watch
+```
 
-When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
+### Generate New Component
 
-Instead, use a prefix that fits your company or any name for a group of related components. For example, all of the [Ionic-generated](https://ionicframework.com/) web components use the prefix `ion`.
+```bash
+npm run generate
+```
 
-## Using this component
+## Publishing
 
-There are two strategies we recommend for using web components built with Stencil.
+To publish a new version to npm:
 
-The first step for all two of these strategies is to [publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages).
+1. Update the version in `package.json`
+2. Build the package: `npm run build`
+3. Publish: `npm publish`
 
-You can read more about these different approaches in the [Stencil docs](https://stenciljs.com/docs/publishing).
+## License
+
+MIT
 
 ### Lazy Loading
 
