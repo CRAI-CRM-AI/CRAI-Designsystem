@@ -7,6 +7,11 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface CraiButton {
+        /**
+          * Button variant
+          * @default 'primary'
+         */
+        "variant": 'primary' | 'glass';
     }
     interface MyComponent {
         /**
@@ -43,6 +48,11 @@ declare global {
 }
 declare namespace LocalJSX {
     interface CraiButton {
+        /**
+          * Button variant
+          * @default 'primary'
+         */
+        "variant"?: 'primary' | 'glass';
     }
     interface MyComponent {
         /**

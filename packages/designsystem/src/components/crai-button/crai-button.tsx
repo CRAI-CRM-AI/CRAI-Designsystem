@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Host, Prop, h } from '@stencil/core';
 import { GlassFilter } from '../../lib/glass-filter';
 
 @Component({
@@ -7,6 +7,9 @@ import { GlassFilter } from '../../lib/glass-filter';
   shadow: true,
 })
 export class CraiButton {
+  /** Button variant */
+  @Prop() variant: 'primary' | 'glass' = 'primary';
+
   render() {
     return (
       <Host>
