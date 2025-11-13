@@ -14,6 +14,8 @@ export class CraiButton {
   /** Button type */
   @Prop() type: 'button' | 'submit' | 'reset' = 'button';
 
+  @Prop() disabled: boolean = false;
+
   btn: HTMLButtonElement;
   private handleClick = (e: MouseEvent) => {
     this.craiClicked.emit(e);
@@ -29,7 +31,7 @@ export class CraiButton {
   render() {
     return (
       <Host>
-        <button onClick={this.handleClick} ref={el => (this.btn = el as HTMLButtonElement)}>
+        <button onClick={this.handleClick} ref={el => (this.btn = el as HTMLButtonElement)} type={this.type} disabled={this.disabled}>
           <slot></slot>
         </button>
         {this.variant === 'glass' && <GlassFilter />}
