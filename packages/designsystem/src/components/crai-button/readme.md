@@ -7,9 +7,10 @@
 
 ## Properties
 
-| Property  | Attribute | Description    | Type                   | Default     |
-| --------- | --------- | -------------- | ---------------------- | ----------- |
-| `variant` | `variant` | Button variant | `"glass" \| "primary"` | `'primary'` |
+| Property  | Attribute | Description    | Type                              | Default     |
+| --------- | --------- | -------------- | --------------------------------- | ----------- |
+| `type`    | `type`    | Button type    | `"button" \| "reset" \| "submit"` | `'button'`  |
+| `variant` | `variant` | Button variant | `"glass" \| "primary"`            | `'primary'` |
 
 
 ----------------------------------------------

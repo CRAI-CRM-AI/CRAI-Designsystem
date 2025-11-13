@@ -10,6 +10,9 @@ export class CraiButton {
   /** Button variant */
   @Prop() variant: 'primary' | 'glass' = 'primary';
 
+  /** Button type */
+  @Prop() type: 'button' | 'submit' | 'reset' = 'button';
+
   render() {
     return (
       <Host>

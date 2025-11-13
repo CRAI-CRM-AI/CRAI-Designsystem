@@ -1,8 +1,12 @@
 :host {
   display: block;
+}
+
+:host([variant='glass']) {
   overflow: hidden;
   border-radius: 1.2rem;
   & button {
+    all: none;
     display: flex;
     position: relative;
     -webkit-box-align: center;
