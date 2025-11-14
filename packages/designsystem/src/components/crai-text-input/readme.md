@@ -14,6 +14,8 @@
 | `autoCorrect`    | `auto-correct`    |             | `"off" \| "on"`                                           | `'on'`      |
 | `autoFocus`      | `auto-focus`      |             | `boolean`                                                 | `false`     |
 | `disabled`       | `disabled`        |             | `boolean`                                                 | `false`     |
+| `helpText`       | `help-text`       |             | `string`                                                  | `undefined` |
+| `label`          | `label`           |             | `string`                                                  | `undefined` |
 | `placeholder`    | `placeholder`     |             | `string`                                                  | `''`        |
 | `readonly`       | `readonly`        |             | `boolean`                                                 | `false`     |
 | `required`       | `required`        |             | `boolean`                                                 | `false`     |

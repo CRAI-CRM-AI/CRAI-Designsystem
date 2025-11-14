@@ -1,5 +1,7 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   margin: 1rem;
   & span {
     padding: 1rem 1.5rem;
@@ -28,17 +30,34 @@
       }
     }
   }
+  & label {
+    color: var(--color-text);
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  & small {
+    color: var(--color-text);
+  }
+}
+
+:host([variant='outlined']) {
+  & span {
+    border: 1px solid var(--color-input-bg);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    & input {
+      background: transparent;
+    }
+  }
 }
 
 :host([variant='glass']) {
-  overflow: hidden;
   border-radius: var(--border-radius-md);
   -webkit-corner-shape: squircle;
   /* stylelint-disable-next-line property-no-unknown */
   corner-shape: squircle;
-  margin: 0;
   & span {
-    display: block;
     position: relative;
     background: transparent;
     z-index: 0;
@@ -63,8 +82,8 @@
       -webkit-corner-shape: squircle;
       /* stylelint-disable-next-line property-no-unknown */
       corner-shape: squircle;
-      -webkit-box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
-      box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+      -webkit-box-shadow: var(--glass-inner-shadow);
+      box-shadow: var(--glass-inner-shadow);
       background-color: var(--glass-bg);
       backdrop-filter: blur(var(--filter-blur));
     }
@@ -92,8 +111,14 @@
     background: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
+    padding: 1rem 0;
     & input {
       background: transparent;
     }
   }
+}
+
+:host([disabled]) {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

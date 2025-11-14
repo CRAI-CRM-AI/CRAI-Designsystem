@@ -11,6 +11,10 @@
     letter-spacing: var(--letter-spacing-large);
     cursor: pointer;
     position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
     background: var(--color-primary);
     border-radius: var(--border-radius-md);
     border: 1px solid var(--color-text);
@@ -45,9 +49,6 @@
     font: inherit;
     display: flex;
     position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -72,8 +73,8 @@
       -webkit-corner-shape: squircle;
       /* stylelint-disable-next-line property-no-unknown */
       corner-shape: squircle;
-      -webkit-box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
-      box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+      -webkit-box-shadow: var(--glass-inner-shadow);
+      box-shadow: var(--glass-inner-shadow);
       background-color: rgba(0, 0, 0, 0.45);
       backdrop-filter: blur(var(--filter-blur));
     }
@@ -96,11 +97,38 @@
   }
 }
 
+:host([icon]) {
+  border-radius: var(--dimension-border-radius-circle);
+  -webkit-corner-shape: round;
+  /* stylelint-disable-next-line property-no-unknown */
+  corner-shape: round;
+
+  & button {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: var(--dimension-border-radius-circle);
+    -webkit-corner-shape: round;
+    /* stylelint-disable-next-line property-no-unknown */
+    corner-shape: round;
+    &::before,
+    ::after {
+      border-radius: var(--dimension-border-radius-circle);
+      -webkit-corner-shape: round;
+      /* stylelint-disable-next-line property-no-unknown */
+      corner-shape: round;
+    }
+  }
+}
+
 :host([disabled]) {
   overflow: hidden;
   position: relative;
   border-radius: var(--border-radius-md);
   -webkit-corner-shape: squircle;
+  cursor: not-allowed;
   /* stylelint-disable-next-line property-no-unknown */
   corner-shape: squircle;
   &::after {

@@ -14,6 +14,10 @@ export namespace Components {
          */
         "disabled": boolean;
         /**
+          * @default false
+         */
+        "icon": boolean;
+        /**
           * Button type
           * @default 'button'
          */
@@ -52,6 +56,14 @@ export namespace Components {
          */
         "disabled": boolean;
         /**
+          * @default undefined
+         */
+        "helpText": string | undefined;
+        /**
+          * @default undefined
+         */
+        "label": string | undefined;
+        /**
           * @default ''
          */
         "placeholder": string;
@@ -70,7 +82,7 @@ export namespace Components {
         /**
           * @default 'primary'
          */
-        "variant": 'primary' | 'glass' | 'transparent';
+        "variant": 'primary' | 'glass' | 'transparent' | 'outlined';
     }
 }
 export interface CraiButtonCustomEvent<T> extends CustomEvent<T> {
@@ -134,6 +146,10 @@ declare namespace LocalJSX {
           * @default false
          */
         "disabled"?: boolean;
+        /**
+          * @default false
+         */
+        "icon"?: boolean;
         "onCraiClicked"?: (event: CraiButtonCustomEvent<MouseEvent>) => void;
         /**
           * Button type
@@ -173,6 +189,14 @@ declare namespace LocalJSX {
           * @default false
          */
         "disabled"?: boolean;
+        /**
+          * @default undefined
+         */
+        "helpText"?: string | undefined;
+        /**
+          * @default undefined
+         */
+        "label"?: string | undefined;
         "onCraiTextChange"?: (event: CraiTextInputCustomEvent<Event>) => void;
         /**
           * @default ''
@@ -193,7 +217,7 @@ declare namespace LocalJSX {
         /**
           * @default 'primary'
          */
-        "variant"?: 'primary' | 'glass' | 'transparent';
+        "variant"?: 'primary' | 'glass' | 'transparent' | 'outlined';
     }
     interface IntrinsicElements {
         "crai-button": CraiButton;

@@ -16,6 +16,8 @@ export class CraiButton {
 
   @Prop() disabled: boolean = false;
 
+  @Prop() icon: boolean = false;
+
   btn: HTMLButtonElement;
   private handleClick = (e: MouseEvent) => {
     this.craiClicked.emit(e);

@@ -46,8 +46,10 @@
       <!-- <section> -->
       <section style="display: flex; flex-direction: row; gap: 1rem">
         <crai-button variant="glass">Button with longer text</crai-button>
+        <crai-button variant="glass" icon>+</crai-button>
         <crai-button variant="glass" disabled>Button</crai-button>
         <crai-button>Button</crai-button>
+        <crai-button icon>+</crai-button>
         <crai-button disabled>Button</crai-button>
       </section>
       <section style="display: flex; flex-direction: row; gap: 1rem">
@@ -77,36 +79,54 @@
         </crai-text-bubble>
       </section>
       <section class="dark" style="display: flex; flex-direction: row; gap: 1rem">
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Default</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-900); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Default</h2>
           <crai-text-input placeholder="Placeholder text"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled></crai-text-input>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Glass</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-900); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Default</h2>
+          <crai-text-input placeholder="Placeholder text" variant="outlined"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="outlined" label="Label" help-text="Descriptive helptext."></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="outlined" disabled></crai-text-input>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem">
+          <h2 style="color: var(--color-text)">Glass</h2>
           <crai-text-input placeholder="Placeholder text" variant="glass"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="glass" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled variant="glass"></crai-text-input>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Transparent</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-900); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Transparent</h2>
           <crai-text-input placeholder="Placeholder text" variant="transparent"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="transparent" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled variant="transparent"></crai-text-input>
         </div>
       </section>
       <section style="display: flex; flex-direction: row; gap: 1rem">
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Default</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-50); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Default</h2>
           <crai-text-input placeholder="Placeholder text"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled></crai-text-input>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Glass</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-50); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Default</h2>
+          <crai-text-input placeholder="Placeholder text" variant="outlined"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="outlined" label="Label" help-text="Descriptive helptext."></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="outlined" disabled></crai-text-input>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem">
+          <h2 style="color: var(--color-text)">Glass</h2>
           <crai-text-input placeholder="Placeholder text" variant="glass"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="glass" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled variant="glass"></crai-text-input>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <h2 style="color: var(--color-text-inverse)">Transparent</h2>
+        <div style="display: flex; flex-direction: column; gap: 0.2rem; background: var(--crai-green-50); padding: 1rem; border-radius: var(--border-radius-md); padding-top: 0">
+          <h2 style="color: var(--color-text)">Transparent</h2>
           <crai-text-input placeholder="Placeholder text" variant="transparent"></crai-text-input>
+          <crai-text-input placeholder="Placeholder text" variant="transparent" label="Label" help-text="Descriptive helptext."></crai-text-input>
           <crai-text-input placeholder="Placeholder text" disabled variant="transparent"></crai-text-input>
         </div>
       </section>
