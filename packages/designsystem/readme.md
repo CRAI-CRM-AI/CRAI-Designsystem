@@ -10,28 +10,10 @@ Install the package from npm:
 npm install @cr-ai/designsystem
 ```
 
-## Components
+For the components to render correctly, you also need to import the stylesheet. You can do this by adding the following line to your main JavaScript or TypeScript file:
 
-### crai-button
-
-A versatile button component with support for multiple variants and ripple effects.
-
-**Props:**
-
-- `variant` - `'primary' | 'glass'` (default: `'primary'`) - Button style variant
-- `type` - `'button' | 'submit' | 'reset'` (default: `'button'`) - Button type
-- `disabled` - `boolean` (default: `false`) - Disabled state
-
-**Events:**
-
-- `craiClicked` - Emitted when button is clicked
-
-**Example:**
-
-```html
-<crai-button variant="primary">Click me</crai-button>
-<crai-button variant="glass" type="submit">Submit</crai-button>
-<crai-button disabled>Disabled</crai-button>
+```javascript
+import '@cr-ai/designsystem/dist/designsystem/designsystem.css';
 ```
 
 ## Development

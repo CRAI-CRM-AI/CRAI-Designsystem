@@ -5,6 +5,8 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { Event } from "@stencil/core";
+export { Event } from "@stencil/core";
 export namespace Components {
     interface CraiButton {
         /**
@@ -28,10 +30,52 @@ export namespace Components {
          */
         "variant": 'primary' | 'glass';
     }
+    interface CraiTextInput {
+        /**
+          * @default 'off'
+         */
+        "autoCapitalize": 'off' | 'on' | 'sentences' | 'words' | 'characters';
+        /**
+          * @default 'off'
+         */
+        "autoComplete": string;
+        /**
+          * @default 'on'
+         */
+        "autoCorrect": 'on' | 'off';
+        /**
+          * @default false
+         */
+        "autoFocus": boolean;
+        /**
+          * @default false
+         */
+        "disabled": boolean;
+        /**
+          * @default ''
+         */
+        "placeholder": string;
+        /**
+          * @default false
+         */
+        "required": boolean;
+        /**
+          * @default ''
+         */
+        "value": string;
+        /**
+          * @default 'primary'
+         */
+        "variant": 'primary' | 'glass' | 'transparent';
+    }
 }
 export interface CraiButtonCustomEvent<T> extends CustomEvent<T> {
     detail: T;
     target: HTMLCraiButtonElement;
+}
+export interface CraiTextInputCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLCraiTextInputElement;
 }
 declare global {
     interface HTMLCraiButtonElementEventMap {
@@ -57,9 +101,27 @@ declare global {
         prototype: HTMLCraiTextBubbleElement;
         new (): HTMLCraiTextBubbleElement;
     };
+    interface HTMLCraiTextInputElementEventMap {
+        "craiTextChange": Event;
+    }
+    interface HTMLCraiTextInputElement extends Components.CraiTextInput, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLCraiTextInputElementEventMap>(type: K, listener: (this: HTMLCraiTextInputElement, ev: CraiTextInputCustomEvent<HTMLCraiTextInputElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLCraiTextInputElementEventMap>(type: K, listener: (this: HTMLCraiTextInputElement, ev: CraiTextInputCustomEvent<HTMLCraiTextInputElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLCraiTextInputElement: {
+        prototype: HTMLCraiTextInputElement;
+        new (): HTMLCraiTextInputElement;
+    };
     interface HTMLElementTagNameMap {
         "crai-button": HTMLCraiButtonElement;
         "crai-text-bubble": HTMLCraiTextBubbleElement;
+        "crai-text-input": HTMLCraiTextInputElement;
     }
 }
 declare namespace LocalJSX {
@@ -86,9 +148,49 @@ declare namespace LocalJSX {
          */
         "variant"?: 'primary' | 'glass';
     }
+    interface CraiTextInput {
+        /**
+          * @default 'off'
+         */
+        "autoCapitalize"?: 'off' | 'on' | 'sentences' | 'words' | 'characters';
+        /**
+          * @default 'off'
+         */
+        "autoComplete"?: string;
+        /**
+          * @default 'on'
+         */
+        "autoCorrect"?: 'on' | 'off';
+        /**
+          * @default false
+         */
+        "autoFocus"?: boolean;
+        /**
+          * @default false
+         */
+        "disabled"?: boolean;
+        "onCraiTextChange"?: (event: CraiTextInputCustomEvent<Event>) => void;
+        /**
+          * @default ''
+         */
+        "placeholder"?: string;
+        /**
+          * @default false
+         */
+        "required"?: boolean;
+        /**
+          * @default ''
+         */
+        "value"?: string;
+        /**
+          * @default 'primary'
+         */
+        "variant"?: 'primary' | 'glass' | 'transparent';
+    }
     interface IntrinsicElements {
         "crai-button": CraiButton;
         "crai-text-bubble": CraiTextBubble;
+        "crai-text-input": CraiTextInput;
     }
 }
 export { LocalJSX as JSX };
@@ -97,6 +199,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "crai-button": LocalJSX.CraiButton & JSXBase.HTMLAttributes<HTMLCraiButtonElement>;
             "crai-text-bubble": LocalJSX.CraiTextBubble & JSXBase.HTMLAttributes<HTMLCraiTextBubbleElement>;
+            "crai-text-input": LocalJSX.CraiTextInput & JSXBase.HTMLAttributes<HTMLCraiTextInputElement>;
         }
     }
 }

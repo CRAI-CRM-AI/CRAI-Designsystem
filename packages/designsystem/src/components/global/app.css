@@ -28,6 +28,8 @@
   --color-primary-disabled: var(--crai-green-200);
   --color-secondary-disabled: var(--crai-green-50);
 
+  --color-input-bg: var(--color-secondary);
+
   /* dimensions */
   --border-radius-md: 1.2rem;
   --dimension-border-radius-circle: 50%;
@@ -38,4 +40,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.dark {
+  --color-text: var(--crai-green-50);
+  --color-input-bg: var(--color-primary);
 }

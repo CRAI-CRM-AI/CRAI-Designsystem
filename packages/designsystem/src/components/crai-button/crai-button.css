@@ -17,6 +17,9 @@
     padding: 1rem 1.5rem;
     color: var(--crai-color-text-inverse, white);
     overflow: hidden;
+    -webkit-corner-shape: squircle;
+    /* stylelint-disable-next-line property-no-unknown */
+    corner-shape: squircle;
     & span {
       position: absolute;
       transform: translate(-50%, -50%) scale(0);
@@ -34,6 +37,9 @@
 :host([variant='glass']) {
   overflow: hidden;
   border-radius: var(--border-radius-md);
+  -webkit-corner-shape: squircle;
+  /* stylelint-disable-next-line property-no-unknown */
+  corner-shape: squircle;
   & button {
     cursor: pointer;
     font: inherit;
@@ -48,6 +54,9 @@
     padding: 1rem 1.5rem;
     background: transparent;
     border-radius: var(--border-radius-md);
+    -webkit-corner-shape: squircle;
+    /* stylelint-disable-next-line property-no-unknown */
+    corner-shape: squircle;
     outline: none;
     border: none;
     z-index: 0;
@@ -60,16 +69,22 @@
       z-index: -1;
       overflow: hidden;
       border-radius: var(--border-radius-md);
+      -webkit-corner-shape: squircle;
+      /* stylelint-disable-next-line property-no-unknown */
+      corner-shape: squircle;
       -webkit-box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
       box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
-      background-color: rgba(0, 0, 0, 0.4);
-      
+      background-color: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(1px);
     }
     &::after {
       content: '';
       position: absolute;
       inset: 0;
       border-radius: var(--border-radius-md);
+      -webkit-corner-shape: squircle;
+      /* stylelint-disable-next-line property-no-unknown */
+      corner-shape: squircle;
       -webkit-backdrop-filter: blur(0px);
       backdrop-filter: blur(0px);
       -webkit-filter: url(#btn-glass);
@@ -90,6 +105,9 @@
   overflow: hidden;
   position: relative;
   border-radius: var(--border-radius-md);
+  -webkit-corner-shape: squircle;
+  /* stylelint-disable-next-line property-no-unknown */
+  corner-shape: squircle;
   &::after {
     content: '';
     position: absolute;
