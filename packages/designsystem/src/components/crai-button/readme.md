@@ -5,6 +5,7 @@ Button element based on the `<button>` element.
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property   | Attribute  | Description    | Type                              | Default     |
@@ -13,12 +14,14 @@ Button element based on the `<button>` element.
 | `type`     | `type`     | Button type    | `"button" \| "reset" \| "submit"` | `'button'`  |
 | `variant`  | `variant`  | Button variant | `"glass" \| "primary"`            | `'primary'` |
 
+
 ## Events
 
 | Event         | Description | Type                      |
 | ------------- | ----------- | ------------------------- |
 | `craiClicked` |             | `CustomEvent<MouseEvent>` |
 
----
 
-_Built with [StencilJS](https://stenciljs.com/)_
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*

@@ -8,7 +8,7 @@
   font-optical-sizing: var(--font-optical-sizing-default);
   & button {
     font: inherit;
-    letter-spacing: var(--letter-spacing-default);
+    letter-spacing: var(--letter-spacing-large);
     cursor: pointer;
     position: relative;
     background: var(--color-primary);
@@ -57,12 +57,13 @@
       content: '';
       position: absolute;
       inset: 0;
-      z-index: 0;
+      z-index: -1;
       overflow: hidden;
       border-radius: var(--border-radius-md);
       -webkit-box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
       box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
-      background-color: rgb(255 255 255 / 10%);
+      background-color: rgba(0, 0, 0, 0.4);
+      
     }
     &::after {
       content: '';
@@ -75,7 +76,7 @@
       filter: url(#btn-glass);
       overflow: hidden;
       isolation: isolate;
-      z-index: -1;
+      z-index: -2;
       width: 200%;
       height: 200%;
       transform: translate(-50%, -50%);

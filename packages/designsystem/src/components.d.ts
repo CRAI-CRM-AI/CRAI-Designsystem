@@ -22,6 +22,12 @@ export namespace Components {
          */
         "variant": 'primary' | 'glass';
     }
+    interface CraiTextBubble {
+        /**
+          * @default 'primary'
+         */
+        "variant": 'primary' | 'glass';
+    }
 }
 export interface CraiButtonCustomEvent<T> extends CustomEvent<T> {
     detail: T;
@@ -45,8 +51,15 @@ declare global {
         prototype: HTMLCraiButtonElement;
         new (): HTMLCraiButtonElement;
     };
+    interface HTMLCraiTextBubbleElement extends Components.CraiTextBubble, HTMLStencilElement {
+    }
+    var HTMLCraiTextBubbleElement: {
+        prototype: HTMLCraiTextBubbleElement;
+        new (): HTMLCraiTextBubbleElement;
+    };
     interface HTMLElementTagNameMap {
         "crai-button": HTMLCraiButtonElement;
+        "crai-text-bubble": HTMLCraiTextBubbleElement;
     }
 }
 declare namespace LocalJSX {
@@ -67,8 +80,15 @@ declare namespace LocalJSX {
          */
         "variant"?: 'primary' | 'glass';
     }
+    interface CraiTextBubble {
+        /**
+          * @default 'primary'
+         */
+        "variant"?: 'primary' | 'glass';
+    }
     interface IntrinsicElements {
         "crai-button": CraiButton;
+        "crai-text-bubble": CraiTextBubble;
     }
 }
 export { LocalJSX as JSX };
@@ -76,6 +96,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "crai-button": LocalJSX.CraiButton & JSXBase.HTMLAttributes<HTMLCraiButtonElement>;
+            "crai-text-bubble": LocalJSX.CraiTextBubble & JSXBase.HTMLAttributes<HTMLCraiTextBubbleElement>;
         }
     }
 }

@@ -6,7 +6,8 @@
   --font-weight-default: 400;
   --font-style-normal: normal;
   --font-optical-sizing-default: auto;
-  --letter-spacing-default: 0.8px;
+  --letter-spacing-default: 0.6px;
+  --letter-spacing-large: 0.8px;
 
   /* Colors */
   --crai-green-50: #eaeeec;
