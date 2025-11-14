@@ -20,7 +20,7 @@
 | `readonly`       | `readonly`        |             | `boolean`                                                 | `false`     |
 | `required`       | `required`        |             | `boolean`                                                 | `false`     |
 | `value`          | `value`           |             | `string`                                                  | `''`        |
-| `variant`        | `variant`         |             | `"glass" \| "primary" \| "transparent"`                   | `'primary'` |
+| `variant`        | `variant`         |             | `"glass" \| "outlined" \| "primary" \| "transparent"`     | `'primary'` |
 
 
 ## Events

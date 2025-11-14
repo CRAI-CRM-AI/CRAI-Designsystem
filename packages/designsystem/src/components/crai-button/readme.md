@@ -11,6 +11,7 @@ Button element based on the `<button>` element.
 | Property   | Attribute  | Description    | Type                              | Default     |
 | ---------- | ---------- | -------------- | --------------------------------- | ----------- |
 | `disabled` | `disabled` |                | `boolean`                         | `false`     |
+| `icon`     | `icon`     |                | `boolean`                         | `false`     |
 | `type`     | `type`     | Button type    | `"button" \| "reset" \| "submit"` | `'button'`  |
 | `variant`  | `variant`  | Button variant | `"glass" \| "primary"`            | `'primary'` |
 
