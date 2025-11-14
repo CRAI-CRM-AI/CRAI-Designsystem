@@ -97,5 +97,6 @@
     box-shadow: none;
     & input {
       background: transparent;
+    }
   }
 }

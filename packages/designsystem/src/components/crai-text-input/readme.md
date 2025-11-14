@@ -15,6 +15,7 @@
 | `autoFocus`      | `auto-focus`      |             | `boolean`                                                 | `false`     |
 | `disabled`       | `disabled`        |             | `boolean`                                                 | `false`     |
 | `placeholder`    | `placeholder`     |             | `string`                                                  | `''`        |
+| `readonly`       | `readonly`        |             | `boolean`                                                 | `false`     |
 | `required`       | `required`        |             | `boolean`                                                 | `false`     |
 | `value`          | `value`           |             | `string`                                                  | `''`        |
 | `variant`        | `variant`         |             | `"glass" \| "primary" \| "transparent"`                   | `'primary'` |
