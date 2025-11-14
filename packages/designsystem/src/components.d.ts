@@ -58,6 +58,10 @@ export namespace Components {
         /**
           * @default false
          */
+        "readonly": boolean;
+        /**
+          * @default false
+         */
         "required": boolean;
         /**
           * @default ''
@@ -174,6 +178,10 @@ declare namespace LocalJSX {
           * @default ''
          */
         "placeholder"?: string;
+        /**
+          * @default false
+         */
+        "readonly"?: boolean;
         /**
           * @default false
          */

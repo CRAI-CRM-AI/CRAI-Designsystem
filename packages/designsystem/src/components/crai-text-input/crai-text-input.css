@@ -1,27 +1,101 @@
 :host {
   display: block;
-  & input {
-    all: unset;
-    font-family: var(--font-family);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-default);
-    font-style: var(--font-style-normal);
-    font-optical-sizing: var(--font-optical-sizing-default);
-    letter-spacing: var(--letter-spacing-default);
-    color: var(--color-text);
+  margin: 1rem;
+  & span {
     padding: 1rem 1.5rem;
     border-radius: var(--border-radius-md);
     -webkit-corner-shape: squircle;
     /* stylelint-disable-next-line property-no-unknown */
     corner-shape: squircle;
     background-color: var(--color-input-bg);
-    border: none;
-    outline: none;
     -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    &::placeholder {
+    & input {
+      all: unset;
+      font-family: var(--font-family);
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-default);
+      font-style: var(--font-style-normal);
+      font-optical-sizing: var(--font-optical-sizing-default);
+      letter-spacing: var(--letter-spacing-default);
       color: var(--color-text);
-      opacity: 0.5;
+      border: none;
+      outline: none;
+      background: transparent;
+      &::placeholder {
+        color: var(--color-text);
+        opacity: 0.5;
+      }
     }
+  }
+}
+
+:host([variant='glass']) {
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+  -webkit-corner-shape: squircle;
+  /* stylelint-disable-next-line property-no-unknown */
+  corner-shape: squircle;
+  margin: 0;
+  & span {
+    display: block;
+    position: relative;
+    background: transparent;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: var(--border-radius-md);
+    -webkit-corner-shape: squircle;
+    /* stylelint-disable-next-line property-no-unknown */
+    corner-shape: squircle;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: white;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      overflow: hidden;
+      border-radius: var(--border-radius-md);
+      -webkit-corner-shape: squircle;
+      /* stylelint-disable-next-line property-no-unknown */
+      corner-shape: squircle;
+      -webkit-box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+      box-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7), inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+      background-color: var(--glass-bg);
+      backdrop-filter: blur(1px);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--border-radius-md);
+      -webkit-corner-shape: squircle;
+      /* stylelint-disable-next-line property-no-unknown */
+      corner-shape: squircle;
+      -webkit-backdrop-filter: blur(0px);
+      backdrop-filter: blur(0px);
+      -webkit-filter: url(#container-glass);
+      filter: url(#container-glass);
+      overflow: hidden;
+      isolation: isolate;
+      z-index: -3;
+      /* transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%; */
+    }
+  }
+}
+
+:host([variant='transparent']) {
+  & span {
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    & input {
+      background: transparent;
   }
 }

@@ -30,6 +30,8 @@
 
   --color-input-bg: var(--color-secondary);
 
+  --glass-bg: rgba(255, 255, 255, 0.45);
+
   /* dimensions */
   --border-radius-md: 1.2rem;
   --dimension-border-radius-circle: 50%;
@@ -44,4 +46,5 @@ body {
 .dark {
   --color-text: var(--crai-green-50);
   --color-input-bg: var(--color-primary);
+  --glass-bg: rgba(0, 0, 0, 0.45);
 }

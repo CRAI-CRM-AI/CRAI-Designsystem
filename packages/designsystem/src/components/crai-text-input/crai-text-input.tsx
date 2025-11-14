@@ -1,4 +1,5 @@
 import { Component, Event, EventEmitter, Host, Prop, h } from '@stencil/core';
+import { GlassFilter } from '../../lib/glass-filter';
 
 @Component({
   tag: 'crai-text-input',
@@ -15,6 +16,7 @@ export class CraiTextInput {
   @Prop() autoComplete: string = 'off';
   @Prop() autoCorrect: 'on' | 'off' = 'on';
   @Prop() autoCapitalize: 'off' | 'on' | 'sentences' | 'words' | 'characters' = 'off';
+  @Prop() readonly: boolean = false;
 
   @Event({ eventName: 'craiTextChange', bubbles: true }) craiChange: EventEmitter<Event>;
 
@@ -25,19 +27,23 @@ export class CraiTextInput {
   render() {
     return (
       <Host>
-        <input
-          type="text"
-          placeholder={this.placeholder}
-          disabled={this.disabled}
-          required={this.required}
-          autoFocus={this.autoFocus}
-          autoComplete={this.autoComplete}
-          autoCorrect={this.autoCorrect}
-          autoCapitalize={this.autoCapitalize}
-          onInput={event => this._onChange(event)}
-          value={this.value}
-          id={'input'}
-        />
+        <span>
+          <input
+            type="text"
+            placeholder={this.placeholder}
+            disabled={this.disabled}
+            required={this.required}
+            autoFocus={this.autoFocus}
+            autoComplete={this.autoComplete}
+            autoCorrect={this.autoCorrect}
+            autoCapitalize={this.autoCapitalize}
+            onInput={event => this._onChange(event)}
+            value={this.value}
+            id={'input'}
+            readOnly={this.readonly}
+          />
+        </span>
+        {this.variant === 'glass' && <GlassFilter />}
       </Host>
     );
   }
