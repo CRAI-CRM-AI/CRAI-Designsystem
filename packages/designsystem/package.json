@@ -1,6 +1,6 @@
 {
   "name": "@cr-ai/designsystem",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stenciljs/component-starter.git"
+    "url": "https://github.com/CRAI-CRM-AI/CRAI-Designsystem.git"
   },
   "files": [
     "dist/",
