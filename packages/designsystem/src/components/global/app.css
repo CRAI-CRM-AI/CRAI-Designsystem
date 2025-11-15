@@ -30,6 +30,7 @@
   --color-secondary-disabled: var(--crai-green-50);
 
   --color-input-bg: var(--color-secondary);
+  --color-button-bg: var(--color-secondary);
 
   --glass-bg: rgba(255, 255, 255, 0.45);
 
@@ -56,5 +57,6 @@ body {
   --color-text: var(--crai-green-50);
   --crai-icon-color: var(--crai-green-50);
   --color-input-bg: var(--color-primary);
+  --color-button-bg: var(--color-primary);
   --glass-bg: rgba(0, 0, 0, 0.45);
 }
