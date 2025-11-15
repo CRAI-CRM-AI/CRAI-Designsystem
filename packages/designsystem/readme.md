@@ -111,3 +111,7 @@ export default App;
 ```
 
 Check out this [Live Demo](https://stackblitz.com/edit/vitejs-vite-b6zuds?file=src%2FApp.tsx).
+
+## Credit
+
+This project uses [Uicons by FLATICON](https://www.flaticon.com/uicons)
