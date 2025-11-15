@@ -56,10 +56,6 @@
 
       & #spinner {
         animation: spin 1s linear infinite;
-        display: block;
-        width: auto;
-        height: auto;
-        aspect-ratio: 1 / 1;
       }
     }
   }
