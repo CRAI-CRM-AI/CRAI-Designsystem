@@ -18,6 +18,8 @@ export class CraiButton {
 
   @Prop() icon: boolean = false;
 
+  @Prop({ mutable: true }) loading: boolean = false;
+
   btn: HTMLButtonElement;
   private handleClick = (e: MouseEvent) => {
     this.craiClicked.emit(e);
@@ -34,7 +36,12 @@ export class CraiButton {
     return (
       <Host>
         <button onClick={this.handleClick} ref={el => (this.btn = el as HTMLButtonElement)} type={this.type} disabled={this.disabled}>
-          <slot></slot>
+          <span class="content">
+            <slot></slot>
+          </span>
+          <span class="spinner">
+            <crai-icon-spinner id="spinner" color="var(--color-button)"></crai-icon-spinner>
+          </span>
         </button>
         {this.variant === 'glass' && <GlassFilter />}
       </Host>

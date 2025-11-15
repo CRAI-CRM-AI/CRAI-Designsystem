@@ -46,6 +46,7 @@
       <!-- <section> -->
       <section style="display: flex; flex-direction: row; gap: 1rem">
         <crai-button variant="glass">Button with longer text</crai-button>
+        <crai-button variant="glass" loading onclick="changeLoading(this)">Button with longer text</crai-button>
         <crai-button variant="glass" icon><crai-icon-plus color="var(--color-button)"></crai-icon-plus></crai-button>
         <crai-button variant="glass" disabled>Button</crai-button>
         <crai-button>Button</crai-button>
@@ -131,5 +132,14 @@
         </div>
       </section>
     </section>
+    <script>
+      function changeLoading(button) {
+        if (button.loading) {
+          button.removeAttribute('loading');
+        } else {
+          button.setAttribute('loading', '');
+        }
+      }
+    </script>
   </body>
 </html>

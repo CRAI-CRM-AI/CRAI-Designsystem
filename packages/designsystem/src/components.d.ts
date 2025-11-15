@@ -18,6 +18,10 @@ export namespace Components {
          */
         "icon": boolean;
         /**
+          * @default false
+         */
+        "loading": boolean;
+        /**
           * Button type
           * @default 'button'
          */
@@ -8616,6 +8620,10 @@ declare namespace LocalJSX {
           * @default false
          */
         "icon"?: boolean;
+        /**
+          * @default false
+         */
+        "loading"?: boolean;
         "onCraiClicked"?: (event: CraiButtonCustomEvent<MouseEvent>) => void;
         /**
           * Button type

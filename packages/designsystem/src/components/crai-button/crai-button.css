@@ -24,6 +24,7 @@
     -webkit-corner-shape: squircle;
     /* stylelint-disable-next-line property-no-unknown */
     corner-shape: squircle;
+    transition: ease-in-out;
     & span {
       position: absolute;
       transform: translate(-50%, -50%) scale(0);
@@ -35,8 +36,31 @@
       border-radius: 50%;
       animation: ripple 1.5s ease;
     }
-    & svg {
-      fill: var(--color-button);
+    & span.content {
+      all: unset;
+      display: inline-block;
+      visibility: visible;
+      opacity: 1;
+      transition: ease-in-out;
+    }
+    & span.spinner {
+      all: unset;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      visibility: hidden;
+      transition: ease-in-out;
+
+      & #spinner {
+        animation: spin 1s linear infinite;
+        display: block;
+        width: auto;
+        height: auto;
+        aspect-ratio: 1 / 1;
+      }
     }
   }
 }
@@ -149,11 +173,32 @@
     pointer-events: none;
   }
 }
+:host([loading]) {
+  & button {
+    & span.content {
+      visibility: hidden;
+      opacity: 0;
+    }
+    & span.spinner {
+      opacity: 1;
+      visibility: visible;
+      display: block;
+    }
+  }
+}
 
 /* keyframes */
 @keyframes ripple {
   100% {
     transform: translate(-50%, -50%) scale(1);
     opacity: 0;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

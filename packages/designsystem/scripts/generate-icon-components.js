@@ -102,6 +102,10 @@ const generateWebComponentCss = () => {
   return `/* ${warning} */
   :host {
     line-height: 1rem;
+    display: flex;
+    aspect-ratio: 1 / 1;
+    align-items: center;
+    justify-content: center;
   }
     `;
 };
