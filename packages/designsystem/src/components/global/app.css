@@ -24,6 +24,7 @@
   --color-primary: var(--crai-green-500);
   --color-secondary: var(--crai-green-200);
   --color-text: var(--crai-green-800);
+  --crai-icon-color: var(--crai-green-800);
   --color-text-inverse: var(--crai-green-50);
   --color-primary-disabled: var(--crai-green-200);
   --color-secondary-disabled: var(--crai-green-50);
@@ -53,6 +54,7 @@ body {
 }
 .dark {
   --color-text: var(--crai-green-50);
+  --crai-icon-color: var(--crai-green-50);
   --color-input-bg: var(--color-primary);
   --glass-bg: rgba(0, 0, 0, 0.45);
 }

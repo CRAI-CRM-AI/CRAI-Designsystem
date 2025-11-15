@@ -28,6 +28,4986 @@ export namespace Components {
          */
         "variant": 'primary' | 'glass';
     }
+    interface CraiIconAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAddressBook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAlarmClock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAlignCenter {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAlignJustify {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAlignLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAlignRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAmbulance {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleDoubleLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleDoubleRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleDoubleSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleDoubleSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleSmallDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleSmallUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAngleUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconApple {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconApps {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAppsAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAppsDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAppsSort {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArchive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowFromBottom {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowSmallDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowSmallUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconArrowUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAsterik {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconAt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBackpack {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBadge {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBalloons {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBan {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBandAid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBank {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBarberShop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBaseball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBasketball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBeer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBell {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBellRing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBellSchool {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBike {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBilliard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBold {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBookAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBookmark {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBowling {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBoxAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBreadSlice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBriefcase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBroom {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBrowser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBug {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBuilding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconBulb {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconButterfly {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCakeBirthday {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCakeWedding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCalculator {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCalendar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCallHistory {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCallIncoming {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCallMissed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCallOutgoing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCamera {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCamping {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCaretDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCaretLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCaretRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCaretUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCarrot {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartConnected {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartHistogram {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartNetwork {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartPie {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartPieAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartPyramid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartSetTheory {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChartTree {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChatArrowDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChatArrowGrow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCheckbox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCheese {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChessPiece {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconChildHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCircle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCircleSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconClip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconClock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloud {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloudCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloudDisabled {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloudDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloudShare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCloudUpload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconClouds {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCocktail {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCoffee {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconComment {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCommentAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCommentCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCommentHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCommentInfo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCommentUser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconComments {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCompress {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCompressAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconComputer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconConfetti {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCookie {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCopy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCopyAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCopyright {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCream {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCreditCard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCroissant {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCrossCircle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCrossSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCrown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCube {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCupcake {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCursor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCursorFinger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCursorPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCursorText {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconCursorTextAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDashboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDataTransfer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDatabase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDiamond {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDiploma {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDiscoBall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDisk {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDoctor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDocument {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDocumentSigned {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDollar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDrinkAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDrumstick {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconDuplicate {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconELearning {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEarnings {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEdit {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEditAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelope {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelopeBan {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelopeDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelopeMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelopeOpen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEnvelopePlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEuro {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconExclamation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconExpand {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEye {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEyeCrossed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconEyeDropper {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFeather {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFerrisWheel {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileAi {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileEps {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileGif {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFileMusic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFilePsd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFill {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFilm {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFilter {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFingerprint {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFish {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlame {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlipHorizontal {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlower {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlowerBouquet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFlowerTulip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFolder {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFolderAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFollowing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFootball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconForm {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconForward {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFrown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconFtp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGallery {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGamepad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGasPump {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGem {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGift {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGlassCheers {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGlasses {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGlobe {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGlobeAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGolf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGraduationCap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGraphicTablet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGrid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGridAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGuitar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconGym {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHamburger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHandHoldingHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHastag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHatBirthday {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHeadSideThinking {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHeadphones {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHeadset {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHeartArrow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHome {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHomeLocation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHomeLocationAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHourglass {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconHourglassEnd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconIceCream {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconIceSkate {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconIdBadge {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInbox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconIncognito {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconIndent {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInfinity {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInfo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInteractive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInterlining {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconInterrogation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconItalic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconJpg {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconKey {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconKeyboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconKite {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLabel {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLaptop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLasso {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLaugh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLayers {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLayoutFluid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLeaf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLetterCase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLifeRing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLineWidth {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLink {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLipstick {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconList {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconListCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLocationAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLockAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconLuggageRolling {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMagicWand {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMakeupBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconManHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMapMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMapMarkerCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMapMarkerHome {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMapMarkerMinus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMapMarkerPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMarkerTime {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMars {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMarsDouble {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMaskCarnival {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMedicine {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMegaphone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMeh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMenuBurger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMenuDots {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMenuDotsVertical {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMicrophone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMicrophoneAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMinus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMinusSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMobile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconModeLandscape {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconModePortrait {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMoney {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMoon {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMountains {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMouse {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMugAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMusic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconMusicAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconNavigation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconNetwork {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconNetworkCloud {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconNotebook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconOpacity {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPackage {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPaintBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPalette {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPaperPlane {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPassword {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPause {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPaw {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPencil {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPharmacy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPhoneCall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPhoneCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPhonePause {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPhoneSlash {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPhysics {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPicture {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPingPong {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPizzaSlice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlane {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlay {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlayAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlayingCards {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPlusSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPokerChip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPortrait {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPound {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPower {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPresentation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPrint {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconProtractor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPulse {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconPyramid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconQuoteRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRainbow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRaindrops {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRec {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconReceipt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRecordVinyl {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRectabgleVertical {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRectangleHorizontal {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRectanglePanoramic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRecycle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRedo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRedoAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconReflect {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRefresh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconResize {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconResources {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRewind {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRhombus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRingsWedding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRoad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRocket {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRoomService {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRotateRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconRugby {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSalad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconScale {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSchool {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSchoolBus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconScissors {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconScreen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSearch {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSearchAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSearchHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSettings {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSettingsSliders {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShield {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShieldCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShieldExclamation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShieldInterrogation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShieldPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShipSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShoppingBag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShoppingBagAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShoppingCart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShoppingCartAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShoppingCartCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconShuffle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignIn {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignInAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignOut {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignOutAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignalAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignalAlt1 {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSignalAlt2 {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSkateboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSmartphone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSmile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSmileWink {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSnowflake {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSoap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSoup {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSpa {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSpeaker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSphere {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSpinner {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSpinnerAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSquare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSquareRoot {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStarOctogram {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStats {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStethoscope {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSticker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconStopwatch {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSubtitles {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSun {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSunrise {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSurfing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSword {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconSyringe {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTablet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTarget {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTaxi {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTennis {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTerrace {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTest {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTestTube {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconText {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTextCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconThermometerHalf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconThumbsDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconThumbsUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconThumbtack {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTicket {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeFast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeForward {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeForwardSixty {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeForwardTen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeHalfPast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeOclock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimePast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeQuarterPast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeQuarterTo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTimeTwentyFour {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconToolCrop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconToolMarquee {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTooth {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTornado {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTrain {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTrainSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTransform {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTrash {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTreatment {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTree {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTreeChristmas {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTriangle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTrophy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconTruckSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUmbrella {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUnderline {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUndo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUndoAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUnlock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUpload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUsbPendrive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUserAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUserDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUserRemove {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUserTime {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconUtensils {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVector {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVectorAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVenus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVenusDouble {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVenusMars {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVideoCamera {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVolleyball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconVolume {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconWheelchair {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconWifiAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconWind {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconWomanHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconWorld {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconYen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconZoomIn {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
+    interface CraiIconZoomOut {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color": string;
+        /**
+          * @default '1.2rem'
+         */
+        "size": number | string;
+    }
     interface CraiTextBubble {
         /**
           * @default 'primary'
@@ -111,6 +5091,2994 @@ declare global {
         prototype: HTMLCraiButtonElement;
         new (): HTMLCraiButtonElement;
     };
+    interface HTMLCraiIconAddElement extends Components.CraiIconAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconAddElement: {
+        prototype: HTMLCraiIconAddElement;
+        new (): HTMLCraiIconAddElement;
+    };
+    interface HTMLCraiIconAddressBookElement extends Components.CraiIconAddressBook, HTMLStencilElement {
+    }
+    var HTMLCraiIconAddressBookElement: {
+        prototype: HTMLCraiIconAddressBookElement;
+        new (): HTMLCraiIconAddressBookElement;
+    };
+    interface HTMLCraiIconAlarmClockElement extends Components.CraiIconAlarmClock, HTMLStencilElement {
+    }
+    var HTMLCraiIconAlarmClockElement: {
+        prototype: HTMLCraiIconAlarmClockElement;
+        new (): HTMLCraiIconAlarmClockElement;
+    };
+    interface HTMLCraiIconAlignCenterElement extends Components.CraiIconAlignCenter, HTMLStencilElement {
+    }
+    var HTMLCraiIconAlignCenterElement: {
+        prototype: HTMLCraiIconAlignCenterElement;
+        new (): HTMLCraiIconAlignCenterElement;
+    };
+    interface HTMLCraiIconAlignJustifyElement extends Components.CraiIconAlignJustify, HTMLStencilElement {
+    }
+    var HTMLCraiIconAlignJustifyElement: {
+        prototype: HTMLCraiIconAlignJustifyElement;
+        new (): HTMLCraiIconAlignJustifyElement;
+    };
+    interface HTMLCraiIconAlignLeftElement extends Components.CraiIconAlignLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconAlignLeftElement: {
+        prototype: HTMLCraiIconAlignLeftElement;
+        new (): HTMLCraiIconAlignLeftElement;
+    };
+    interface HTMLCraiIconAlignRightElement extends Components.CraiIconAlignRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconAlignRightElement: {
+        prototype: HTMLCraiIconAlignRightElement;
+        new (): HTMLCraiIconAlignRightElement;
+    };
+    interface HTMLCraiIconAmbulanceElement extends Components.CraiIconAmbulance, HTMLStencilElement {
+    }
+    var HTMLCraiIconAmbulanceElement: {
+        prototype: HTMLCraiIconAmbulanceElement;
+        new (): HTMLCraiIconAmbulanceElement;
+    };
+    interface HTMLCraiIconAngleDoubleLeftElement extends Components.CraiIconAngleDoubleLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleDoubleLeftElement: {
+        prototype: HTMLCraiIconAngleDoubleLeftElement;
+        new (): HTMLCraiIconAngleDoubleLeftElement;
+    };
+    interface HTMLCraiIconAngleDoubleRightElement extends Components.CraiIconAngleDoubleRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleDoubleRightElement: {
+        prototype: HTMLCraiIconAngleDoubleRightElement;
+        new (): HTMLCraiIconAngleDoubleRightElement;
+    };
+    interface HTMLCraiIconAngleDoubleSmallLeftElement extends Components.CraiIconAngleDoubleSmallLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleDoubleSmallLeftElement: {
+        prototype: HTMLCraiIconAngleDoubleSmallLeftElement;
+        new (): HTMLCraiIconAngleDoubleSmallLeftElement;
+    };
+    interface HTMLCraiIconAngleDoubleSmallRightElement extends Components.CraiIconAngleDoubleSmallRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleDoubleSmallRightElement: {
+        prototype: HTMLCraiIconAngleDoubleSmallRightElement;
+        new (): HTMLCraiIconAngleDoubleSmallRightElement;
+    };
+    interface HTMLCraiIconAngleDownElement extends Components.CraiIconAngleDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleDownElement: {
+        prototype: HTMLCraiIconAngleDownElement;
+        new (): HTMLCraiIconAngleDownElement;
+    };
+    interface HTMLCraiIconAngleLeftElement extends Components.CraiIconAngleLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleLeftElement: {
+        prototype: HTMLCraiIconAngleLeftElement;
+        new (): HTMLCraiIconAngleLeftElement;
+    };
+    interface HTMLCraiIconAngleRightElement extends Components.CraiIconAngleRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleRightElement: {
+        prototype: HTMLCraiIconAngleRightElement;
+        new (): HTMLCraiIconAngleRightElement;
+    };
+    interface HTMLCraiIconAngleSmallDownElement extends Components.CraiIconAngleSmallDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleSmallDownElement: {
+        prototype: HTMLCraiIconAngleSmallDownElement;
+        new (): HTMLCraiIconAngleSmallDownElement;
+    };
+    interface HTMLCraiIconAngleSmallLeftElement extends Components.CraiIconAngleSmallLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleSmallLeftElement: {
+        prototype: HTMLCraiIconAngleSmallLeftElement;
+        new (): HTMLCraiIconAngleSmallLeftElement;
+    };
+    interface HTMLCraiIconAngleSmallRightElement extends Components.CraiIconAngleSmallRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleSmallRightElement: {
+        prototype: HTMLCraiIconAngleSmallRightElement;
+        new (): HTMLCraiIconAngleSmallRightElement;
+    };
+    interface HTMLCraiIconAngleSmallUpElement extends Components.CraiIconAngleSmallUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleSmallUpElement: {
+        prototype: HTMLCraiIconAngleSmallUpElement;
+        new (): HTMLCraiIconAngleSmallUpElement;
+    };
+    interface HTMLCraiIconAngleUpElement extends Components.CraiIconAngleUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconAngleUpElement: {
+        prototype: HTMLCraiIconAngleUpElement;
+        new (): HTMLCraiIconAngleUpElement;
+    };
+    interface HTMLCraiIconAppleElement extends Components.CraiIconApple, HTMLStencilElement {
+    }
+    var HTMLCraiIconAppleElement: {
+        prototype: HTMLCraiIconAppleElement;
+        new (): HTMLCraiIconAppleElement;
+    };
+    interface HTMLCraiIconAppsElement extends Components.CraiIconApps, HTMLStencilElement {
+    }
+    var HTMLCraiIconAppsElement: {
+        prototype: HTMLCraiIconAppsElement;
+        new (): HTMLCraiIconAppsElement;
+    };
+    interface HTMLCraiIconAppsAddElement extends Components.CraiIconAppsAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconAppsAddElement: {
+        prototype: HTMLCraiIconAppsAddElement;
+        new (): HTMLCraiIconAppsAddElement;
+    };
+    interface HTMLCraiIconAppsDeleteElement extends Components.CraiIconAppsDelete, HTMLStencilElement {
+    }
+    var HTMLCraiIconAppsDeleteElement: {
+        prototype: HTMLCraiIconAppsDeleteElement;
+        new (): HTMLCraiIconAppsDeleteElement;
+    };
+    interface HTMLCraiIconAppsSortElement extends Components.CraiIconAppsSort, HTMLStencilElement {
+    }
+    var HTMLCraiIconAppsSortElement: {
+        prototype: HTMLCraiIconAppsSortElement;
+        new (): HTMLCraiIconAppsSortElement;
+    };
+    interface HTMLCraiIconArchiveElement extends Components.CraiIconArchive, HTMLStencilElement {
+    }
+    var HTMLCraiIconArchiveElement: {
+        prototype: HTMLCraiIconArchiveElement;
+        new (): HTMLCraiIconArchiveElement;
+    };
+    interface HTMLCraiIconArrowDownElement extends Components.CraiIconArrowDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowDownElement: {
+        prototype: HTMLCraiIconArrowDownElement;
+        new (): HTMLCraiIconArrowDownElement;
+    };
+    interface HTMLCraiIconArrowFromBottomElement extends Components.CraiIconArrowFromBottom, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowFromBottomElement: {
+        prototype: HTMLCraiIconArrowFromBottomElement;
+        new (): HTMLCraiIconArrowFromBottomElement;
+    };
+    interface HTMLCraiIconArrowLeftElement extends Components.CraiIconArrowLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowLeftElement: {
+        prototype: HTMLCraiIconArrowLeftElement;
+        new (): HTMLCraiIconArrowLeftElement;
+    };
+    interface HTMLCraiIconArrowRightElement extends Components.CraiIconArrowRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowRightElement: {
+        prototype: HTMLCraiIconArrowRightElement;
+        new (): HTMLCraiIconArrowRightElement;
+    };
+    interface HTMLCraiIconArrowSmallDownElement extends Components.CraiIconArrowSmallDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowSmallDownElement: {
+        prototype: HTMLCraiIconArrowSmallDownElement;
+        new (): HTMLCraiIconArrowSmallDownElement;
+    };
+    interface HTMLCraiIconArrowSmallLeftElement extends Components.CraiIconArrowSmallLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowSmallLeftElement: {
+        prototype: HTMLCraiIconArrowSmallLeftElement;
+        new (): HTMLCraiIconArrowSmallLeftElement;
+    };
+    interface HTMLCraiIconArrowSmallRightElement extends Components.CraiIconArrowSmallRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowSmallRightElement: {
+        prototype: HTMLCraiIconArrowSmallRightElement;
+        new (): HTMLCraiIconArrowSmallRightElement;
+    };
+    interface HTMLCraiIconArrowSmallUpElement extends Components.CraiIconArrowSmallUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowSmallUpElement: {
+        prototype: HTMLCraiIconArrowSmallUpElement;
+        new (): HTMLCraiIconArrowSmallUpElement;
+    };
+    interface HTMLCraiIconArrowUpElement extends Components.CraiIconArrowUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconArrowUpElement: {
+        prototype: HTMLCraiIconArrowUpElement;
+        new (): HTMLCraiIconArrowUpElement;
+    };
+    interface HTMLCraiIconAsterikElement extends Components.CraiIconAsterik, HTMLStencilElement {
+    }
+    var HTMLCraiIconAsterikElement: {
+        prototype: HTMLCraiIconAsterikElement;
+        new (): HTMLCraiIconAsterikElement;
+    };
+    interface HTMLCraiIconAtElement extends Components.CraiIconAt, HTMLStencilElement {
+    }
+    var HTMLCraiIconAtElement: {
+        prototype: HTMLCraiIconAtElement;
+        new (): HTMLCraiIconAtElement;
+    };
+    interface HTMLCraiIconBackpackElement extends Components.CraiIconBackpack, HTMLStencilElement {
+    }
+    var HTMLCraiIconBackpackElement: {
+        prototype: HTMLCraiIconBackpackElement;
+        new (): HTMLCraiIconBackpackElement;
+    };
+    interface HTMLCraiIconBadgeElement extends Components.CraiIconBadge, HTMLStencilElement {
+    }
+    var HTMLCraiIconBadgeElement: {
+        prototype: HTMLCraiIconBadgeElement;
+        new (): HTMLCraiIconBadgeElement;
+    };
+    interface HTMLCraiIconBalloonsElement extends Components.CraiIconBalloons, HTMLStencilElement {
+    }
+    var HTMLCraiIconBalloonsElement: {
+        prototype: HTMLCraiIconBalloonsElement;
+        new (): HTMLCraiIconBalloonsElement;
+    };
+    interface HTMLCraiIconBanElement extends Components.CraiIconBan, HTMLStencilElement {
+    }
+    var HTMLCraiIconBanElement: {
+        prototype: HTMLCraiIconBanElement;
+        new (): HTMLCraiIconBanElement;
+    };
+    interface HTMLCraiIconBandAidElement extends Components.CraiIconBandAid, HTMLStencilElement {
+    }
+    var HTMLCraiIconBandAidElement: {
+        prototype: HTMLCraiIconBandAidElement;
+        new (): HTMLCraiIconBandAidElement;
+    };
+    interface HTMLCraiIconBankElement extends Components.CraiIconBank, HTMLStencilElement {
+    }
+    var HTMLCraiIconBankElement: {
+        prototype: HTMLCraiIconBankElement;
+        new (): HTMLCraiIconBankElement;
+    };
+    interface HTMLCraiIconBarberShopElement extends Components.CraiIconBarberShop, HTMLStencilElement {
+    }
+    var HTMLCraiIconBarberShopElement: {
+        prototype: HTMLCraiIconBarberShopElement;
+        new (): HTMLCraiIconBarberShopElement;
+    };
+    interface HTMLCraiIconBaseballElement extends Components.CraiIconBaseball, HTMLStencilElement {
+    }
+    var HTMLCraiIconBaseballElement: {
+        prototype: HTMLCraiIconBaseballElement;
+        new (): HTMLCraiIconBaseballElement;
+    };
+    interface HTMLCraiIconBasketballElement extends Components.CraiIconBasketball, HTMLStencilElement {
+    }
+    var HTMLCraiIconBasketballElement: {
+        prototype: HTMLCraiIconBasketballElement;
+        new (): HTMLCraiIconBasketballElement;
+    };
+    interface HTMLCraiIconBedElement extends Components.CraiIconBed, HTMLStencilElement {
+    }
+    var HTMLCraiIconBedElement: {
+        prototype: HTMLCraiIconBedElement;
+        new (): HTMLCraiIconBedElement;
+    };
+    interface HTMLCraiIconBeerElement extends Components.CraiIconBeer, HTMLStencilElement {
+    }
+    var HTMLCraiIconBeerElement: {
+        prototype: HTMLCraiIconBeerElement;
+        new (): HTMLCraiIconBeerElement;
+    };
+    interface HTMLCraiIconBellElement extends Components.CraiIconBell, HTMLStencilElement {
+    }
+    var HTMLCraiIconBellElement: {
+        prototype: HTMLCraiIconBellElement;
+        new (): HTMLCraiIconBellElement;
+    };
+    interface HTMLCraiIconBellRingElement extends Components.CraiIconBellRing, HTMLStencilElement {
+    }
+    var HTMLCraiIconBellRingElement: {
+        prototype: HTMLCraiIconBellRingElement;
+        new (): HTMLCraiIconBellRingElement;
+    };
+    interface HTMLCraiIconBellSchoolElement extends Components.CraiIconBellSchool, HTMLStencilElement {
+    }
+    var HTMLCraiIconBellSchoolElement: {
+        prototype: HTMLCraiIconBellSchoolElement;
+        new (): HTMLCraiIconBellSchoolElement;
+    };
+    interface HTMLCraiIconBikeElement extends Components.CraiIconBike, HTMLStencilElement {
+    }
+    var HTMLCraiIconBikeElement: {
+        prototype: HTMLCraiIconBikeElement;
+        new (): HTMLCraiIconBikeElement;
+    };
+    interface HTMLCraiIconBilliardElement extends Components.CraiIconBilliard, HTMLStencilElement {
+    }
+    var HTMLCraiIconBilliardElement: {
+        prototype: HTMLCraiIconBilliardElement;
+        new (): HTMLCraiIconBilliardElement;
+    };
+    interface HTMLCraiIconBoldElement extends Components.CraiIconBold, HTMLStencilElement {
+    }
+    var HTMLCraiIconBoldElement: {
+        prototype: HTMLCraiIconBoldElement;
+        new (): HTMLCraiIconBoldElement;
+    };
+    interface HTMLCraiIconBookElement extends Components.CraiIconBook, HTMLStencilElement {
+    }
+    var HTMLCraiIconBookElement: {
+        prototype: HTMLCraiIconBookElement;
+        new (): HTMLCraiIconBookElement;
+    };
+    interface HTMLCraiIconBookAltElement extends Components.CraiIconBookAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconBookAltElement: {
+        prototype: HTMLCraiIconBookAltElement;
+        new (): HTMLCraiIconBookAltElement;
+    };
+    interface HTMLCraiIconBookmarkElement extends Components.CraiIconBookmark, HTMLStencilElement {
+    }
+    var HTMLCraiIconBookmarkElement: {
+        prototype: HTMLCraiIconBookmarkElement;
+        new (): HTMLCraiIconBookmarkElement;
+    };
+    interface HTMLCraiIconBowlingElement extends Components.CraiIconBowling, HTMLStencilElement {
+    }
+    var HTMLCraiIconBowlingElement: {
+        prototype: HTMLCraiIconBowlingElement;
+        new (): HTMLCraiIconBowlingElement;
+    };
+    interface HTMLCraiIconBoxElement extends Components.CraiIconBox, HTMLStencilElement {
+    }
+    var HTMLCraiIconBoxElement: {
+        prototype: HTMLCraiIconBoxElement;
+        new (): HTMLCraiIconBoxElement;
+    };
+    interface HTMLCraiIconBoxAltElement extends Components.CraiIconBoxAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconBoxAltElement: {
+        prototype: HTMLCraiIconBoxAltElement;
+        new (): HTMLCraiIconBoxAltElement;
+    };
+    interface HTMLCraiIconBreadSliceElement extends Components.CraiIconBreadSlice, HTMLStencilElement {
+    }
+    var HTMLCraiIconBreadSliceElement: {
+        prototype: HTMLCraiIconBreadSliceElement;
+        new (): HTMLCraiIconBreadSliceElement;
+    };
+    interface HTMLCraiIconBriefcaseElement extends Components.CraiIconBriefcase, HTMLStencilElement {
+    }
+    var HTMLCraiIconBriefcaseElement: {
+        prototype: HTMLCraiIconBriefcaseElement;
+        new (): HTMLCraiIconBriefcaseElement;
+    };
+    interface HTMLCraiIconBroomElement extends Components.CraiIconBroom, HTMLStencilElement {
+    }
+    var HTMLCraiIconBroomElement: {
+        prototype: HTMLCraiIconBroomElement;
+        new (): HTMLCraiIconBroomElement;
+    };
+    interface HTMLCraiIconBrowserElement extends Components.CraiIconBrowser, HTMLStencilElement {
+    }
+    var HTMLCraiIconBrowserElement: {
+        prototype: HTMLCraiIconBrowserElement;
+        new (): HTMLCraiIconBrowserElement;
+    };
+    interface HTMLCraiIconBrushElement extends Components.CraiIconBrush, HTMLStencilElement {
+    }
+    var HTMLCraiIconBrushElement: {
+        prototype: HTMLCraiIconBrushElement;
+        new (): HTMLCraiIconBrushElement;
+    };
+    interface HTMLCraiIconBugElement extends Components.CraiIconBug, HTMLStencilElement {
+    }
+    var HTMLCraiIconBugElement: {
+        prototype: HTMLCraiIconBugElement;
+        new (): HTMLCraiIconBugElement;
+    };
+    interface HTMLCraiIconBuildingElement extends Components.CraiIconBuilding, HTMLStencilElement {
+    }
+    var HTMLCraiIconBuildingElement: {
+        prototype: HTMLCraiIconBuildingElement;
+        new (): HTMLCraiIconBuildingElement;
+    };
+    interface HTMLCraiIconBulbElement extends Components.CraiIconBulb, HTMLStencilElement {
+    }
+    var HTMLCraiIconBulbElement: {
+        prototype: HTMLCraiIconBulbElement;
+        new (): HTMLCraiIconBulbElement;
+    };
+    interface HTMLCraiIconButterflyElement extends Components.CraiIconButterfly, HTMLStencilElement {
+    }
+    var HTMLCraiIconButterflyElement: {
+        prototype: HTMLCraiIconButterflyElement;
+        new (): HTMLCraiIconButterflyElement;
+    };
+    interface HTMLCraiIconCakeBirthdayElement extends Components.CraiIconCakeBirthday, HTMLStencilElement {
+    }
+    var HTMLCraiIconCakeBirthdayElement: {
+        prototype: HTMLCraiIconCakeBirthdayElement;
+        new (): HTMLCraiIconCakeBirthdayElement;
+    };
+    interface HTMLCraiIconCakeWeddingElement extends Components.CraiIconCakeWedding, HTMLStencilElement {
+    }
+    var HTMLCraiIconCakeWeddingElement: {
+        prototype: HTMLCraiIconCakeWeddingElement;
+        new (): HTMLCraiIconCakeWeddingElement;
+    };
+    interface HTMLCraiIconCalculatorElement extends Components.CraiIconCalculator, HTMLStencilElement {
+    }
+    var HTMLCraiIconCalculatorElement: {
+        prototype: HTMLCraiIconCalculatorElement;
+        new (): HTMLCraiIconCalculatorElement;
+    };
+    interface HTMLCraiIconCalendarElement extends Components.CraiIconCalendar, HTMLStencilElement {
+    }
+    var HTMLCraiIconCalendarElement: {
+        prototype: HTMLCraiIconCalendarElement;
+        new (): HTMLCraiIconCalendarElement;
+    };
+    interface HTMLCraiIconCallHistoryElement extends Components.CraiIconCallHistory, HTMLStencilElement {
+    }
+    var HTMLCraiIconCallHistoryElement: {
+        prototype: HTMLCraiIconCallHistoryElement;
+        new (): HTMLCraiIconCallHistoryElement;
+    };
+    interface HTMLCraiIconCallIncomingElement extends Components.CraiIconCallIncoming, HTMLStencilElement {
+    }
+    var HTMLCraiIconCallIncomingElement: {
+        prototype: HTMLCraiIconCallIncomingElement;
+        new (): HTMLCraiIconCallIncomingElement;
+    };
+    interface HTMLCraiIconCallMissedElement extends Components.CraiIconCallMissed, HTMLStencilElement {
+    }
+    var HTMLCraiIconCallMissedElement: {
+        prototype: HTMLCraiIconCallMissedElement;
+        new (): HTMLCraiIconCallMissedElement;
+    };
+    interface HTMLCraiIconCallOutgoingElement extends Components.CraiIconCallOutgoing, HTMLStencilElement {
+    }
+    var HTMLCraiIconCallOutgoingElement: {
+        prototype: HTMLCraiIconCallOutgoingElement;
+        new (): HTMLCraiIconCallOutgoingElement;
+    };
+    interface HTMLCraiIconCameraElement extends Components.CraiIconCamera, HTMLStencilElement {
+    }
+    var HTMLCraiIconCameraElement: {
+        prototype: HTMLCraiIconCameraElement;
+        new (): HTMLCraiIconCameraElement;
+    };
+    interface HTMLCraiIconCampingElement extends Components.CraiIconCamping, HTMLStencilElement {
+    }
+    var HTMLCraiIconCampingElement: {
+        prototype: HTMLCraiIconCampingElement;
+        new (): HTMLCraiIconCampingElement;
+    };
+    interface HTMLCraiIconCarElement extends Components.CraiIconCar, HTMLStencilElement {
+    }
+    var HTMLCraiIconCarElement: {
+        prototype: HTMLCraiIconCarElement;
+        new (): HTMLCraiIconCarElement;
+    };
+    interface HTMLCraiIconCaretDownElement extends Components.CraiIconCaretDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconCaretDownElement: {
+        prototype: HTMLCraiIconCaretDownElement;
+        new (): HTMLCraiIconCaretDownElement;
+    };
+    interface HTMLCraiIconCaretLeftElement extends Components.CraiIconCaretLeft, HTMLStencilElement {
+    }
+    var HTMLCraiIconCaretLeftElement: {
+        prototype: HTMLCraiIconCaretLeftElement;
+        new (): HTMLCraiIconCaretLeftElement;
+    };
+    interface HTMLCraiIconCaretRightElement extends Components.CraiIconCaretRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconCaretRightElement: {
+        prototype: HTMLCraiIconCaretRightElement;
+        new (): HTMLCraiIconCaretRightElement;
+    };
+    interface HTMLCraiIconCaretUpElement extends Components.CraiIconCaretUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconCaretUpElement: {
+        prototype: HTMLCraiIconCaretUpElement;
+        new (): HTMLCraiIconCaretUpElement;
+    };
+    interface HTMLCraiIconCarrotElement extends Components.CraiIconCarrot, HTMLStencilElement {
+    }
+    var HTMLCraiIconCarrotElement: {
+        prototype: HTMLCraiIconCarrotElement;
+        new (): HTMLCraiIconCarrotElement;
+    };
+    interface HTMLCraiIconChartConnectedElement extends Components.CraiIconChartConnected, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartConnectedElement: {
+        prototype: HTMLCraiIconChartConnectedElement;
+        new (): HTMLCraiIconChartConnectedElement;
+    };
+    interface HTMLCraiIconChartHistogramElement extends Components.CraiIconChartHistogram, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartHistogramElement: {
+        prototype: HTMLCraiIconChartHistogramElement;
+        new (): HTMLCraiIconChartHistogramElement;
+    };
+    interface HTMLCraiIconChartNetworkElement extends Components.CraiIconChartNetwork, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartNetworkElement: {
+        prototype: HTMLCraiIconChartNetworkElement;
+        new (): HTMLCraiIconChartNetworkElement;
+    };
+    interface HTMLCraiIconChartPieElement extends Components.CraiIconChartPie, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartPieElement: {
+        prototype: HTMLCraiIconChartPieElement;
+        new (): HTMLCraiIconChartPieElement;
+    };
+    interface HTMLCraiIconChartPieAltElement extends Components.CraiIconChartPieAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartPieAltElement: {
+        prototype: HTMLCraiIconChartPieAltElement;
+        new (): HTMLCraiIconChartPieAltElement;
+    };
+    interface HTMLCraiIconChartPyramidElement extends Components.CraiIconChartPyramid, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartPyramidElement: {
+        prototype: HTMLCraiIconChartPyramidElement;
+        new (): HTMLCraiIconChartPyramidElement;
+    };
+    interface HTMLCraiIconChartSetTheoryElement extends Components.CraiIconChartSetTheory, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartSetTheoryElement: {
+        prototype: HTMLCraiIconChartSetTheoryElement;
+        new (): HTMLCraiIconChartSetTheoryElement;
+    };
+    interface HTMLCraiIconChartTreeElement extends Components.CraiIconChartTree, HTMLStencilElement {
+    }
+    var HTMLCraiIconChartTreeElement: {
+        prototype: HTMLCraiIconChartTreeElement;
+        new (): HTMLCraiIconChartTreeElement;
+    };
+    interface HTMLCraiIconChatArrowDownElement extends Components.CraiIconChatArrowDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconChatArrowDownElement: {
+        prototype: HTMLCraiIconChatArrowDownElement;
+        new (): HTMLCraiIconChatArrowDownElement;
+    };
+    interface HTMLCraiIconChatArrowGrowElement extends Components.CraiIconChatArrowGrow, HTMLStencilElement {
+    }
+    var HTMLCraiIconChatArrowGrowElement: {
+        prototype: HTMLCraiIconChatArrowGrowElement;
+        new (): HTMLCraiIconChatArrowGrowElement;
+    };
+    interface HTMLCraiIconCheckElement extends Components.CraiIconCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconCheckElement: {
+        prototype: HTMLCraiIconCheckElement;
+        new (): HTMLCraiIconCheckElement;
+    };
+    interface HTMLCraiIconCheckboxElement extends Components.CraiIconCheckbox, HTMLStencilElement {
+    }
+    var HTMLCraiIconCheckboxElement: {
+        prototype: HTMLCraiIconCheckboxElement;
+        new (): HTMLCraiIconCheckboxElement;
+    };
+    interface HTMLCraiIconCheeseElement extends Components.CraiIconCheese, HTMLStencilElement {
+    }
+    var HTMLCraiIconCheeseElement: {
+        prototype: HTMLCraiIconCheeseElement;
+        new (): HTMLCraiIconCheeseElement;
+    };
+    interface HTMLCraiIconChessPieceElement extends Components.CraiIconChessPiece, HTMLStencilElement {
+    }
+    var HTMLCraiIconChessPieceElement: {
+        prototype: HTMLCraiIconChessPieceElement;
+        new (): HTMLCraiIconChessPieceElement;
+    };
+    interface HTMLCraiIconChildHeadElement extends Components.CraiIconChildHead, HTMLStencilElement {
+    }
+    var HTMLCraiIconChildHeadElement: {
+        prototype: HTMLCraiIconChildHeadElement;
+        new (): HTMLCraiIconChildHeadElement;
+    };
+    interface HTMLCraiIconCircleElement extends Components.CraiIconCircle, HTMLStencilElement {
+    }
+    var HTMLCraiIconCircleElement: {
+        prototype: HTMLCraiIconCircleElement;
+        new (): HTMLCraiIconCircleElement;
+    };
+    interface HTMLCraiIconCircleSmallElement extends Components.CraiIconCircleSmall, HTMLStencilElement {
+    }
+    var HTMLCraiIconCircleSmallElement: {
+        prototype: HTMLCraiIconCircleSmallElement;
+        new (): HTMLCraiIconCircleSmallElement;
+    };
+    interface HTMLCraiIconClipElement extends Components.CraiIconClip, HTMLStencilElement {
+    }
+    var HTMLCraiIconClipElement: {
+        prototype: HTMLCraiIconClipElement;
+        new (): HTMLCraiIconClipElement;
+    };
+    interface HTMLCraiIconClockElement extends Components.CraiIconClock, HTMLStencilElement {
+    }
+    var HTMLCraiIconClockElement: {
+        prototype: HTMLCraiIconClockElement;
+        new (): HTMLCraiIconClockElement;
+    };
+    interface HTMLCraiIconCloudElement extends Components.CraiIconCloud, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudElement: {
+        prototype: HTMLCraiIconCloudElement;
+        new (): HTMLCraiIconCloudElement;
+    };
+    interface HTMLCraiIconCloudCheckElement extends Components.CraiIconCloudCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudCheckElement: {
+        prototype: HTMLCraiIconCloudCheckElement;
+        new (): HTMLCraiIconCloudCheckElement;
+    };
+    interface HTMLCraiIconCloudDisabledElement extends Components.CraiIconCloudDisabled, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudDisabledElement: {
+        prototype: HTMLCraiIconCloudDisabledElement;
+        new (): HTMLCraiIconCloudDisabledElement;
+    };
+    interface HTMLCraiIconCloudDownloadElement extends Components.CraiIconCloudDownload, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudDownloadElement: {
+        prototype: HTMLCraiIconCloudDownloadElement;
+        new (): HTMLCraiIconCloudDownloadElement;
+    };
+    interface HTMLCraiIconCloudShareElement extends Components.CraiIconCloudShare, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudShareElement: {
+        prototype: HTMLCraiIconCloudShareElement;
+        new (): HTMLCraiIconCloudShareElement;
+    };
+    interface HTMLCraiIconCloudUploadElement extends Components.CraiIconCloudUpload, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudUploadElement: {
+        prototype: HTMLCraiIconCloudUploadElement;
+        new (): HTMLCraiIconCloudUploadElement;
+    };
+    interface HTMLCraiIconCloudsElement extends Components.CraiIconClouds, HTMLStencilElement {
+    }
+    var HTMLCraiIconCloudsElement: {
+        prototype: HTMLCraiIconCloudsElement;
+        new (): HTMLCraiIconCloudsElement;
+    };
+    interface HTMLCraiIconCocktailElement extends Components.CraiIconCocktail, HTMLStencilElement {
+    }
+    var HTMLCraiIconCocktailElement: {
+        prototype: HTMLCraiIconCocktailElement;
+        new (): HTMLCraiIconCocktailElement;
+    };
+    interface HTMLCraiIconCoffeeElement extends Components.CraiIconCoffee, HTMLStencilElement {
+    }
+    var HTMLCraiIconCoffeeElement: {
+        prototype: HTMLCraiIconCoffeeElement;
+        new (): HTMLCraiIconCoffeeElement;
+    };
+    interface HTMLCraiIconCommentElement extends Components.CraiIconComment, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentElement: {
+        prototype: HTMLCraiIconCommentElement;
+        new (): HTMLCraiIconCommentElement;
+    };
+    interface HTMLCraiIconCommentAltElement extends Components.CraiIconCommentAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentAltElement: {
+        prototype: HTMLCraiIconCommentAltElement;
+        new (): HTMLCraiIconCommentAltElement;
+    };
+    interface HTMLCraiIconCommentCheckElement extends Components.CraiIconCommentCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentCheckElement: {
+        prototype: HTMLCraiIconCommentCheckElement;
+        new (): HTMLCraiIconCommentCheckElement;
+    };
+    interface HTMLCraiIconCommentHeartElement extends Components.CraiIconCommentHeart, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentHeartElement: {
+        prototype: HTMLCraiIconCommentHeartElement;
+        new (): HTMLCraiIconCommentHeartElement;
+    };
+    interface HTMLCraiIconCommentInfoElement extends Components.CraiIconCommentInfo, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentInfoElement: {
+        prototype: HTMLCraiIconCommentInfoElement;
+        new (): HTMLCraiIconCommentInfoElement;
+    };
+    interface HTMLCraiIconCommentUserElement extends Components.CraiIconCommentUser, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentUserElement: {
+        prototype: HTMLCraiIconCommentUserElement;
+        new (): HTMLCraiIconCommentUserElement;
+    };
+    interface HTMLCraiIconCommentsElement extends Components.CraiIconComments, HTMLStencilElement {
+    }
+    var HTMLCraiIconCommentsElement: {
+        prototype: HTMLCraiIconCommentsElement;
+        new (): HTMLCraiIconCommentsElement;
+    };
+    interface HTMLCraiIconCompressElement extends Components.CraiIconCompress, HTMLStencilElement {
+    }
+    var HTMLCraiIconCompressElement: {
+        prototype: HTMLCraiIconCompressElement;
+        new (): HTMLCraiIconCompressElement;
+    };
+    interface HTMLCraiIconCompressAltElement extends Components.CraiIconCompressAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconCompressAltElement: {
+        prototype: HTMLCraiIconCompressAltElement;
+        new (): HTMLCraiIconCompressAltElement;
+    };
+    interface HTMLCraiIconComputerElement extends Components.CraiIconComputer, HTMLStencilElement {
+    }
+    var HTMLCraiIconComputerElement: {
+        prototype: HTMLCraiIconComputerElement;
+        new (): HTMLCraiIconComputerElement;
+    };
+    interface HTMLCraiIconConfettiElement extends Components.CraiIconConfetti, HTMLStencilElement {
+    }
+    var HTMLCraiIconConfettiElement: {
+        prototype: HTMLCraiIconConfettiElement;
+        new (): HTMLCraiIconConfettiElement;
+    };
+    interface HTMLCraiIconCookieElement extends Components.CraiIconCookie, HTMLStencilElement {
+    }
+    var HTMLCraiIconCookieElement: {
+        prototype: HTMLCraiIconCookieElement;
+        new (): HTMLCraiIconCookieElement;
+    };
+    interface HTMLCraiIconCopyElement extends Components.CraiIconCopy, HTMLStencilElement {
+    }
+    var HTMLCraiIconCopyElement: {
+        prototype: HTMLCraiIconCopyElement;
+        new (): HTMLCraiIconCopyElement;
+    };
+    interface HTMLCraiIconCopyAltElement extends Components.CraiIconCopyAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconCopyAltElement: {
+        prototype: HTMLCraiIconCopyAltElement;
+        new (): HTMLCraiIconCopyAltElement;
+    };
+    interface HTMLCraiIconCopyrightElement extends Components.CraiIconCopyright, HTMLStencilElement {
+    }
+    var HTMLCraiIconCopyrightElement: {
+        prototype: HTMLCraiIconCopyrightElement;
+        new (): HTMLCraiIconCopyrightElement;
+    };
+    interface HTMLCraiIconCowElement extends Components.CraiIconCow, HTMLStencilElement {
+    }
+    var HTMLCraiIconCowElement: {
+        prototype: HTMLCraiIconCowElement;
+        new (): HTMLCraiIconCowElement;
+    };
+    interface HTMLCraiIconCreamElement extends Components.CraiIconCream, HTMLStencilElement {
+    }
+    var HTMLCraiIconCreamElement: {
+        prototype: HTMLCraiIconCreamElement;
+        new (): HTMLCraiIconCreamElement;
+    };
+    interface HTMLCraiIconCreditCardElement extends Components.CraiIconCreditCard, HTMLStencilElement {
+    }
+    var HTMLCraiIconCreditCardElement: {
+        prototype: HTMLCraiIconCreditCardElement;
+        new (): HTMLCraiIconCreditCardElement;
+    };
+    interface HTMLCraiIconCroissantElement extends Components.CraiIconCroissant, HTMLStencilElement {
+    }
+    var HTMLCraiIconCroissantElement: {
+        prototype: HTMLCraiIconCroissantElement;
+        new (): HTMLCraiIconCroissantElement;
+    };
+    interface HTMLCraiIconCrossElement extends Components.CraiIconCross, HTMLStencilElement {
+    }
+    var HTMLCraiIconCrossElement: {
+        prototype: HTMLCraiIconCrossElement;
+        new (): HTMLCraiIconCrossElement;
+    };
+    interface HTMLCraiIconCrossCircleElement extends Components.CraiIconCrossCircle, HTMLStencilElement {
+    }
+    var HTMLCraiIconCrossCircleElement: {
+        prototype: HTMLCraiIconCrossCircleElement;
+        new (): HTMLCraiIconCrossCircleElement;
+    };
+    interface HTMLCraiIconCrossSmallElement extends Components.CraiIconCrossSmall, HTMLStencilElement {
+    }
+    var HTMLCraiIconCrossSmallElement: {
+        prototype: HTMLCraiIconCrossSmallElement;
+        new (): HTMLCraiIconCrossSmallElement;
+    };
+    interface HTMLCraiIconCrownElement extends Components.CraiIconCrown, HTMLStencilElement {
+    }
+    var HTMLCraiIconCrownElement: {
+        prototype: HTMLCraiIconCrownElement;
+        new (): HTMLCraiIconCrownElement;
+    };
+    interface HTMLCraiIconCubeElement extends Components.CraiIconCube, HTMLStencilElement {
+    }
+    var HTMLCraiIconCubeElement: {
+        prototype: HTMLCraiIconCubeElement;
+        new (): HTMLCraiIconCubeElement;
+    };
+    interface HTMLCraiIconCupcakeElement extends Components.CraiIconCupcake, HTMLStencilElement {
+    }
+    var HTMLCraiIconCupcakeElement: {
+        prototype: HTMLCraiIconCupcakeElement;
+        new (): HTMLCraiIconCupcakeElement;
+    };
+    interface HTMLCraiIconCursorElement extends Components.CraiIconCursor, HTMLStencilElement {
+    }
+    var HTMLCraiIconCursorElement: {
+        prototype: HTMLCraiIconCursorElement;
+        new (): HTMLCraiIconCursorElement;
+    };
+    interface HTMLCraiIconCursorFingerElement extends Components.CraiIconCursorFinger, HTMLStencilElement {
+    }
+    var HTMLCraiIconCursorFingerElement: {
+        prototype: HTMLCraiIconCursorFingerElement;
+        new (): HTMLCraiIconCursorFingerElement;
+    };
+    interface HTMLCraiIconCursorPlusElement extends Components.CraiIconCursorPlus, HTMLStencilElement {
+    }
+    var HTMLCraiIconCursorPlusElement: {
+        prototype: HTMLCraiIconCursorPlusElement;
+        new (): HTMLCraiIconCursorPlusElement;
+    };
+    interface HTMLCraiIconCursorTextElement extends Components.CraiIconCursorText, HTMLStencilElement {
+    }
+    var HTMLCraiIconCursorTextElement: {
+        prototype: HTMLCraiIconCursorTextElement;
+        new (): HTMLCraiIconCursorTextElement;
+    };
+    interface HTMLCraiIconCursorTextAltElement extends Components.CraiIconCursorTextAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconCursorTextAltElement: {
+        prototype: HTMLCraiIconCursorTextAltElement;
+        new (): HTMLCraiIconCursorTextAltElement;
+    };
+    interface HTMLCraiIconDartElement extends Components.CraiIconDart, HTMLStencilElement {
+    }
+    var HTMLCraiIconDartElement: {
+        prototype: HTMLCraiIconDartElement;
+        new (): HTMLCraiIconDartElement;
+    };
+    interface HTMLCraiIconDashboardElement extends Components.CraiIconDashboard, HTMLStencilElement {
+    }
+    var HTMLCraiIconDashboardElement: {
+        prototype: HTMLCraiIconDashboardElement;
+        new (): HTMLCraiIconDashboardElement;
+    };
+    interface HTMLCraiIconDataTransferElement extends Components.CraiIconDataTransfer, HTMLStencilElement {
+    }
+    var HTMLCraiIconDataTransferElement: {
+        prototype: HTMLCraiIconDataTransferElement;
+        new (): HTMLCraiIconDataTransferElement;
+    };
+    interface HTMLCraiIconDatabaseElement extends Components.CraiIconDatabase, HTMLStencilElement {
+    }
+    var HTMLCraiIconDatabaseElement: {
+        prototype: HTMLCraiIconDatabaseElement;
+        new (): HTMLCraiIconDatabaseElement;
+    };
+    interface HTMLCraiIconDeleteElement extends Components.CraiIconDelete, HTMLStencilElement {
+    }
+    var HTMLCraiIconDeleteElement: {
+        prototype: HTMLCraiIconDeleteElement;
+        new (): HTMLCraiIconDeleteElement;
+    };
+    interface HTMLCraiIconDiamondElement extends Components.CraiIconDiamond, HTMLStencilElement {
+    }
+    var HTMLCraiIconDiamondElement: {
+        prototype: HTMLCraiIconDiamondElement;
+        new (): HTMLCraiIconDiamondElement;
+    };
+    interface HTMLCraiIconDiceElement extends Components.CraiIconDice, HTMLStencilElement {
+    }
+    var HTMLCraiIconDiceElement: {
+        prototype: HTMLCraiIconDiceElement;
+        new (): HTMLCraiIconDiceElement;
+    };
+    interface HTMLCraiIconDiplomaElement extends Components.CraiIconDiploma, HTMLStencilElement {
+    }
+    var HTMLCraiIconDiplomaElement: {
+        prototype: HTMLCraiIconDiplomaElement;
+        new (): HTMLCraiIconDiplomaElement;
+    };
+    interface HTMLCraiIconDiscoBallElement extends Components.CraiIconDiscoBall, HTMLStencilElement {
+    }
+    var HTMLCraiIconDiscoBallElement: {
+        prototype: HTMLCraiIconDiscoBallElement;
+        new (): HTMLCraiIconDiscoBallElement;
+    };
+    interface HTMLCraiIconDiskElement extends Components.CraiIconDisk, HTMLStencilElement {
+    }
+    var HTMLCraiIconDiskElement: {
+        prototype: HTMLCraiIconDiskElement;
+        new (): HTMLCraiIconDiskElement;
+    };
+    interface HTMLCraiIconDoctorElement extends Components.CraiIconDoctor, HTMLStencilElement {
+    }
+    var HTMLCraiIconDoctorElement: {
+        prototype: HTMLCraiIconDoctorElement;
+        new (): HTMLCraiIconDoctorElement;
+    };
+    interface HTMLCraiIconDocumentElement extends Components.CraiIconDocument, HTMLStencilElement {
+    }
+    var HTMLCraiIconDocumentElement: {
+        prototype: HTMLCraiIconDocumentElement;
+        new (): HTMLCraiIconDocumentElement;
+    };
+    interface HTMLCraiIconDocumentSignedElement extends Components.CraiIconDocumentSigned, HTMLStencilElement {
+    }
+    var HTMLCraiIconDocumentSignedElement: {
+        prototype: HTMLCraiIconDocumentSignedElement;
+        new (): HTMLCraiIconDocumentSignedElement;
+    };
+    interface HTMLCraiIconDollarElement extends Components.CraiIconDollar, HTMLStencilElement {
+    }
+    var HTMLCraiIconDollarElement: {
+        prototype: HTMLCraiIconDollarElement;
+        new (): HTMLCraiIconDollarElement;
+    };
+    interface HTMLCraiIconDownloadElement extends Components.CraiIconDownload, HTMLStencilElement {
+    }
+    var HTMLCraiIconDownloadElement: {
+        prototype: HTMLCraiIconDownloadElement;
+        new (): HTMLCraiIconDownloadElement;
+    };
+    interface HTMLCraiIconDrinkAltElement extends Components.CraiIconDrinkAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconDrinkAltElement: {
+        prototype: HTMLCraiIconDrinkAltElement;
+        new (): HTMLCraiIconDrinkAltElement;
+    };
+    interface HTMLCraiIconDrumstickElement extends Components.CraiIconDrumstick, HTMLStencilElement {
+    }
+    var HTMLCraiIconDrumstickElement: {
+        prototype: HTMLCraiIconDrumstickElement;
+        new (): HTMLCraiIconDrumstickElement;
+    };
+    interface HTMLCraiIconDuplicateElement extends Components.CraiIconDuplicate, HTMLStencilElement {
+    }
+    var HTMLCraiIconDuplicateElement: {
+        prototype: HTMLCraiIconDuplicateElement;
+        new (): HTMLCraiIconDuplicateElement;
+    };
+    interface HTMLCraiIconELearningElement extends Components.CraiIconELearning, HTMLStencilElement {
+    }
+    var HTMLCraiIconELearningElement: {
+        prototype: HTMLCraiIconELearningElement;
+        new (): HTMLCraiIconELearningElement;
+    };
+    interface HTMLCraiIconEarningsElement extends Components.CraiIconEarnings, HTMLStencilElement {
+    }
+    var HTMLCraiIconEarningsElement: {
+        prototype: HTMLCraiIconEarningsElement;
+        new (): HTMLCraiIconEarningsElement;
+    };
+    interface HTMLCraiIconEditElement extends Components.CraiIconEdit, HTMLStencilElement {
+    }
+    var HTMLCraiIconEditElement: {
+        prototype: HTMLCraiIconEditElement;
+        new (): HTMLCraiIconEditElement;
+    };
+    interface HTMLCraiIconEditAltElement extends Components.CraiIconEditAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconEditAltElement: {
+        prototype: HTMLCraiIconEditAltElement;
+        new (): HTMLCraiIconEditAltElement;
+    };
+    interface HTMLCraiIconEnvelopeElement extends Components.CraiIconEnvelope, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopeElement: {
+        prototype: HTMLCraiIconEnvelopeElement;
+        new (): HTMLCraiIconEnvelopeElement;
+    };
+    interface HTMLCraiIconEnvelopeBanElement extends Components.CraiIconEnvelopeBan, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopeBanElement: {
+        prototype: HTMLCraiIconEnvelopeBanElement;
+        new (): HTMLCraiIconEnvelopeBanElement;
+    };
+    interface HTMLCraiIconEnvelopeDownloadElement extends Components.CraiIconEnvelopeDownload, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopeDownloadElement: {
+        prototype: HTMLCraiIconEnvelopeDownloadElement;
+        new (): HTMLCraiIconEnvelopeDownloadElement;
+    };
+    interface HTMLCraiIconEnvelopeMarkerElement extends Components.CraiIconEnvelopeMarker, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopeMarkerElement: {
+        prototype: HTMLCraiIconEnvelopeMarkerElement;
+        new (): HTMLCraiIconEnvelopeMarkerElement;
+    };
+    interface HTMLCraiIconEnvelopeOpenElement extends Components.CraiIconEnvelopeOpen, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopeOpenElement: {
+        prototype: HTMLCraiIconEnvelopeOpenElement;
+        new (): HTMLCraiIconEnvelopeOpenElement;
+    };
+    interface HTMLCraiIconEnvelopePlusElement extends Components.CraiIconEnvelopePlus, HTMLStencilElement {
+    }
+    var HTMLCraiIconEnvelopePlusElement: {
+        prototype: HTMLCraiIconEnvelopePlusElement;
+        new (): HTMLCraiIconEnvelopePlusElement;
+    };
+    interface HTMLCraiIconEuroElement extends Components.CraiIconEuro, HTMLStencilElement {
+    }
+    var HTMLCraiIconEuroElement: {
+        prototype: HTMLCraiIconEuroElement;
+        new (): HTMLCraiIconEuroElement;
+    };
+    interface HTMLCraiIconExclamationElement extends Components.CraiIconExclamation, HTMLStencilElement {
+    }
+    var HTMLCraiIconExclamationElement: {
+        prototype: HTMLCraiIconExclamationElement;
+        new (): HTMLCraiIconExclamationElement;
+    };
+    interface HTMLCraiIconExpandElement extends Components.CraiIconExpand, HTMLStencilElement {
+    }
+    var HTMLCraiIconExpandElement: {
+        prototype: HTMLCraiIconExpandElement;
+        new (): HTMLCraiIconExpandElement;
+    };
+    interface HTMLCraiIconEyeElement extends Components.CraiIconEye, HTMLStencilElement {
+    }
+    var HTMLCraiIconEyeElement: {
+        prototype: HTMLCraiIconEyeElement;
+        new (): HTMLCraiIconEyeElement;
+    };
+    interface HTMLCraiIconEyeCrossedElement extends Components.CraiIconEyeCrossed, HTMLStencilElement {
+    }
+    var HTMLCraiIconEyeCrossedElement: {
+        prototype: HTMLCraiIconEyeCrossedElement;
+        new (): HTMLCraiIconEyeCrossedElement;
+    };
+    interface HTMLCraiIconEyeDropperElement extends Components.CraiIconEyeDropper, HTMLStencilElement {
+    }
+    var HTMLCraiIconEyeDropperElement: {
+        prototype: HTMLCraiIconEyeDropperElement;
+        new (): HTMLCraiIconEyeDropperElement;
+    };
+    interface HTMLCraiIconFeatherElement extends Components.CraiIconFeather, HTMLStencilElement {
+    }
+    var HTMLCraiIconFeatherElement: {
+        prototype: HTMLCraiIconFeatherElement;
+        new (): HTMLCraiIconFeatherElement;
+    };
+    interface HTMLCraiIconFerrisWheelElement extends Components.CraiIconFerrisWheel, HTMLStencilElement {
+    }
+    var HTMLCraiIconFerrisWheelElement: {
+        prototype: HTMLCraiIconFerrisWheelElement;
+        new (): HTMLCraiIconFerrisWheelElement;
+    };
+    interface HTMLCraiIconFileElement extends Components.CraiIconFile, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileElement: {
+        prototype: HTMLCraiIconFileElement;
+        new (): HTMLCraiIconFileElement;
+    };
+    interface HTMLCraiIconFileAddElement extends Components.CraiIconFileAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileAddElement: {
+        prototype: HTMLCraiIconFileAddElement;
+        new (): HTMLCraiIconFileAddElement;
+    };
+    interface HTMLCraiIconFileAiElement extends Components.CraiIconFileAi, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileAiElement: {
+        prototype: HTMLCraiIconFileAiElement;
+        new (): HTMLCraiIconFileAiElement;
+    };
+    interface HTMLCraiIconFileCheckElement extends Components.CraiIconFileCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileCheckElement: {
+        prototype: HTMLCraiIconFileCheckElement;
+        new (): HTMLCraiIconFileCheckElement;
+    };
+    interface HTMLCraiIconFileDeleteElement extends Components.CraiIconFileDelete, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileDeleteElement: {
+        prototype: HTMLCraiIconFileDeleteElement;
+        new (): HTMLCraiIconFileDeleteElement;
+    };
+    interface HTMLCraiIconFileEpsElement extends Components.CraiIconFileEps, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileEpsElement: {
+        prototype: HTMLCraiIconFileEpsElement;
+        new (): HTMLCraiIconFileEpsElement;
+    };
+    interface HTMLCraiIconFileGifElement extends Components.CraiIconFileGif, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileGifElement: {
+        prototype: HTMLCraiIconFileGifElement;
+        new (): HTMLCraiIconFileGifElement;
+    };
+    interface HTMLCraiIconFileMusicElement extends Components.CraiIconFileMusic, HTMLStencilElement {
+    }
+    var HTMLCraiIconFileMusicElement: {
+        prototype: HTMLCraiIconFileMusicElement;
+        new (): HTMLCraiIconFileMusicElement;
+    };
+    interface HTMLCraiIconFilePsdElement extends Components.CraiIconFilePsd, HTMLStencilElement {
+    }
+    var HTMLCraiIconFilePsdElement: {
+        prototype: HTMLCraiIconFilePsdElement;
+        new (): HTMLCraiIconFilePsdElement;
+    };
+    interface HTMLCraiIconFillElement extends Components.CraiIconFill, HTMLStencilElement {
+    }
+    var HTMLCraiIconFillElement: {
+        prototype: HTMLCraiIconFillElement;
+        new (): HTMLCraiIconFillElement;
+    };
+    interface HTMLCraiIconFilmElement extends Components.CraiIconFilm, HTMLStencilElement {
+    }
+    var HTMLCraiIconFilmElement: {
+        prototype: HTMLCraiIconFilmElement;
+        new (): HTMLCraiIconFilmElement;
+    };
+    interface HTMLCraiIconFilterElement extends Components.CraiIconFilter, HTMLStencilElement {
+    }
+    var HTMLCraiIconFilterElement: {
+        prototype: HTMLCraiIconFilterElement;
+        new (): HTMLCraiIconFilterElement;
+    };
+    interface HTMLCraiIconFingerprintElement extends Components.CraiIconFingerprint, HTMLStencilElement {
+    }
+    var HTMLCraiIconFingerprintElement: {
+        prototype: HTMLCraiIconFingerprintElement;
+        new (): HTMLCraiIconFingerprintElement;
+    };
+    interface HTMLCraiIconFishElement extends Components.CraiIconFish, HTMLStencilElement {
+    }
+    var HTMLCraiIconFishElement: {
+        prototype: HTMLCraiIconFishElement;
+        new (): HTMLCraiIconFishElement;
+    };
+    interface HTMLCraiIconFlagElement extends Components.CraiIconFlag, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlagElement: {
+        prototype: HTMLCraiIconFlagElement;
+        new (): HTMLCraiIconFlagElement;
+    };
+    interface HTMLCraiIconFlameElement extends Components.CraiIconFlame, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlameElement: {
+        prototype: HTMLCraiIconFlameElement;
+        new (): HTMLCraiIconFlameElement;
+    };
+    interface HTMLCraiIconFlipHorizontalElement extends Components.CraiIconFlipHorizontal, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlipHorizontalElement: {
+        prototype: HTMLCraiIconFlipHorizontalElement;
+        new (): HTMLCraiIconFlipHorizontalElement;
+    };
+    interface HTMLCraiIconFlowerElement extends Components.CraiIconFlower, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlowerElement: {
+        prototype: HTMLCraiIconFlowerElement;
+        new (): HTMLCraiIconFlowerElement;
+    };
+    interface HTMLCraiIconFlowerBouquetElement extends Components.CraiIconFlowerBouquet, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlowerBouquetElement: {
+        prototype: HTMLCraiIconFlowerBouquetElement;
+        new (): HTMLCraiIconFlowerBouquetElement;
+    };
+    interface HTMLCraiIconFlowerTulipElement extends Components.CraiIconFlowerTulip, HTMLStencilElement {
+    }
+    var HTMLCraiIconFlowerTulipElement: {
+        prototype: HTMLCraiIconFlowerTulipElement;
+        new (): HTMLCraiIconFlowerTulipElement;
+    };
+    interface HTMLCraiIconFolderElement extends Components.CraiIconFolder, HTMLStencilElement {
+    }
+    var HTMLCraiIconFolderElement: {
+        prototype: HTMLCraiIconFolderElement;
+        new (): HTMLCraiIconFolderElement;
+    };
+    interface HTMLCraiIconFolderAddElement extends Components.CraiIconFolderAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconFolderAddElement: {
+        prototype: HTMLCraiIconFolderAddElement;
+        new (): HTMLCraiIconFolderAddElement;
+    };
+    interface HTMLCraiIconFollowingElement extends Components.CraiIconFollowing, HTMLStencilElement {
+    }
+    var HTMLCraiIconFollowingElement: {
+        prototype: HTMLCraiIconFollowingElement;
+        new (): HTMLCraiIconFollowingElement;
+    };
+    interface HTMLCraiIconFootballElement extends Components.CraiIconFootball, HTMLStencilElement {
+    }
+    var HTMLCraiIconFootballElement: {
+        prototype: HTMLCraiIconFootballElement;
+        new (): HTMLCraiIconFootballElement;
+    };
+    interface HTMLCraiIconFormElement extends Components.CraiIconForm, HTMLStencilElement {
+    }
+    var HTMLCraiIconFormElement: {
+        prototype: HTMLCraiIconFormElement;
+        new (): HTMLCraiIconFormElement;
+    };
+    interface HTMLCraiIconForwardElement extends Components.CraiIconForward, HTMLStencilElement {
+    }
+    var HTMLCraiIconForwardElement: {
+        prototype: HTMLCraiIconForwardElement;
+        new (): HTMLCraiIconForwardElement;
+    };
+    interface HTMLCraiIconFoxElement extends Components.CraiIconFox, HTMLStencilElement {
+    }
+    var HTMLCraiIconFoxElement: {
+        prototype: HTMLCraiIconFoxElement;
+        new (): HTMLCraiIconFoxElement;
+    };
+    interface HTMLCraiIconFrownElement extends Components.CraiIconFrown, HTMLStencilElement {
+    }
+    var HTMLCraiIconFrownElement: {
+        prototype: HTMLCraiIconFrownElement;
+        new (): HTMLCraiIconFrownElement;
+    };
+    interface HTMLCraiIconFtpElement extends Components.CraiIconFtp, HTMLStencilElement {
+    }
+    var HTMLCraiIconFtpElement: {
+        prototype: HTMLCraiIconFtpElement;
+        new (): HTMLCraiIconFtpElement;
+    };
+    interface HTMLCraiIconGalleryElement extends Components.CraiIconGallery, HTMLStencilElement {
+    }
+    var HTMLCraiIconGalleryElement: {
+        prototype: HTMLCraiIconGalleryElement;
+        new (): HTMLCraiIconGalleryElement;
+    };
+    interface HTMLCraiIconGamepadElement extends Components.CraiIconGamepad, HTMLStencilElement {
+    }
+    var HTMLCraiIconGamepadElement: {
+        prototype: HTMLCraiIconGamepadElement;
+        new (): HTMLCraiIconGamepadElement;
+    };
+    interface HTMLCraiIconGasPumpElement extends Components.CraiIconGasPump, HTMLStencilElement {
+    }
+    var HTMLCraiIconGasPumpElement: {
+        prototype: HTMLCraiIconGasPumpElement;
+        new (): HTMLCraiIconGasPumpElement;
+    };
+    interface HTMLCraiIconGemElement extends Components.CraiIconGem, HTMLStencilElement {
+    }
+    var HTMLCraiIconGemElement: {
+        prototype: HTMLCraiIconGemElement;
+        new (): HTMLCraiIconGemElement;
+    };
+    interface HTMLCraiIconGiftElement extends Components.CraiIconGift, HTMLStencilElement {
+    }
+    var HTMLCraiIconGiftElement: {
+        prototype: HTMLCraiIconGiftElement;
+        new (): HTMLCraiIconGiftElement;
+    };
+    interface HTMLCraiIconGlassCheersElement extends Components.CraiIconGlassCheers, HTMLStencilElement {
+    }
+    var HTMLCraiIconGlassCheersElement: {
+        prototype: HTMLCraiIconGlassCheersElement;
+        new (): HTMLCraiIconGlassCheersElement;
+    };
+    interface HTMLCraiIconGlassesElement extends Components.CraiIconGlasses, HTMLStencilElement {
+    }
+    var HTMLCraiIconGlassesElement: {
+        prototype: HTMLCraiIconGlassesElement;
+        new (): HTMLCraiIconGlassesElement;
+    };
+    interface HTMLCraiIconGlobeElement extends Components.CraiIconGlobe, HTMLStencilElement {
+    }
+    var HTMLCraiIconGlobeElement: {
+        prototype: HTMLCraiIconGlobeElement;
+        new (): HTMLCraiIconGlobeElement;
+    };
+    interface HTMLCraiIconGlobeAltElement extends Components.CraiIconGlobeAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconGlobeAltElement: {
+        prototype: HTMLCraiIconGlobeAltElement;
+        new (): HTMLCraiIconGlobeAltElement;
+    };
+    interface HTMLCraiIconGolfElement extends Components.CraiIconGolf, HTMLStencilElement {
+    }
+    var HTMLCraiIconGolfElement: {
+        prototype: HTMLCraiIconGolfElement;
+        new (): HTMLCraiIconGolfElement;
+    };
+    interface HTMLCraiIconGraduationCapElement extends Components.CraiIconGraduationCap, HTMLStencilElement {
+    }
+    var HTMLCraiIconGraduationCapElement: {
+        prototype: HTMLCraiIconGraduationCapElement;
+        new (): HTMLCraiIconGraduationCapElement;
+    };
+    interface HTMLCraiIconGraphicTabletElement extends Components.CraiIconGraphicTablet, HTMLStencilElement {
+    }
+    var HTMLCraiIconGraphicTabletElement: {
+        prototype: HTMLCraiIconGraphicTabletElement;
+        new (): HTMLCraiIconGraphicTabletElement;
+    };
+    interface HTMLCraiIconGridElement extends Components.CraiIconGrid, HTMLStencilElement {
+    }
+    var HTMLCraiIconGridElement: {
+        prototype: HTMLCraiIconGridElement;
+        new (): HTMLCraiIconGridElement;
+    };
+    interface HTMLCraiIconGridAltElement extends Components.CraiIconGridAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconGridAltElement: {
+        prototype: HTMLCraiIconGridAltElement;
+        new (): HTMLCraiIconGridAltElement;
+    };
+    interface HTMLCraiIconGuitarElement extends Components.CraiIconGuitar, HTMLStencilElement {
+    }
+    var HTMLCraiIconGuitarElement: {
+        prototype: HTMLCraiIconGuitarElement;
+        new (): HTMLCraiIconGuitarElement;
+    };
+    interface HTMLCraiIconGymElement extends Components.CraiIconGym, HTMLStencilElement {
+    }
+    var HTMLCraiIconGymElement: {
+        prototype: HTMLCraiIconGymElement;
+        new (): HTMLCraiIconGymElement;
+    };
+    interface HTMLCraiIconHamburgerElement extends Components.CraiIconHamburger, HTMLStencilElement {
+    }
+    var HTMLCraiIconHamburgerElement: {
+        prototype: HTMLCraiIconHamburgerElement;
+        new (): HTMLCraiIconHamburgerElement;
+    };
+    interface HTMLCraiIconHandHoldingHeartElement extends Components.CraiIconHandHoldingHeart, HTMLStencilElement {
+    }
+    var HTMLCraiIconHandHoldingHeartElement: {
+        prototype: HTMLCraiIconHandHoldingHeartElement;
+        new (): HTMLCraiIconHandHoldingHeartElement;
+    };
+    interface HTMLCraiIconHastagElement extends Components.CraiIconHastag, HTMLStencilElement {
+    }
+    var HTMLCraiIconHastagElement: {
+        prototype: HTMLCraiIconHastagElement;
+        new (): HTMLCraiIconHastagElement;
+    };
+    interface HTMLCraiIconHatBirthdayElement extends Components.CraiIconHatBirthday, HTMLStencilElement {
+    }
+    var HTMLCraiIconHatBirthdayElement: {
+        prototype: HTMLCraiIconHatBirthdayElement;
+        new (): HTMLCraiIconHatBirthdayElement;
+    };
+    interface HTMLCraiIconHeadSideThinkingElement extends Components.CraiIconHeadSideThinking, HTMLStencilElement {
+    }
+    var HTMLCraiIconHeadSideThinkingElement: {
+        prototype: HTMLCraiIconHeadSideThinkingElement;
+        new (): HTMLCraiIconHeadSideThinkingElement;
+    };
+    interface HTMLCraiIconHeadphonesElement extends Components.CraiIconHeadphones, HTMLStencilElement {
+    }
+    var HTMLCraiIconHeadphonesElement: {
+        prototype: HTMLCraiIconHeadphonesElement;
+        new (): HTMLCraiIconHeadphonesElement;
+    };
+    interface HTMLCraiIconHeadsetElement extends Components.CraiIconHeadset, HTMLStencilElement {
+    }
+    var HTMLCraiIconHeadsetElement: {
+        prototype: HTMLCraiIconHeadsetElement;
+        new (): HTMLCraiIconHeadsetElement;
+    };
+    interface HTMLCraiIconHeartElement extends Components.CraiIconHeart, HTMLStencilElement {
+    }
+    var HTMLCraiIconHeartElement: {
+        prototype: HTMLCraiIconHeartElement;
+        new (): HTMLCraiIconHeartElement;
+    };
+    interface HTMLCraiIconHeartArrowElement extends Components.CraiIconHeartArrow, HTMLStencilElement {
+    }
+    var HTMLCraiIconHeartArrowElement: {
+        prototype: HTMLCraiIconHeartArrowElement;
+        new (): HTMLCraiIconHeartArrowElement;
+    };
+    interface HTMLCraiIconHomeElement extends Components.CraiIconHome, HTMLStencilElement {
+    }
+    var HTMLCraiIconHomeElement: {
+        prototype: HTMLCraiIconHomeElement;
+        new (): HTMLCraiIconHomeElement;
+    };
+    interface HTMLCraiIconHomeLocationElement extends Components.CraiIconHomeLocation, HTMLStencilElement {
+    }
+    var HTMLCraiIconHomeLocationElement: {
+        prototype: HTMLCraiIconHomeLocationElement;
+        new (): HTMLCraiIconHomeLocationElement;
+    };
+    interface HTMLCraiIconHomeLocationAltElement extends Components.CraiIconHomeLocationAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconHomeLocationAltElement: {
+        prototype: HTMLCraiIconHomeLocationAltElement;
+        new (): HTMLCraiIconHomeLocationAltElement;
+    };
+    interface HTMLCraiIconHourglassElement extends Components.CraiIconHourglass, HTMLStencilElement {
+    }
+    var HTMLCraiIconHourglassElement: {
+        prototype: HTMLCraiIconHourglassElement;
+        new (): HTMLCraiIconHourglassElement;
+    };
+    interface HTMLCraiIconHourglassEndElement extends Components.CraiIconHourglassEnd, HTMLStencilElement {
+    }
+    var HTMLCraiIconHourglassEndElement: {
+        prototype: HTMLCraiIconHourglassEndElement;
+        new (): HTMLCraiIconHourglassEndElement;
+    };
+    interface HTMLCraiIconIceCreamElement extends Components.CraiIconIceCream, HTMLStencilElement {
+    }
+    var HTMLCraiIconIceCreamElement: {
+        prototype: HTMLCraiIconIceCreamElement;
+        new (): HTMLCraiIconIceCreamElement;
+    };
+    interface HTMLCraiIconIceSkateElement extends Components.CraiIconIceSkate, HTMLStencilElement {
+    }
+    var HTMLCraiIconIceSkateElement: {
+        prototype: HTMLCraiIconIceSkateElement;
+        new (): HTMLCraiIconIceSkateElement;
+    };
+    interface HTMLCraiIconIdBadgeElement extends Components.CraiIconIdBadge, HTMLStencilElement {
+    }
+    var HTMLCraiIconIdBadgeElement: {
+        prototype: HTMLCraiIconIdBadgeElement;
+        new (): HTMLCraiIconIdBadgeElement;
+    };
+    interface HTMLCraiIconInboxElement extends Components.CraiIconInbox, HTMLStencilElement {
+    }
+    var HTMLCraiIconInboxElement: {
+        prototype: HTMLCraiIconInboxElement;
+        new (): HTMLCraiIconInboxElement;
+    };
+    interface HTMLCraiIconIncognitoElement extends Components.CraiIconIncognito, HTMLStencilElement {
+    }
+    var HTMLCraiIconIncognitoElement: {
+        prototype: HTMLCraiIconIncognitoElement;
+        new (): HTMLCraiIconIncognitoElement;
+    };
+    interface HTMLCraiIconIndentElement extends Components.CraiIconIndent, HTMLStencilElement {
+    }
+    var HTMLCraiIconIndentElement: {
+        prototype: HTMLCraiIconIndentElement;
+        new (): HTMLCraiIconIndentElement;
+    };
+    interface HTMLCraiIconInfinityElement extends Components.CraiIconInfinity, HTMLStencilElement {
+    }
+    var HTMLCraiIconInfinityElement: {
+        prototype: HTMLCraiIconInfinityElement;
+        new (): HTMLCraiIconInfinityElement;
+    };
+    interface HTMLCraiIconInfoElement extends Components.CraiIconInfo, HTMLStencilElement {
+    }
+    var HTMLCraiIconInfoElement: {
+        prototype: HTMLCraiIconInfoElement;
+        new (): HTMLCraiIconInfoElement;
+    };
+    interface HTMLCraiIconInteractiveElement extends Components.CraiIconInteractive, HTMLStencilElement {
+    }
+    var HTMLCraiIconInteractiveElement: {
+        prototype: HTMLCraiIconInteractiveElement;
+        new (): HTMLCraiIconInteractiveElement;
+    };
+    interface HTMLCraiIconInterliningElement extends Components.CraiIconInterlining, HTMLStencilElement {
+    }
+    var HTMLCraiIconInterliningElement: {
+        prototype: HTMLCraiIconInterliningElement;
+        new (): HTMLCraiIconInterliningElement;
+    };
+    interface HTMLCraiIconInterrogationElement extends Components.CraiIconInterrogation, HTMLStencilElement {
+    }
+    var HTMLCraiIconInterrogationElement: {
+        prototype: HTMLCraiIconInterrogationElement;
+        new (): HTMLCraiIconInterrogationElement;
+    };
+    interface HTMLCraiIconItalicElement extends Components.CraiIconItalic, HTMLStencilElement {
+    }
+    var HTMLCraiIconItalicElement: {
+        prototype: HTMLCraiIconItalicElement;
+        new (): HTMLCraiIconItalicElement;
+    };
+    interface HTMLCraiIconJpgElement extends Components.CraiIconJpg, HTMLStencilElement {
+    }
+    var HTMLCraiIconJpgElement: {
+        prototype: HTMLCraiIconJpgElement;
+        new (): HTMLCraiIconJpgElement;
+    };
+    interface HTMLCraiIconKeyElement extends Components.CraiIconKey, HTMLStencilElement {
+    }
+    var HTMLCraiIconKeyElement: {
+        prototype: HTMLCraiIconKeyElement;
+        new (): HTMLCraiIconKeyElement;
+    };
+    interface HTMLCraiIconKeyboardElement extends Components.CraiIconKeyboard, HTMLStencilElement {
+    }
+    var HTMLCraiIconKeyboardElement: {
+        prototype: HTMLCraiIconKeyboardElement;
+        new (): HTMLCraiIconKeyboardElement;
+    };
+    interface HTMLCraiIconKiteElement extends Components.CraiIconKite, HTMLStencilElement {
+    }
+    var HTMLCraiIconKiteElement: {
+        prototype: HTMLCraiIconKiteElement;
+        new (): HTMLCraiIconKiteElement;
+    };
+    interface HTMLCraiIconLabelElement extends Components.CraiIconLabel, HTMLStencilElement {
+    }
+    var HTMLCraiIconLabelElement: {
+        prototype: HTMLCraiIconLabelElement;
+        new (): HTMLCraiIconLabelElement;
+    };
+    interface HTMLCraiIconLaptopElement extends Components.CraiIconLaptop, HTMLStencilElement {
+    }
+    var HTMLCraiIconLaptopElement: {
+        prototype: HTMLCraiIconLaptopElement;
+        new (): HTMLCraiIconLaptopElement;
+    };
+    interface HTMLCraiIconLassoElement extends Components.CraiIconLasso, HTMLStencilElement {
+    }
+    var HTMLCraiIconLassoElement: {
+        prototype: HTMLCraiIconLassoElement;
+        new (): HTMLCraiIconLassoElement;
+    };
+    interface HTMLCraiIconLaughElement extends Components.CraiIconLaugh, HTMLStencilElement {
+    }
+    var HTMLCraiIconLaughElement: {
+        prototype: HTMLCraiIconLaughElement;
+        new (): HTMLCraiIconLaughElement;
+    };
+    interface HTMLCraiIconLayersElement extends Components.CraiIconLayers, HTMLStencilElement {
+    }
+    var HTMLCraiIconLayersElement: {
+        prototype: HTMLCraiIconLayersElement;
+        new (): HTMLCraiIconLayersElement;
+    };
+    interface HTMLCraiIconLayoutFluidElement extends Components.CraiIconLayoutFluid, HTMLStencilElement {
+    }
+    var HTMLCraiIconLayoutFluidElement: {
+        prototype: HTMLCraiIconLayoutFluidElement;
+        new (): HTMLCraiIconLayoutFluidElement;
+    };
+    interface HTMLCraiIconLeafElement extends Components.CraiIconLeaf, HTMLStencilElement {
+    }
+    var HTMLCraiIconLeafElement: {
+        prototype: HTMLCraiIconLeafElement;
+        new (): HTMLCraiIconLeafElement;
+    };
+    interface HTMLCraiIconLetterCaseElement extends Components.CraiIconLetterCase, HTMLStencilElement {
+    }
+    var HTMLCraiIconLetterCaseElement: {
+        prototype: HTMLCraiIconLetterCaseElement;
+        new (): HTMLCraiIconLetterCaseElement;
+    };
+    interface HTMLCraiIconLifeRingElement extends Components.CraiIconLifeRing, HTMLStencilElement {
+    }
+    var HTMLCraiIconLifeRingElement: {
+        prototype: HTMLCraiIconLifeRingElement;
+        new (): HTMLCraiIconLifeRingElement;
+    };
+    interface HTMLCraiIconLineWidthElement extends Components.CraiIconLineWidth, HTMLStencilElement {
+    }
+    var HTMLCraiIconLineWidthElement: {
+        prototype: HTMLCraiIconLineWidthElement;
+        new (): HTMLCraiIconLineWidthElement;
+    };
+    interface HTMLCraiIconLinkElement extends Components.CraiIconLink, HTMLStencilElement {
+    }
+    var HTMLCraiIconLinkElement: {
+        prototype: HTMLCraiIconLinkElement;
+        new (): HTMLCraiIconLinkElement;
+    };
+    interface HTMLCraiIconLipstickElement extends Components.CraiIconLipstick, HTMLStencilElement {
+    }
+    var HTMLCraiIconLipstickElement: {
+        prototype: HTMLCraiIconLipstickElement;
+        new (): HTMLCraiIconLipstickElement;
+    };
+    interface HTMLCraiIconListElement extends Components.CraiIconList, HTMLStencilElement {
+    }
+    var HTMLCraiIconListElement: {
+        prototype: HTMLCraiIconListElement;
+        new (): HTMLCraiIconListElement;
+    };
+    interface HTMLCraiIconListCheckElement extends Components.CraiIconListCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconListCheckElement: {
+        prototype: HTMLCraiIconListCheckElement;
+        new (): HTMLCraiIconListCheckElement;
+    };
+    interface HTMLCraiIconLocationAltElement extends Components.CraiIconLocationAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconLocationAltElement: {
+        prototype: HTMLCraiIconLocationAltElement;
+        new (): HTMLCraiIconLocationAltElement;
+    };
+    interface HTMLCraiIconLockElement extends Components.CraiIconLock, HTMLStencilElement {
+    }
+    var HTMLCraiIconLockElement: {
+        prototype: HTMLCraiIconLockElement;
+        new (): HTMLCraiIconLockElement;
+    };
+    interface HTMLCraiIconLockAltElement extends Components.CraiIconLockAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconLockAltElement: {
+        prototype: HTMLCraiIconLockAltElement;
+        new (): HTMLCraiIconLockAltElement;
+    };
+    interface HTMLCraiIconLuggageRollingElement extends Components.CraiIconLuggageRolling, HTMLStencilElement {
+    }
+    var HTMLCraiIconLuggageRollingElement: {
+        prototype: HTMLCraiIconLuggageRollingElement;
+        new (): HTMLCraiIconLuggageRollingElement;
+    };
+    interface HTMLCraiIconMagicWandElement extends Components.CraiIconMagicWand, HTMLStencilElement {
+    }
+    var HTMLCraiIconMagicWandElement: {
+        prototype: HTMLCraiIconMagicWandElement;
+        new (): HTMLCraiIconMagicWandElement;
+    };
+    interface HTMLCraiIconMakeupBrushElement extends Components.CraiIconMakeupBrush, HTMLStencilElement {
+    }
+    var HTMLCraiIconMakeupBrushElement: {
+        prototype: HTMLCraiIconMakeupBrushElement;
+        new (): HTMLCraiIconMakeupBrushElement;
+    };
+    interface HTMLCraiIconManHeadElement extends Components.CraiIconManHead, HTMLStencilElement {
+    }
+    var HTMLCraiIconManHeadElement: {
+        prototype: HTMLCraiIconManHeadElement;
+        new (): HTMLCraiIconManHeadElement;
+    };
+    interface HTMLCraiIconMapElement extends Components.CraiIconMap, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapElement: {
+        prototype: HTMLCraiIconMapElement;
+        new (): HTMLCraiIconMapElement;
+    };
+    interface HTMLCraiIconMapMarkerElement extends Components.CraiIconMapMarker, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapMarkerElement: {
+        prototype: HTMLCraiIconMapMarkerElement;
+        new (): HTMLCraiIconMapMarkerElement;
+    };
+    interface HTMLCraiIconMapMarkerCrossElement extends Components.CraiIconMapMarkerCross, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapMarkerCrossElement: {
+        prototype: HTMLCraiIconMapMarkerCrossElement;
+        new (): HTMLCraiIconMapMarkerCrossElement;
+    };
+    interface HTMLCraiIconMapMarkerHomeElement extends Components.CraiIconMapMarkerHome, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapMarkerHomeElement: {
+        prototype: HTMLCraiIconMapMarkerHomeElement;
+        new (): HTMLCraiIconMapMarkerHomeElement;
+    };
+    interface HTMLCraiIconMapMarkerMinusElement extends Components.CraiIconMapMarkerMinus, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapMarkerMinusElement: {
+        prototype: HTMLCraiIconMapMarkerMinusElement;
+        new (): HTMLCraiIconMapMarkerMinusElement;
+    };
+    interface HTMLCraiIconMapMarkerPlusElement extends Components.CraiIconMapMarkerPlus, HTMLStencilElement {
+    }
+    var HTMLCraiIconMapMarkerPlusElement: {
+        prototype: HTMLCraiIconMapMarkerPlusElement;
+        new (): HTMLCraiIconMapMarkerPlusElement;
+    };
+    interface HTMLCraiIconMarkerElement extends Components.CraiIconMarker, HTMLStencilElement {
+    }
+    var HTMLCraiIconMarkerElement: {
+        prototype: HTMLCraiIconMarkerElement;
+        new (): HTMLCraiIconMarkerElement;
+    };
+    interface HTMLCraiIconMarkerTimeElement extends Components.CraiIconMarkerTime, HTMLStencilElement {
+    }
+    var HTMLCraiIconMarkerTimeElement: {
+        prototype: HTMLCraiIconMarkerTimeElement;
+        new (): HTMLCraiIconMarkerTimeElement;
+    };
+    interface HTMLCraiIconMarsElement extends Components.CraiIconMars, HTMLStencilElement {
+    }
+    var HTMLCraiIconMarsElement: {
+        prototype: HTMLCraiIconMarsElement;
+        new (): HTMLCraiIconMarsElement;
+    };
+    interface HTMLCraiIconMarsDoubleElement extends Components.CraiIconMarsDouble, HTMLStencilElement {
+    }
+    var HTMLCraiIconMarsDoubleElement: {
+        prototype: HTMLCraiIconMarsDoubleElement;
+        new (): HTMLCraiIconMarsDoubleElement;
+    };
+    interface HTMLCraiIconMaskCarnivalElement extends Components.CraiIconMaskCarnival, HTMLStencilElement {
+    }
+    var HTMLCraiIconMaskCarnivalElement: {
+        prototype: HTMLCraiIconMaskCarnivalElement;
+        new (): HTMLCraiIconMaskCarnivalElement;
+    };
+    interface HTMLCraiIconMedicineElement extends Components.CraiIconMedicine, HTMLStencilElement {
+    }
+    var HTMLCraiIconMedicineElement: {
+        prototype: HTMLCraiIconMedicineElement;
+        new (): HTMLCraiIconMedicineElement;
+    };
+    interface HTMLCraiIconMegaphoneElement extends Components.CraiIconMegaphone, HTMLStencilElement {
+    }
+    var HTMLCraiIconMegaphoneElement: {
+        prototype: HTMLCraiIconMegaphoneElement;
+        new (): HTMLCraiIconMegaphoneElement;
+    };
+    interface HTMLCraiIconMehElement extends Components.CraiIconMeh, HTMLStencilElement {
+    }
+    var HTMLCraiIconMehElement: {
+        prototype: HTMLCraiIconMehElement;
+        new (): HTMLCraiIconMehElement;
+    };
+    interface HTMLCraiIconMenuBurgerElement extends Components.CraiIconMenuBurger, HTMLStencilElement {
+    }
+    var HTMLCraiIconMenuBurgerElement: {
+        prototype: HTMLCraiIconMenuBurgerElement;
+        new (): HTMLCraiIconMenuBurgerElement;
+    };
+    interface HTMLCraiIconMenuDotsElement extends Components.CraiIconMenuDots, HTMLStencilElement {
+    }
+    var HTMLCraiIconMenuDotsElement: {
+        prototype: HTMLCraiIconMenuDotsElement;
+        new (): HTMLCraiIconMenuDotsElement;
+    };
+    interface HTMLCraiIconMenuDotsVerticalElement extends Components.CraiIconMenuDotsVertical, HTMLStencilElement {
+    }
+    var HTMLCraiIconMenuDotsVerticalElement: {
+        prototype: HTMLCraiIconMenuDotsVerticalElement;
+        new (): HTMLCraiIconMenuDotsVerticalElement;
+    };
+    interface HTMLCraiIconMicrophoneElement extends Components.CraiIconMicrophone, HTMLStencilElement {
+    }
+    var HTMLCraiIconMicrophoneElement: {
+        prototype: HTMLCraiIconMicrophoneElement;
+        new (): HTMLCraiIconMicrophoneElement;
+    };
+    interface HTMLCraiIconMicrophoneAltElement extends Components.CraiIconMicrophoneAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconMicrophoneAltElement: {
+        prototype: HTMLCraiIconMicrophoneAltElement;
+        new (): HTMLCraiIconMicrophoneAltElement;
+    };
+    interface HTMLCraiIconMinusElement extends Components.CraiIconMinus, HTMLStencilElement {
+    }
+    var HTMLCraiIconMinusElement: {
+        prototype: HTMLCraiIconMinusElement;
+        new (): HTMLCraiIconMinusElement;
+    };
+    interface HTMLCraiIconMinusSmallElement extends Components.CraiIconMinusSmall, HTMLStencilElement {
+    }
+    var HTMLCraiIconMinusSmallElement: {
+        prototype: HTMLCraiIconMinusSmallElement;
+        new (): HTMLCraiIconMinusSmallElement;
+    };
+    interface HTMLCraiIconMobileElement extends Components.CraiIconMobile, HTMLStencilElement {
+    }
+    var HTMLCraiIconMobileElement: {
+        prototype: HTMLCraiIconMobileElement;
+        new (): HTMLCraiIconMobileElement;
+    };
+    interface HTMLCraiIconModeLandscapeElement extends Components.CraiIconModeLandscape, HTMLStencilElement {
+    }
+    var HTMLCraiIconModeLandscapeElement: {
+        prototype: HTMLCraiIconModeLandscapeElement;
+        new (): HTMLCraiIconModeLandscapeElement;
+    };
+    interface HTMLCraiIconModePortraitElement extends Components.CraiIconModePortrait, HTMLStencilElement {
+    }
+    var HTMLCraiIconModePortraitElement: {
+        prototype: HTMLCraiIconModePortraitElement;
+        new (): HTMLCraiIconModePortraitElement;
+    };
+    interface HTMLCraiIconMoneyElement extends Components.CraiIconMoney, HTMLStencilElement {
+    }
+    var HTMLCraiIconMoneyElement: {
+        prototype: HTMLCraiIconMoneyElement;
+        new (): HTMLCraiIconMoneyElement;
+    };
+    interface HTMLCraiIconMoonElement extends Components.CraiIconMoon, HTMLStencilElement {
+    }
+    var HTMLCraiIconMoonElement: {
+        prototype: HTMLCraiIconMoonElement;
+        new (): HTMLCraiIconMoonElement;
+    };
+    interface HTMLCraiIconMountainsElement extends Components.CraiIconMountains, HTMLStencilElement {
+    }
+    var HTMLCraiIconMountainsElement: {
+        prototype: HTMLCraiIconMountainsElement;
+        new (): HTMLCraiIconMountainsElement;
+    };
+    interface HTMLCraiIconMouseElement extends Components.CraiIconMouse, HTMLStencilElement {
+    }
+    var HTMLCraiIconMouseElement: {
+        prototype: HTMLCraiIconMouseElement;
+        new (): HTMLCraiIconMouseElement;
+    };
+    interface HTMLCraiIconMugAltElement extends Components.CraiIconMugAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconMugAltElement: {
+        prototype: HTMLCraiIconMugAltElement;
+        new (): HTMLCraiIconMugAltElement;
+    };
+    interface HTMLCraiIconMusicElement extends Components.CraiIconMusic, HTMLStencilElement {
+    }
+    var HTMLCraiIconMusicElement: {
+        prototype: HTMLCraiIconMusicElement;
+        new (): HTMLCraiIconMusicElement;
+    };
+    interface HTMLCraiIconMusicAltElement extends Components.CraiIconMusicAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconMusicAltElement: {
+        prototype: HTMLCraiIconMusicAltElement;
+        new (): HTMLCraiIconMusicAltElement;
+    };
+    interface HTMLCraiIconNavigationElement extends Components.CraiIconNavigation, HTMLStencilElement {
+    }
+    var HTMLCraiIconNavigationElement: {
+        prototype: HTMLCraiIconNavigationElement;
+        new (): HTMLCraiIconNavigationElement;
+    };
+    interface HTMLCraiIconNetworkElement extends Components.CraiIconNetwork, HTMLStencilElement {
+    }
+    var HTMLCraiIconNetworkElement: {
+        prototype: HTMLCraiIconNetworkElement;
+        new (): HTMLCraiIconNetworkElement;
+    };
+    interface HTMLCraiIconNetworkCloudElement extends Components.CraiIconNetworkCloud, HTMLStencilElement {
+    }
+    var HTMLCraiIconNetworkCloudElement: {
+        prototype: HTMLCraiIconNetworkCloudElement;
+        new (): HTMLCraiIconNetworkCloudElement;
+    };
+    interface HTMLCraiIconNotebookElement extends Components.CraiIconNotebook, HTMLStencilElement {
+    }
+    var HTMLCraiIconNotebookElement: {
+        prototype: HTMLCraiIconNotebookElement;
+        new (): HTMLCraiIconNotebookElement;
+    };
+    interface HTMLCraiIconOpacityElement extends Components.CraiIconOpacity, HTMLStencilElement {
+    }
+    var HTMLCraiIconOpacityElement: {
+        prototype: HTMLCraiIconOpacityElement;
+        new (): HTMLCraiIconOpacityElement;
+    };
+    interface HTMLCraiIconPackageElement extends Components.CraiIconPackage, HTMLStencilElement {
+    }
+    var HTMLCraiIconPackageElement: {
+        prototype: HTMLCraiIconPackageElement;
+        new (): HTMLCraiIconPackageElement;
+    };
+    interface HTMLCraiIconPaintBrushElement extends Components.CraiIconPaintBrush, HTMLStencilElement {
+    }
+    var HTMLCraiIconPaintBrushElement: {
+        prototype: HTMLCraiIconPaintBrushElement;
+        new (): HTMLCraiIconPaintBrushElement;
+    };
+    interface HTMLCraiIconPaletteElement extends Components.CraiIconPalette, HTMLStencilElement {
+    }
+    var HTMLCraiIconPaletteElement: {
+        prototype: HTMLCraiIconPaletteElement;
+        new (): HTMLCraiIconPaletteElement;
+    };
+    interface HTMLCraiIconPaperPlaneElement extends Components.CraiIconPaperPlane, HTMLStencilElement {
+    }
+    var HTMLCraiIconPaperPlaneElement: {
+        prototype: HTMLCraiIconPaperPlaneElement;
+        new (): HTMLCraiIconPaperPlaneElement;
+    };
+    interface HTMLCraiIconPasswordElement extends Components.CraiIconPassword, HTMLStencilElement {
+    }
+    var HTMLCraiIconPasswordElement: {
+        prototype: HTMLCraiIconPasswordElement;
+        new (): HTMLCraiIconPasswordElement;
+    };
+    interface HTMLCraiIconPauseElement extends Components.CraiIconPause, HTMLStencilElement {
+    }
+    var HTMLCraiIconPauseElement: {
+        prototype: HTMLCraiIconPauseElement;
+        new (): HTMLCraiIconPauseElement;
+    };
+    interface HTMLCraiIconPawElement extends Components.CraiIconPaw, HTMLStencilElement {
+    }
+    var HTMLCraiIconPawElement: {
+        prototype: HTMLCraiIconPawElement;
+        new (): HTMLCraiIconPawElement;
+    };
+    interface HTMLCraiIconPencilElement extends Components.CraiIconPencil, HTMLStencilElement {
+    }
+    var HTMLCraiIconPencilElement: {
+        prototype: HTMLCraiIconPencilElement;
+        new (): HTMLCraiIconPencilElement;
+    };
+    interface HTMLCraiIconPharmacyElement extends Components.CraiIconPharmacy, HTMLStencilElement {
+    }
+    var HTMLCraiIconPharmacyElement: {
+        prototype: HTMLCraiIconPharmacyElement;
+        new (): HTMLCraiIconPharmacyElement;
+    };
+    interface HTMLCraiIconPhoneCallElement extends Components.CraiIconPhoneCall, HTMLStencilElement {
+    }
+    var HTMLCraiIconPhoneCallElement: {
+        prototype: HTMLCraiIconPhoneCallElement;
+        new (): HTMLCraiIconPhoneCallElement;
+    };
+    interface HTMLCraiIconPhoneCrossElement extends Components.CraiIconPhoneCross, HTMLStencilElement {
+    }
+    var HTMLCraiIconPhoneCrossElement: {
+        prototype: HTMLCraiIconPhoneCrossElement;
+        new (): HTMLCraiIconPhoneCrossElement;
+    };
+    interface HTMLCraiIconPhonePauseElement extends Components.CraiIconPhonePause, HTMLStencilElement {
+    }
+    var HTMLCraiIconPhonePauseElement: {
+        prototype: HTMLCraiIconPhonePauseElement;
+        new (): HTMLCraiIconPhonePauseElement;
+    };
+    interface HTMLCraiIconPhoneSlashElement extends Components.CraiIconPhoneSlash, HTMLStencilElement {
+    }
+    var HTMLCraiIconPhoneSlashElement: {
+        prototype: HTMLCraiIconPhoneSlashElement;
+        new (): HTMLCraiIconPhoneSlashElement;
+    };
+    interface HTMLCraiIconPhysicsElement extends Components.CraiIconPhysics, HTMLStencilElement {
+    }
+    var HTMLCraiIconPhysicsElement: {
+        prototype: HTMLCraiIconPhysicsElement;
+        new (): HTMLCraiIconPhysicsElement;
+    };
+    interface HTMLCraiIconPictureElement extends Components.CraiIconPicture, HTMLStencilElement {
+    }
+    var HTMLCraiIconPictureElement: {
+        prototype: HTMLCraiIconPictureElement;
+        new (): HTMLCraiIconPictureElement;
+    };
+    interface HTMLCraiIconPingPongElement extends Components.CraiIconPingPong, HTMLStencilElement {
+    }
+    var HTMLCraiIconPingPongElement: {
+        prototype: HTMLCraiIconPingPongElement;
+        new (): HTMLCraiIconPingPongElement;
+    };
+    interface HTMLCraiIconPizzaSliceElement extends Components.CraiIconPizzaSlice, HTMLStencilElement {
+    }
+    var HTMLCraiIconPizzaSliceElement: {
+        prototype: HTMLCraiIconPizzaSliceElement;
+        new (): HTMLCraiIconPizzaSliceElement;
+    };
+    interface HTMLCraiIconPlaneElement extends Components.CraiIconPlane, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlaneElement: {
+        prototype: HTMLCraiIconPlaneElement;
+        new (): HTMLCraiIconPlaneElement;
+    };
+    interface HTMLCraiIconPlayElement extends Components.CraiIconPlay, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlayElement: {
+        prototype: HTMLCraiIconPlayElement;
+        new (): HTMLCraiIconPlayElement;
+    };
+    interface HTMLCraiIconPlayAltElement extends Components.CraiIconPlayAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlayAltElement: {
+        prototype: HTMLCraiIconPlayAltElement;
+        new (): HTMLCraiIconPlayAltElement;
+    };
+    interface HTMLCraiIconPlayingCardsElement extends Components.CraiIconPlayingCards, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlayingCardsElement: {
+        prototype: HTMLCraiIconPlayingCardsElement;
+        new (): HTMLCraiIconPlayingCardsElement;
+    };
+    interface HTMLCraiIconPlusElement extends Components.CraiIconPlus, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlusElement: {
+        prototype: HTMLCraiIconPlusElement;
+        new (): HTMLCraiIconPlusElement;
+    };
+    interface HTMLCraiIconPlusSmallElement extends Components.CraiIconPlusSmall, HTMLStencilElement {
+    }
+    var HTMLCraiIconPlusSmallElement: {
+        prototype: HTMLCraiIconPlusSmallElement;
+        new (): HTMLCraiIconPlusSmallElement;
+    };
+    interface HTMLCraiIconPokerChipElement extends Components.CraiIconPokerChip, HTMLStencilElement {
+    }
+    var HTMLCraiIconPokerChipElement: {
+        prototype: HTMLCraiIconPokerChipElement;
+        new (): HTMLCraiIconPokerChipElement;
+    };
+    interface HTMLCraiIconPortraitElement extends Components.CraiIconPortrait, HTMLStencilElement {
+    }
+    var HTMLCraiIconPortraitElement: {
+        prototype: HTMLCraiIconPortraitElement;
+        new (): HTMLCraiIconPortraitElement;
+    };
+    interface HTMLCraiIconPoundElement extends Components.CraiIconPound, HTMLStencilElement {
+    }
+    var HTMLCraiIconPoundElement: {
+        prototype: HTMLCraiIconPoundElement;
+        new (): HTMLCraiIconPoundElement;
+    };
+    interface HTMLCraiIconPowerElement extends Components.CraiIconPower, HTMLStencilElement {
+    }
+    var HTMLCraiIconPowerElement: {
+        prototype: HTMLCraiIconPowerElement;
+        new (): HTMLCraiIconPowerElement;
+    };
+    interface HTMLCraiIconPresentationElement extends Components.CraiIconPresentation, HTMLStencilElement {
+    }
+    var HTMLCraiIconPresentationElement: {
+        prototype: HTMLCraiIconPresentationElement;
+        new (): HTMLCraiIconPresentationElement;
+    };
+    interface HTMLCraiIconPrintElement extends Components.CraiIconPrint, HTMLStencilElement {
+    }
+    var HTMLCraiIconPrintElement: {
+        prototype: HTMLCraiIconPrintElement;
+        new (): HTMLCraiIconPrintElement;
+    };
+    interface HTMLCraiIconProtractorElement extends Components.CraiIconProtractor, HTMLStencilElement {
+    }
+    var HTMLCraiIconProtractorElement: {
+        prototype: HTMLCraiIconProtractorElement;
+        new (): HTMLCraiIconProtractorElement;
+    };
+    interface HTMLCraiIconPulseElement extends Components.CraiIconPulse, HTMLStencilElement {
+    }
+    var HTMLCraiIconPulseElement: {
+        prototype: HTMLCraiIconPulseElement;
+        new (): HTMLCraiIconPulseElement;
+    };
+    interface HTMLCraiIconPyramidElement extends Components.CraiIconPyramid, HTMLStencilElement {
+    }
+    var HTMLCraiIconPyramidElement: {
+        prototype: HTMLCraiIconPyramidElement;
+        new (): HTMLCraiIconPyramidElement;
+    };
+    interface HTMLCraiIconQuoteRightElement extends Components.CraiIconQuoteRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconQuoteRightElement: {
+        prototype: HTMLCraiIconQuoteRightElement;
+        new (): HTMLCraiIconQuoteRightElement;
+    };
+    interface HTMLCraiIconRainbowElement extends Components.CraiIconRainbow, HTMLStencilElement {
+    }
+    var HTMLCraiIconRainbowElement: {
+        prototype: HTMLCraiIconRainbowElement;
+        new (): HTMLCraiIconRainbowElement;
+    };
+    interface HTMLCraiIconRaindropsElement extends Components.CraiIconRaindrops, HTMLStencilElement {
+    }
+    var HTMLCraiIconRaindropsElement: {
+        prototype: HTMLCraiIconRaindropsElement;
+        new (): HTMLCraiIconRaindropsElement;
+    };
+    interface HTMLCraiIconRecElement extends Components.CraiIconRec, HTMLStencilElement {
+    }
+    var HTMLCraiIconRecElement: {
+        prototype: HTMLCraiIconRecElement;
+        new (): HTMLCraiIconRecElement;
+    };
+    interface HTMLCraiIconReceiptElement extends Components.CraiIconReceipt, HTMLStencilElement {
+    }
+    var HTMLCraiIconReceiptElement: {
+        prototype: HTMLCraiIconReceiptElement;
+        new (): HTMLCraiIconReceiptElement;
+    };
+    interface HTMLCraiIconRecordVinylElement extends Components.CraiIconRecordVinyl, HTMLStencilElement {
+    }
+    var HTMLCraiIconRecordVinylElement: {
+        prototype: HTMLCraiIconRecordVinylElement;
+        new (): HTMLCraiIconRecordVinylElement;
+    };
+    interface HTMLCraiIconRectabgleVerticalElement extends Components.CraiIconRectabgleVertical, HTMLStencilElement {
+    }
+    var HTMLCraiIconRectabgleVerticalElement: {
+        prototype: HTMLCraiIconRectabgleVerticalElement;
+        new (): HTMLCraiIconRectabgleVerticalElement;
+    };
+    interface HTMLCraiIconRectangleHorizontalElement extends Components.CraiIconRectangleHorizontal, HTMLStencilElement {
+    }
+    var HTMLCraiIconRectangleHorizontalElement: {
+        prototype: HTMLCraiIconRectangleHorizontalElement;
+        new (): HTMLCraiIconRectangleHorizontalElement;
+    };
+    interface HTMLCraiIconRectanglePanoramicElement extends Components.CraiIconRectanglePanoramic, HTMLStencilElement {
+    }
+    var HTMLCraiIconRectanglePanoramicElement: {
+        prototype: HTMLCraiIconRectanglePanoramicElement;
+        new (): HTMLCraiIconRectanglePanoramicElement;
+    };
+    interface HTMLCraiIconRecycleElement extends Components.CraiIconRecycle, HTMLStencilElement {
+    }
+    var HTMLCraiIconRecycleElement: {
+        prototype: HTMLCraiIconRecycleElement;
+        new (): HTMLCraiIconRecycleElement;
+    };
+    interface HTMLCraiIconRedoElement extends Components.CraiIconRedo, HTMLStencilElement {
+    }
+    var HTMLCraiIconRedoElement: {
+        prototype: HTMLCraiIconRedoElement;
+        new (): HTMLCraiIconRedoElement;
+    };
+    interface HTMLCraiIconRedoAltElement extends Components.CraiIconRedoAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconRedoAltElement: {
+        prototype: HTMLCraiIconRedoAltElement;
+        new (): HTMLCraiIconRedoAltElement;
+    };
+    interface HTMLCraiIconReflectElement extends Components.CraiIconReflect, HTMLStencilElement {
+    }
+    var HTMLCraiIconReflectElement: {
+        prototype: HTMLCraiIconReflectElement;
+        new (): HTMLCraiIconReflectElement;
+    };
+    interface HTMLCraiIconRefreshElement extends Components.CraiIconRefresh, HTMLStencilElement {
+    }
+    var HTMLCraiIconRefreshElement: {
+        prototype: HTMLCraiIconRefreshElement;
+        new (): HTMLCraiIconRefreshElement;
+    };
+    interface HTMLCraiIconResizeElement extends Components.CraiIconResize, HTMLStencilElement {
+    }
+    var HTMLCraiIconResizeElement: {
+        prototype: HTMLCraiIconResizeElement;
+        new (): HTMLCraiIconResizeElement;
+    };
+    interface HTMLCraiIconResourcesElement extends Components.CraiIconResources, HTMLStencilElement {
+    }
+    var HTMLCraiIconResourcesElement: {
+        prototype: HTMLCraiIconResourcesElement;
+        new (): HTMLCraiIconResourcesElement;
+    };
+    interface HTMLCraiIconRewindElement extends Components.CraiIconRewind, HTMLStencilElement {
+    }
+    var HTMLCraiIconRewindElement: {
+        prototype: HTMLCraiIconRewindElement;
+        new (): HTMLCraiIconRewindElement;
+    };
+    interface HTMLCraiIconRhombusElement extends Components.CraiIconRhombus, HTMLStencilElement {
+    }
+    var HTMLCraiIconRhombusElement: {
+        prototype: HTMLCraiIconRhombusElement;
+        new (): HTMLCraiIconRhombusElement;
+    };
+    interface HTMLCraiIconRingsWeddingElement extends Components.CraiIconRingsWedding, HTMLStencilElement {
+    }
+    var HTMLCraiIconRingsWeddingElement: {
+        prototype: HTMLCraiIconRingsWeddingElement;
+        new (): HTMLCraiIconRingsWeddingElement;
+    };
+    interface HTMLCraiIconRoadElement extends Components.CraiIconRoad, HTMLStencilElement {
+    }
+    var HTMLCraiIconRoadElement: {
+        prototype: HTMLCraiIconRoadElement;
+        new (): HTMLCraiIconRoadElement;
+    };
+    interface HTMLCraiIconRocketElement extends Components.CraiIconRocket, HTMLStencilElement {
+    }
+    var HTMLCraiIconRocketElement: {
+        prototype: HTMLCraiIconRocketElement;
+        new (): HTMLCraiIconRocketElement;
+    };
+    interface HTMLCraiIconRoomServiceElement extends Components.CraiIconRoomService, HTMLStencilElement {
+    }
+    var HTMLCraiIconRoomServiceElement: {
+        prototype: HTMLCraiIconRoomServiceElement;
+        new (): HTMLCraiIconRoomServiceElement;
+    };
+    interface HTMLCraiIconRotateRightElement extends Components.CraiIconRotateRight, HTMLStencilElement {
+    }
+    var HTMLCraiIconRotateRightElement: {
+        prototype: HTMLCraiIconRotateRightElement;
+        new (): HTMLCraiIconRotateRightElement;
+    };
+    interface HTMLCraiIconRugbyElement extends Components.CraiIconRugby, HTMLStencilElement {
+    }
+    var HTMLCraiIconRugbyElement: {
+        prototype: HTMLCraiIconRugbyElement;
+        new (): HTMLCraiIconRugbyElement;
+    };
+    interface HTMLCraiIconSadElement extends Components.CraiIconSad, HTMLStencilElement {
+    }
+    var HTMLCraiIconSadElement: {
+        prototype: HTMLCraiIconSadElement;
+        new (): HTMLCraiIconSadElement;
+    };
+    interface HTMLCraiIconSaladElement extends Components.CraiIconSalad, HTMLStencilElement {
+    }
+    var HTMLCraiIconSaladElement: {
+        prototype: HTMLCraiIconSaladElement;
+        new (): HTMLCraiIconSaladElement;
+    };
+    interface HTMLCraiIconScaleElement extends Components.CraiIconScale, HTMLStencilElement {
+    }
+    var HTMLCraiIconScaleElement: {
+        prototype: HTMLCraiIconScaleElement;
+        new (): HTMLCraiIconScaleElement;
+    };
+    interface HTMLCraiIconSchoolElement extends Components.CraiIconSchool, HTMLStencilElement {
+    }
+    var HTMLCraiIconSchoolElement: {
+        prototype: HTMLCraiIconSchoolElement;
+        new (): HTMLCraiIconSchoolElement;
+    };
+    interface HTMLCraiIconSchoolBusElement extends Components.CraiIconSchoolBus, HTMLStencilElement {
+    }
+    var HTMLCraiIconSchoolBusElement: {
+        prototype: HTMLCraiIconSchoolBusElement;
+        new (): HTMLCraiIconSchoolBusElement;
+    };
+    interface HTMLCraiIconScissorsElement extends Components.CraiIconScissors, HTMLStencilElement {
+    }
+    var HTMLCraiIconScissorsElement: {
+        prototype: HTMLCraiIconScissorsElement;
+        new (): HTMLCraiIconScissorsElement;
+    };
+    interface HTMLCraiIconScreenElement extends Components.CraiIconScreen, HTMLStencilElement {
+    }
+    var HTMLCraiIconScreenElement: {
+        prototype: HTMLCraiIconScreenElement;
+        new (): HTMLCraiIconScreenElement;
+    };
+    interface HTMLCraiIconSearchElement extends Components.CraiIconSearch, HTMLStencilElement {
+    }
+    var HTMLCraiIconSearchElement: {
+        prototype: HTMLCraiIconSearchElement;
+        new (): HTMLCraiIconSearchElement;
+    };
+    interface HTMLCraiIconSearchAltElement extends Components.CraiIconSearchAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconSearchAltElement: {
+        prototype: HTMLCraiIconSearchAltElement;
+        new (): HTMLCraiIconSearchAltElement;
+    };
+    interface HTMLCraiIconSearchHeartElement extends Components.CraiIconSearchHeart, HTMLStencilElement {
+    }
+    var HTMLCraiIconSearchHeartElement: {
+        prototype: HTMLCraiIconSearchHeartElement;
+        new (): HTMLCraiIconSearchHeartElement;
+    };
+    interface HTMLCraiIconSettingsElement extends Components.CraiIconSettings, HTMLStencilElement {
+    }
+    var HTMLCraiIconSettingsElement: {
+        prototype: HTMLCraiIconSettingsElement;
+        new (): HTMLCraiIconSettingsElement;
+    };
+    interface HTMLCraiIconSettingsSlidersElement extends Components.CraiIconSettingsSliders, HTMLStencilElement {
+    }
+    var HTMLCraiIconSettingsSlidersElement: {
+        prototype: HTMLCraiIconSettingsSlidersElement;
+        new (): HTMLCraiIconSettingsSlidersElement;
+    };
+    interface HTMLCraiIconShareElement extends Components.CraiIconShare, HTMLStencilElement {
+    }
+    var HTMLCraiIconShareElement: {
+        prototype: HTMLCraiIconShareElement;
+        new (): HTMLCraiIconShareElement;
+    };
+    interface HTMLCraiIconShieldElement extends Components.CraiIconShield, HTMLStencilElement {
+    }
+    var HTMLCraiIconShieldElement: {
+        prototype: HTMLCraiIconShieldElement;
+        new (): HTMLCraiIconShieldElement;
+    };
+    interface HTMLCraiIconShieldCheckElement extends Components.CraiIconShieldCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconShieldCheckElement: {
+        prototype: HTMLCraiIconShieldCheckElement;
+        new (): HTMLCraiIconShieldCheckElement;
+    };
+    interface HTMLCraiIconShieldExclamationElement extends Components.CraiIconShieldExclamation, HTMLStencilElement {
+    }
+    var HTMLCraiIconShieldExclamationElement: {
+        prototype: HTMLCraiIconShieldExclamationElement;
+        new (): HTMLCraiIconShieldExclamationElement;
+    };
+    interface HTMLCraiIconShieldInterrogationElement extends Components.CraiIconShieldInterrogation, HTMLStencilElement {
+    }
+    var HTMLCraiIconShieldInterrogationElement: {
+        prototype: HTMLCraiIconShieldInterrogationElement;
+        new (): HTMLCraiIconShieldInterrogationElement;
+    };
+    interface HTMLCraiIconShieldPlusElement extends Components.CraiIconShieldPlus, HTMLStencilElement {
+    }
+    var HTMLCraiIconShieldPlusElement: {
+        prototype: HTMLCraiIconShieldPlusElement;
+        new (): HTMLCraiIconShieldPlusElement;
+    };
+    interface HTMLCraiIconShipElement extends Components.CraiIconShip, HTMLStencilElement {
+    }
+    var HTMLCraiIconShipElement: {
+        prototype: HTMLCraiIconShipElement;
+        new (): HTMLCraiIconShipElement;
+    };
+    interface HTMLCraiIconShipSideElement extends Components.CraiIconShipSide, HTMLStencilElement {
+    }
+    var HTMLCraiIconShipSideElement: {
+        prototype: HTMLCraiIconShipSideElement;
+        new (): HTMLCraiIconShipSideElement;
+    };
+    interface HTMLCraiIconShopElement extends Components.CraiIconShop, HTMLStencilElement {
+    }
+    var HTMLCraiIconShopElement: {
+        prototype: HTMLCraiIconShopElement;
+        new (): HTMLCraiIconShopElement;
+    };
+    interface HTMLCraiIconShoppingBagElement extends Components.CraiIconShoppingBag, HTMLStencilElement {
+    }
+    var HTMLCraiIconShoppingBagElement: {
+        prototype: HTMLCraiIconShoppingBagElement;
+        new (): HTMLCraiIconShoppingBagElement;
+    };
+    interface HTMLCraiIconShoppingBagAddElement extends Components.CraiIconShoppingBagAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconShoppingBagAddElement: {
+        prototype: HTMLCraiIconShoppingBagAddElement;
+        new (): HTMLCraiIconShoppingBagAddElement;
+    };
+    interface HTMLCraiIconShoppingCartElement extends Components.CraiIconShoppingCart, HTMLStencilElement {
+    }
+    var HTMLCraiIconShoppingCartElement: {
+        prototype: HTMLCraiIconShoppingCartElement;
+        new (): HTMLCraiIconShoppingCartElement;
+    };
+    interface HTMLCraiIconShoppingCartAddElement extends Components.CraiIconShoppingCartAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconShoppingCartAddElement: {
+        prototype: HTMLCraiIconShoppingCartAddElement;
+        new (): HTMLCraiIconShoppingCartAddElement;
+    };
+    interface HTMLCraiIconShoppingCartCheckElement extends Components.CraiIconShoppingCartCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconShoppingCartCheckElement: {
+        prototype: HTMLCraiIconShoppingCartCheckElement;
+        new (): HTMLCraiIconShoppingCartCheckElement;
+    };
+    interface HTMLCraiIconShuffleElement extends Components.CraiIconShuffle, HTMLStencilElement {
+    }
+    var HTMLCraiIconShuffleElement: {
+        prototype: HTMLCraiIconShuffleElement;
+        new (): HTMLCraiIconShuffleElement;
+    };
+    interface HTMLCraiIconSignInElement extends Components.CraiIconSignIn, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignInElement: {
+        prototype: HTMLCraiIconSignInElement;
+        new (): HTMLCraiIconSignInElement;
+    };
+    interface HTMLCraiIconSignInAltElement extends Components.CraiIconSignInAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignInAltElement: {
+        prototype: HTMLCraiIconSignInAltElement;
+        new (): HTMLCraiIconSignInAltElement;
+    };
+    interface HTMLCraiIconSignOutElement extends Components.CraiIconSignOut, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignOutElement: {
+        prototype: HTMLCraiIconSignOutElement;
+        new (): HTMLCraiIconSignOutElement;
+    };
+    interface HTMLCraiIconSignOutAltElement extends Components.CraiIconSignOutAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignOutAltElement: {
+        prototype: HTMLCraiIconSignOutAltElement;
+        new (): HTMLCraiIconSignOutAltElement;
+    };
+    interface HTMLCraiIconSignalAltElement extends Components.CraiIconSignalAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignalAltElement: {
+        prototype: HTMLCraiIconSignalAltElement;
+        new (): HTMLCraiIconSignalAltElement;
+    };
+    interface HTMLCraiIconSignalAlt1Element extends Components.CraiIconSignalAlt1, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignalAlt1Element: {
+        prototype: HTMLCraiIconSignalAlt1Element;
+        new (): HTMLCraiIconSignalAlt1Element;
+    };
+    interface HTMLCraiIconSignalAlt2Element extends Components.CraiIconSignalAlt2, HTMLStencilElement {
+    }
+    var HTMLCraiIconSignalAlt2Element: {
+        prototype: HTMLCraiIconSignalAlt2Element;
+        new (): HTMLCraiIconSignalAlt2Element;
+    };
+    interface HTMLCraiIconSkateboardElement extends Components.CraiIconSkateboard, HTMLStencilElement {
+    }
+    var HTMLCraiIconSkateboardElement: {
+        prototype: HTMLCraiIconSkateboardElement;
+        new (): HTMLCraiIconSkateboardElement;
+    };
+    interface HTMLCraiIconSmartphoneElement extends Components.CraiIconSmartphone, HTMLStencilElement {
+    }
+    var HTMLCraiIconSmartphoneElement: {
+        prototype: HTMLCraiIconSmartphoneElement;
+        new (): HTMLCraiIconSmartphoneElement;
+    };
+    interface HTMLCraiIconSmileElement extends Components.CraiIconSmile, HTMLStencilElement {
+    }
+    var HTMLCraiIconSmileElement: {
+        prototype: HTMLCraiIconSmileElement;
+        new (): HTMLCraiIconSmileElement;
+    };
+    interface HTMLCraiIconSmileWinkElement extends Components.CraiIconSmileWink, HTMLStencilElement {
+    }
+    var HTMLCraiIconSmileWinkElement: {
+        prototype: HTMLCraiIconSmileWinkElement;
+        new (): HTMLCraiIconSmileWinkElement;
+    };
+    interface HTMLCraiIconSnowflakeElement extends Components.CraiIconSnowflake, HTMLStencilElement {
+    }
+    var HTMLCraiIconSnowflakeElement: {
+        prototype: HTMLCraiIconSnowflakeElement;
+        new (): HTMLCraiIconSnowflakeElement;
+    };
+    interface HTMLCraiIconSoapElement extends Components.CraiIconSoap, HTMLStencilElement {
+    }
+    var HTMLCraiIconSoapElement: {
+        prototype: HTMLCraiIconSoapElement;
+        new (): HTMLCraiIconSoapElement;
+    };
+    interface HTMLCraiIconSoupElement extends Components.CraiIconSoup, HTMLStencilElement {
+    }
+    var HTMLCraiIconSoupElement: {
+        prototype: HTMLCraiIconSoupElement;
+        new (): HTMLCraiIconSoupElement;
+    };
+    interface HTMLCraiIconSpaElement extends Components.CraiIconSpa, HTMLStencilElement {
+    }
+    var HTMLCraiIconSpaElement: {
+        prototype: HTMLCraiIconSpaElement;
+        new (): HTMLCraiIconSpaElement;
+    };
+    interface HTMLCraiIconSpeakerElement extends Components.CraiIconSpeaker, HTMLStencilElement {
+    }
+    var HTMLCraiIconSpeakerElement: {
+        prototype: HTMLCraiIconSpeakerElement;
+        new (): HTMLCraiIconSpeakerElement;
+    };
+    interface HTMLCraiIconSphereElement extends Components.CraiIconSphere, HTMLStencilElement {
+    }
+    var HTMLCraiIconSphereElement: {
+        prototype: HTMLCraiIconSphereElement;
+        new (): HTMLCraiIconSphereElement;
+    };
+    interface HTMLCraiIconSpinnerElement extends Components.CraiIconSpinner, HTMLStencilElement {
+    }
+    var HTMLCraiIconSpinnerElement: {
+        prototype: HTMLCraiIconSpinnerElement;
+        new (): HTMLCraiIconSpinnerElement;
+    };
+    interface HTMLCraiIconSpinnerAltElement extends Components.CraiIconSpinnerAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconSpinnerAltElement: {
+        prototype: HTMLCraiIconSpinnerAltElement;
+        new (): HTMLCraiIconSpinnerAltElement;
+    };
+    interface HTMLCraiIconSquareElement extends Components.CraiIconSquare, HTMLStencilElement {
+    }
+    var HTMLCraiIconSquareElement: {
+        prototype: HTMLCraiIconSquareElement;
+        new (): HTMLCraiIconSquareElement;
+    };
+    interface HTMLCraiIconSquareRootElement extends Components.CraiIconSquareRoot, HTMLStencilElement {
+    }
+    var HTMLCraiIconSquareRootElement: {
+        prototype: HTMLCraiIconSquareRootElement;
+        new (): HTMLCraiIconSquareRootElement;
+    };
+    interface HTMLCraiIconStarElement extends Components.CraiIconStar, HTMLStencilElement {
+    }
+    var HTMLCraiIconStarElement: {
+        prototype: HTMLCraiIconStarElement;
+        new (): HTMLCraiIconStarElement;
+    };
+    interface HTMLCraiIconStarOctogramElement extends Components.CraiIconStarOctogram, HTMLStencilElement {
+    }
+    var HTMLCraiIconStarOctogramElement: {
+        prototype: HTMLCraiIconStarOctogramElement;
+        new (): HTMLCraiIconStarOctogramElement;
+    };
+    interface HTMLCraiIconStatsElement extends Components.CraiIconStats, HTMLStencilElement {
+    }
+    var HTMLCraiIconStatsElement: {
+        prototype: HTMLCraiIconStatsElement;
+        new (): HTMLCraiIconStatsElement;
+    };
+    interface HTMLCraiIconStethoscopeElement extends Components.CraiIconStethoscope, HTMLStencilElement {
+    }
+    var HTMLCraiIconStethoscopeElement: {
+        prototype: HTMLCraiIconStethoscopeElement;
+        new (): HTMLCraiIconStethoscopeElement;
+    };
+    interface HTMLCraiIconStickerElement extends Components.CraiIconSticker, HTMLStencilElement {
+    }
+    var HTMLCraiIconStickerElement: {
+        prototype: HTMLCraiIconStickerElement;
+        new (): HTMLCraiIconStickerElement;
+    };
+    interface HTMLCraiIconStopElement extends Components.CraiIconStop, HTMLStencilElement {
+    }
+    var HTMLCraiIconStopElement: {
+        prototype: HTMLCraiIconStopElement;
+        new (): HTMLCraiIconStopElement;
+    };
+    interface HTMLCraiIconStopwatchElement extends Components.CraiIconStopwatch, HTMLStencilElement {
+    }
+    var HTMLCraiIconStopwatchElement: {
+        prototype: HTMLCraiIconStopwatchElement;
+        new (): HTMLCraiIconStopwatchElement;
+    };
+    interface HTMLCraiIconSubtitlesElement extends Components.CraiIconSubtitles, HTMLStencilElement {
+    }
+    var HTMLCraiIconSubtitlesElement: {
+        prototype: HTMLCraiIconSubtitlesElement;
+        new (): HTMLCraiIconSubtitlesElement;
+    };
+    interface HTMLCraiIconSunElement extends Components.CraiIconSun, HTMLStencilElement {
+    }
+    var HTMLCraiIconSunElement: {
+        prototype: HTMLCraiIconSunElement;
+        new (): HTMLCraiIconSunElement;
+    };
+    interface HTMLCraiIconSunriseElement extends Components.CraiIconSunrise, HTMLStencilElement {
+    }
+    var HTMLCraiIconSunriseElement: {
+        prototype: HTMLCraiIconSunriseElement;
+        new (): HTMLCraiIconSunriseElement;
+    };
+    interface HTMLCraiIconSurfingElement extends Components.CraiIconSurfing, HTMLStencilElement {
+    }
+    var HTMLCraiIconSurfingElement: {
+        prototype: HTMLCraiIconSurfingElement;
+        new (): HTMLCraiIconSurfingElement;
+    };
+    interface HTMLCraiIconSwordElement extends Components.CraiIconSword, HTMLStencilElement {
+    }
+    var HTMLCraiIconSwordElement: {
+        prototype: HTMLCraiIconSwordElement;
+        new (): HTMLCraiIconSwordElement;
+    };
+    interface HTMLCraiIconSyringeElement extends Components.CraiIconSyringe, HTMLStencilElement {
+    }
+    var HTMLCraiIconSyringeElement: {
+        prototype: HTMLCraiIconSyringeElement;
+        new (): HTMLCraiIconSyringeElement;
+    };
+    interface HTMLCraiIconTabletElement extends Components.CraiIconTablet, HTMLStencilElement {
+    }
+    var HTMLCraiIconTabletElement: {
+        prototype: HTMLCraiIconTabletElement;
+        new (): HTMLCraiIconTabletElement;
+    };
+    interface HTMLCraiIconTargetElement extends Components.CraiIconTarget, HTMLStencilElement {
+    }
+    var HTMLCraiIconTargetElement: {
+        prototype: HTMLCraiIconTargetElement;
+        new (): HTMLCraiIconTargetElement;
+    };
+    interface HTMLCraiIconTaxiElement extends Components.CraiIconTaxi, HTMLStencilElement {
+    }
+    var HTMLCraiIconTaxiElement: {
+        prototype: HTMLCraiIconTaxiElement;
+        new (): HTMLCraiIconTaxiElement;
+    };
+    interface HTMLCraiIconTennisElement extends Components.CraiIconTennis, HTMLStencilElement {
+    }
+    var HTMLCraiIconTennisElement: {
+        prototype: HTMLCraiIconTennisElement;
+        new (): HTMLCraiIconTennisElement;
+    };
+    interface HTMLCraiIconTerraceElement extends Components.CraiIconTerrace, HTMLStencilElement {
+    }
+    var HTMLCraiIconTerraceElement: {
+        prototype: HTMLCraiIconTerraceElement;
+        new (): HTMLCraiIconTerraceElement;
+    };
+    interface HTMLCraiIconTestElement extends Components.CraiIconTest, HTMLStencilElement {
+    }
+    var HTMLCraiIconTestElement: {
+        prototype: HTMLCraiIconTestElement;
+        new (): HTMLCraiIconTestElement;
+    };
+    interface HTMLCraiIconTestTubeElement extends Components.CraiIconTestTube, HTMLStencilElement {
+    }
+    var HTMLCraiIconTestTubeElement: {
+        prototype: HTMLCraiIconTestTubeElement;
+        new (): HTMLCraiIconTestTubeElement;
+    };
+    interface HTMLCraiIconTextElement extends Components.CraiIconText, HTMLStencilElement {
+    }
+    var HTMLCraiIconTextElement: {
+        prototype: HTMLCraiIconTextElement;
+        new (): HTMLCraiIconTextElement;
+    };
+    interface HTMLCraiIconTextCheckElement extends Components.CraiIconTextCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconTextCheckElement: {
+        prototype: HTMLCraiIconTextCheckElement;
+        new (): HTMLCraiIconTextCheckElement;
+    };
+    interface HTMLCraiIconThermometerHalfElement extends Components.CraiIconThermometerHalf, HTMLStencilElement {
+    }
+    var HTMLCraiIconThermometerHalfElement: {
+        prototype: HTMLCraiIconThermometerHalfElement;
+        new (): HTMLCraiIconThermometerHalfElement;
+    };
+    interface HTMLCraiIconThumbsDownElement extends Components.CraiIconThumbsDown, HTMLStencilElement {
+    }
+    var HTMLCraiIconThumbsDownElement: {
+        prototype: HTMLCraiIconThumbsDownElement;
+        new (): HTMLCraiIconThumbsDownElement;
+    };
+    interface HTMLCraiIconThumbsUpElement extends Components.CraiIconThumbsUp, HTMLStencilElement {
+    }
+    var HTMLCraiIconThumbsUpElement: {
+        prototype: HTMLCraiIconThumbsUpElement;
+        new (): HTMLCraiIconThumbsUpElement;
+    };
+    interface HTMLCraiIconThumbtackElement extends Components.CraiIconThumbtack, HTMLStencilElement {
+    }
+    var HTMLCraiIconThumbtackElement: {
+        prototype: HTMLCraiIconThumbtackElement;
+        new (): HTMLCraiIconThumbtackElement;
+    };
+    interface HTMLCraiIconTicketElement extends Components.CraiIconTicket, HTMLStencilElement {
+    }
+    var HTMLCraiIconTicketElement: {
+        prototype: HTMLCraiIconTicketElement;
+        new (): HTMLCraiIconTicketElement;
+    };
+    interface HTMLCraiIconTimeAddElement extends Components.CraiIconTimeAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeAddElement: {
+        prototype: HTMLCraiIconTimeAddElement;
+        new (): HTMLCraiIconTimeAddElement;
+    };
+    interface HTMLCraiIconTimeCheckElement extends Components.CraiIconTimeCheck, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeCheckElement: {
+        prototype: HTMLCraiIconTimeCheckElement;
+        new (): HTMLCraiIconTimeCheckElement;
+    };
+    interface HTMLCraiIconTimeDeleteElement extends Components.CraiIconTimeDelete, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeDeleteElement: {
+        prototype: HTMLCraiIconTimeDeleteElement;
+        new (): HTMLCraiIconTimeDeleteElement;
+    };
+    interface HTMLCraiIconTimeFastElement extends Components.CraiIconTimeFast, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeFastElement: {
+        prototype: HTMLCraiIconTimeFastElement;
+        new (): HTMLCraiIconTimeFastElement;
+    };
+    interface HTMLCraiIconTimeForwardElement extends Components.CraiIconTimeForward, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeForwardElement: {
+        prototype: HTMLCraiIconTimeForwardElement;
+        new (): HTMLCraiIconTimeForwardElement;
+    };
+    interface HTMLCraiIconTimeForwardSixtyElement extends Components.CraiIconTimeForwardSixty, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeForwardSixtyElement: {
+        prototype: HTMLCraiIconTimeForwardSixtyElement;
+        new (): HTMLCraiIconTimeForwardSixtyElement;
+    };
+    interface HTMLCraiIconTimeForwardTenElement extends Components.CraiIconTimeForwardTen, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeForwardTenElement: {
+        prototype: HTMLCraiIconTimeForwardTenElement;
+        new (): HTMLCraiIconTimeForwardTenElement;
+    };
+    interface HTMLCraiIconTimeHalfPastElement extends Components.CraiIconTimeHalfPast, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeHalfPastElement: {
+        prototype: HTMLCraiIconTimeHalfPastElement;
+        new (): HTMLCraiIconTimeHalfPastElement;
+    };
+    interface HTMLCraiIconTimeOclockElement extends Components.CraiIconTimeOclock, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeOclockElement: {
+        prototype: HTMLCraiIconTimeOclockElement;
+        new (): HTMLCraiIconTimeOclockElement;
+    };
+    interface HTMLCraiIconTimePastElement extends Components.CraiIconTimePast, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimePastElement: {
+        prototype: HTMLCraiIconTimePastElement;
+        new (): HTMLCraiIconTimePastElement;
+    };
+    interface HTMLCraiIconTimeQuarterPastElement extends Components.CraiIconTimeQuarterPast, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeQuarterPastElement: {
+        prototype: HTMLCraiIconTimeQuarterPastElement;
+        new (): HTMLCraiIconTimeQuarterPastElement;
+    };
+    interface HTMLCraiIconTimeQuarterToElement extends Components.CraiIconTimeQuarterTo, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeQuarterToElement: {
+        prototype: HTMLCraiIconTimeQuarterToElement;
+        new (): HTMLCraiIconTimeQuarterToElement;
+    };
+    interface HTMLCraiIconTimeTwentyFourElement extends Components.CraiIconTimeTwentyFour, HTMLStencilElement {
+    }
+    var HTMLCraiIconTimeTwentyFourElement: {
+        prototype: HTMLCraiIconTimeTwentyFourElement;
+        new (): HTMLCraiIconTimeTwentyFourElement;
+    };
+    interface HTMLCraiIconToolCropElement extends Components.CraiIconToolCrop, HTMLStencilElement {
+    }
+    var HTMLCraiIconToolCropElement: {
+        prototype: HTMLCraiIconToolCropElement;
+        new (): HTMLCraiIconToolCropElement;
+    };
+    interface HTMLCraiIconToolMarqueeElement extends Components.CraiIconToolMarquee, HTMLStencilElement {
+    }
+    var HTMLCraiIconToolMarqueeElement: {
+        prototype: HTMLCraiIconToolMarqueeElement;
+        new (): HTMLCraiIconToolMarqueeElement;
+    };
+    interface HTMLCraiIconToothElement extends Components.CraiIconTooth, HTMLStencilElement {
+    }
+    var HTMLCraiIconToothElement: {
+        prototype: HTMLCraiIconToothElement;
+        new (): HTMLCraiIconToothElement;
+    };
+    interface HTMLCraiIconTornadoElement extends Components.CraiIconTornado, HTMLStencilElement {
+    }
+    var HTMLCraiIconTornadoElement: {
+        prototype: HTMLCraiIconTornadoElement;
+        new (): HTMLCraiIconTornadoElement;
+    };
+    interface HTMLCraiIconTrainElement extends Components.CraiIconTrain, HTMLStencilElement {
+    }
+    var HTMLCraiIconTrainElement: {
+        prototype: HTMLCraiIconTrainElement;
+        new (): HTMLCraiIconTrainElement;
+    };
+    interface HTMLCraiIconTrainSideElement extends Components.CraiIconTrainSide, HTMLStencilElement {
+    }
+    var HTMLCraiIconTrainSideElement: {
+        prototype: HTMLCraiIconTrainSideElement;
+        new (): HTMLCraiIconTrainSideElement;
+    };
+    interface HTMLCraiIconTransformElement extends Components.CraiIconTransform, HTMLStencilElement {
+    }
+    var HTMLCraiIconTransformElement: {
+        prototype: HTMLCraiIconTransformElement;
+        new (): HTMLCraiIconTransformElement;
+    };
+    interface HTMLCraiIconTrashElement extends Components.CraiIconTrash, HTMLStencilElement {
+    }
+    var HTMLCraiIconTrashElement: {
+        prototype: HTMLCraiIconTrashElement;
+        new (): HTMLCraiIconTrashElement;
+    };
+    interface HTMLCraiIconTreatmentElement extends Components.CraiIconTreatment, HTMLStencilElement {
+    }
+    var HTMLCraiIconTreatmentElement: {
+        prototype: HTMLCraiIconTreatmentElement;
+        new (): HTMLCraiIconTreatmentElement;
+    };
+    interface HTMLCraiIconTreeElement extends Components.CraiIconTree, HTMLStencilElement {
+    }
+    var HTMLCraiIconTreeElement: {
+        prototype: HTMLCraiIconTreeElement;
+        new (): HTMLCraiIconTreeElement;
+    };
+    interface HTMLCraiIconTreeChristmasElement extends Components.CraiIconTreeChristmas, HTMLStencilElement {
+    }
+    var HTMLCraiIconTreeChristmasElement: {
+        prototype: HTMLCraiIconTreeChristmasElement;
+        new (): HTMLCraiIconTreeChristmasElement;
+    };
+    interface HTMLCraiIconTriangleElement extends Components.CraiIconTriangle, HTMLStencilElement {
+    }
+    var HTMLCraiIconTriangleElement: {
+        prototype: HTMLCraiIconTriangleElement;
+        new (): HTMLCraiIconTriangleElement;
+    };
+    interface HTMLCraiIconTrophyElement extends Components.CraiIconTrophy, HTMLStencilElement {
+    }
+    var HTMLCraiIconTrophyElement: {
+        prototype: HTMLCraiIconTrophyElement;
+        new (): HTMLCraiIconTrophyElement;
+    };
+    interface HTMLCraiIconTruckSideElement extends Components.CraiIconTruckSide, HTMLStencilElement {
+    }
+    var HTMLCraiIconTruckSideElement: {
+        prototype: HTMLCraiIconTruckSideElement;
+        new (): HTMLCraiIconTruckSideElement;
+    };
+    interface HTMLCraiIconUmbrellaElement extends Components.CraiIconUmbrella, HTMLStencilElement {
+    }
+    var HTMLCraiIconUmbrellaElement: {
+        prototype: HTMLCraiIconUmbrellaElement;
+        new (): HTMLCraiIconUmbrellaElement;
+    };
+    interface HTMLCraiIconUnderlineElement extends Components.CraiIconUnderline, HTMLStencilElement {
+    }
+    var HTMLCraiIconUnderlineElement: {
+        prototype: HTMLCraiIconUnderlineElement;
+        new (): HTMLCraiIconUnderlineElement;
+    };
+    interface HTMLCraiIconUndoElement extends Components.CraiIconUndo, HTMLStencilElement {
+    }
+    var HTMLCraiIconUndoElement: {
+        prototype: HTMLCraiIconUndoElement;
+        new (): HTMLCraiIconUndoElement;
+    };
+    interface HTMLCraiIconUndoAltElement extends Components.CraiIconUndoAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconUndoAltElement: {
+        prototype: HTMLCraiIconUndoAltElement;
+        new (): HTMLCraiIconUndoAltElement;
+    };
+    interface HTMLCraiIconUnlockElement extends Components.CraiIconUnlock, HTMLStencilElement {
+    }
+    var HTMLCraiIconUnlockElement: {
+        prototype: HTMLCraiIconUnlockElement;
+        new (): HTMLCraiIconUnlockElement;
+    };
+    interface HTMLCraiIconUploadElement extends Components.CraiIconUpload, HTMLStencilElement {
+    }
+    var HTMLCraiIconUploadElement: {
+        prototype: HTMLCraiIconUploadElement;
+        new (): HTMLCraiIconUploadElement;
+    };
+    interface HTMLCraiIconUsbPendriveElement extends Components.CraiIconUsbPendrive, HTMLStencilElement {
+    }
+    var HTMLCraiIconUsbPendriveElement: {
+        prototype: HTMLCraiIconUsbPendriveElement;
+        new (): HTMLCraiIconUsbPendriveElement;
+    };
+    interface HTMLCraiIconUserElement extends Components.CraiIconUser, HTMLStencilElement {
+    }
+    var HTMLCraiIconUserElement: {
+        prototype: HTMLCraiIconUserElement;
+        new (): HTMLCraiIconUserElement;
+    };
+    interface HTMLCraiIconUserAddElement extends Components.CraiIconUserAdd, HTMLStencilElement {
+    }
+    var HTMLCraiIconUserAddElement: {
+        prototype: HTMLCraiIconUserAddElement;
+        new (): HTMLCraiIconUserAddElement;
+    };
+    interface HTMLCraiIconUserDeleteElement extends Components.CraiIconUserDelete, HTMLStencilElement {
+    }
+    var HTMLCraiIconUserDeleteElement: {
+        prototype: HTMLCraiIconUserDeleteElement;
+        new (): HTMLCraiIconUserDeleteElement;
+    };
+    interface HTMLCraiIconUserRemoveElement extends Components.CraiIconUserRemove, HTMLStencilElement {
+    }
+    var HTMLCraiIconUserRemoveElement: {
+        prototype: HTMLCraiIconUserRemoveElement;
+        new (): HTMLCraiIconUserRemoveElement;
+    };
+    interface HTMLCraiIconUserTimeElement extends Components.CraiIconUserTime, HTMLStencilElement {
+    }
+    var HTMLCraiIconUserTimeElement: {
+        prototype: HTMLCraiIconUserTimeElement;
+        new (): HTMLCraiIconUserTimeElement;
+    };
+    interface HTMLCraiIconUtensilsElement extends Components.CraiIconUtensils, HTMLStencilElement {
+    }
+    var HTMLCraiIconUtensilsElement: {
+        prototype: HTMLCraiIconUtensilsElement;
+        new (): HTMLCraiIconUtensilsElement;
+    };
+    interface HTMLCraiIconVectorElement extends Components.CraiIconVector, HTMLStencilElement {
+    }
+    var HTMLCraiIconVectorElement: {
+        prototype: HTMLCraiIconVectorElement;
+        new (): HTMLCraiIconVectorElement;
+    };
+    interface HTMLCraiIconVectorAltElement extends Components.CraiIconVectorAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconVectorAltElement: {
+        prototype: HTMLCraiIconVectorAltElement;
+        new (): HTMLCraiIconVectorAltElement;
+    };
+    interface HTMLCraiIconVenusElement extends Components.CraiIconVenus, HTMLStencilElement {
+    }
+    var HTMLCraiIconVenusElement: {
+        prototype: HTMLCraiIconVenusElement;
+        new (): HTMLCraiIconVenusElement;
+    };
+    interface HTMLCraiIconVenusDoubleElement extends Components.CraiIconVenusDouble, HTMLStencilElement {
+    }
+    var HTMLCraiIconVenusDoubleElement: {
+        prototype: HTMLCraiIconVenusDoubleElement;
+        new (): HTMLCraiIconVenusDoubleElement;
+    };
+    interface HTMLCraiIconVenusMarsElement extends Components.CraiIconVenusMars, HTMLStencilElement {
+    }
+    var HTMLCraiIconVenusMarsElement: {
+        prototype: HTMLCraiIconVenusMarsElement;
+        new (): HTMLCraiIconVenusMarsElement;
+    };
+    interface HTMLCraiIconVideoCameraElement extends Components.CraiIconVideoCamera, HTMLStencilElement {
+    }
+    var HTMLCraiIconVideoCameraElement: {
+        prototype: HTMLCraiIconVideoCameraElement;
+        new (): HTMLCraiIconVideoCameraElement;
+    };
+    interface HTMLCraiIconVolleyballElement extends Components.CraiIconVolleyball, HTMLStencilElement {
+    }
+    var HTMLCraiIconVolleyballElement: {
+        prototype: HTMLCraiIconVolleyballElement;
+        new (): HTMLCraiIconVolleyballElement;
+    };
+    interface HTMLCraiIconVolumeElement extends Components.CraiIconVolume, HTMLStencilElement {
+    }
+    var HTMLCraiIconVolumeElement: {
+        prototype: HTMLCraiIconVolumeElement;
+        new (): HTMLCraiIconVolumeElement;
+    };
+    interface HTMLCraiIconWheelchairElement extends Components.CraiIconWheelchair, HTMLStencilElement {
+    }
+    var HTMLCraiIconWheelchairElement: {
+        prototype: HTMLCraiIconWheelchairElement;
+        new (): HTMLCraiIconWheelchairElement;
+    };
+    interface HTMLCraiIconWifiAltElement extends Components.CraiIconWifiAlt, HTMLStencilElement {
+    }
+    var HTMLCraiIconWifiAltElement: {
+        prototype: HTMLCraiIconWifiAltElement;
+        new (): HTMLCraiIconWifiAltElement;
+    };
+    interface HTMLCraiIconWindElement extends Components.CraiIconWind, HTMLStencilElement {
+    }
+    var HTMLCraiIconWindElement: {
+        prototype: HTMLCraiIconWindElement;
+        new (): HTMLCraiIconWindElement;
+    };
+    interface HTMLCraiIconWomanHeadElement extends Components.CraiIconWomanHead, HTMLStencilElement {
+    }
+    var HTMLCraiIconWomanHeadElement: {
+        prototype: HTMLCraiIconWomanHeadElement;
+        new (): HTMLCraiIconWomanHeadElement;
+    };
+    interface HTMLCraiIconWorldElement extends Components.CraiIconWorld, HTMLStencilElement {
+    }
+    var HTMLCraiIconWorldElement: {
+        prototype: HTMLCraiIconWorldElement;
+        new (): HTMLCraiIconWorldElement;
+    };
+    interface HTMLCraiIconYenElement extends Components.CraiIconYen, HTMLStencilElement {
+    }
+    var HTMLCraiIconYenElement: {
+        prototype: HTMLCraiIconYenElement;
+        new (): HTMLCraiIconYenElement;
+    };
+    interface HTMLCraiIconZoomInElement extends Components.CraiIconZoomIn, HTMLStencilElement {
+    }
+    var HTMLCraiIconZoomInElement: {
+        prototype: HTMLCraiIconZoomInElement;
+        new (): HTMLCraiIconZoomInElement;
+    };
+    interface HTMLCraiIconZoomOutElement extends Components.CraiIconZoomOut, HTMLStencilElement {
+    }
+    var HTMLCraiIconZoomOutElement: {
+        prototype: HTMLCraiIconZoomOutElement;
+        new (): HTMLCraiIconZoomOutElement;
+    };
     interface HTMLCraiTextBubbleElement extends Components.CraiTextBubble, HTMLStencilElement {
     }
     var HTMLCraiTextBubbleElement: {
@@ -136,6 +8104,504 @@ declare global {
     };
     interface HTMLElementTagNameMap {
         "crai-button": HTMLCraiButtonElement;
+        "crai-icon-add": HTMLCraiIconAddElement;
+        "crai-icon-address-book": HTMLCraiIconAddressBookElement;
+        "crai-icon-alarm-clock": HTMLCraiIconAlarmClockElement;
+        "crai-icon-align-center": HTMLCraiIconAlignCenterElement;
+        "crai-icon-align-justify": HTMLCraiIconAlignJustifyElement;
+        "crai-icon-align-left": HTMLCraiIconAlignLeftElement;
+        "crai-icon-align-right": HTMLCraiIconAlignRightElement;
+        "crai-icon-ambulance": HTMLCraiIconAmbulanceElement;
+        "crai-icon-angle-double-left": HTMLCraiIconAngleDoubleLeftElement;
+        "crai-icon-angle-double-right": HTMLCraiIconAngleDoubleRightElement;
+        "crai-icon-angle-double-small-left": HTMLCraiIconAngleDoubleSmallLeftElement;
+        "crai-icon-angle-double-small-right": HTMLCraiIconAngleDoubleSmallRightElement;
+        "crai-icon-angle-down": HTMLCraiIconAngleDownElement;
+        "crai-icon-angle-left": HTMLCraiIconAngleLeftElement;
+        "crai-icon-angle-right": HTMLCraiIconAngleRightElement;
+        "crai-icon-angle-small-down": HTMLCraiIconAngleSmallDownElement;
+        "crai-icon-angle-small-left": HTMLCraiIconAngleSmallLeftElement;
+        "crai-icon-angle-small-right": HTMLCraiIconAngleSmallRightElement;
+        "crai-icon-angle-small-up": HTMLCraiIconAngleSmallUpElement;
+        "crai-icon-angle-up": HTMLCraiIconAngleUpElement;
+        "crai-icon-apple": HTMLCraiIconAppleElement;
+        "crai-icon-apps": HTMLCraiIconAppsElement;
+        "crai-icon-apps-add": HTMLCraiIconAppsAddElement;
+        "crai-icon-apps-delete": HTMLCraiIconAppsDeleteElement;
+        "crai-icon-apps-sort": HTMLCraiIconAppsSortElement;
+        "crai-icon-archive": HTMLCraiIconArchiveElement;
+        "crai-icon-arrow-down": HTMLCraiIconArrowDownElement;
+        "crai-icon-arrow-from-bottom": HTMLCraiIconArrowFromBottomElement;
+        "crai-icon-arrow-left": HTMLCraiIconArrowLeftElement;
+        "crai-icon-arrow-right": HTMLCraiIconArrowRightElement;
+        "crai-icon-arrow-small-down": HTMLCraiIconArrowSmallDownElement;
+        "crai-icon-arrow-small-left": HTMLCraiIconArrowSmallLeftElement;
+        "crai-icon-arrow-small-right": HTMLCraiIconArrowSmallRightElement;
+        "crai-icon-arrow-small-up": HTMLCraiIconArrowSmallUpElement;
+        "crai-icon-arrow-up": HTMLCraiIconArrowUpElement;
+        "crai-icon-asterik": HTMLCraiIconAsterikElement;
+        "crai-icon-at": HTMLCraiIconAtElement;
+        "crai-icon-backpack": HTMLCraiIconBackpackElement;
+        "crai-icon-badge": HTMLCraiIconBadgeElement;
+        "crai-icon-balloons": HTMLCraiIconBalloonsElement;
+        "crai-icon-ban": HTMLCraiIconBanElement;
+        "crai-icon-band-aid": HTMLCraiIconBandAidElement;
+        "crai-icon-bank": HTMLCraiIconBankElement;
+        "crai-icon-barber-shop": HTMLCraiIconBarberShopElement;
+        "crai-icon-baseball": HTMLCraiIconBaseballElement;
+        "crai-icon-basketball": HTMLCraiIconBasketballElement;
+        "crai-icon-bed": HTMLCraiIconBedElement;
+        "crai-icon-beer": HTMLCraiIconBeerElement;
+        "crai-icon-bell": HTMLCraiIconBellElement;
+        "crai-icon-bell-ring": HTMLCraiIconBellRingElement;
+        "crai-icon-bell-school": HTMLCraiIconBellSchoolElement;
+        "crai-icon-bike": HTMLCraiIconBikeElement;
+        "crai-icon-billiard": HTMLCraiIconBilliardElement;
+        "crai-icon-bold": HTMLCraiIconBoldElement;
+        "crai-icon-book": HTMLCraiIconBookElement;
+        "crai-icon-book-alt": HTMLCraiIconBookAltElement;
+        "crai-icon-bookmark": HTMLCraiIconBookmarkElement;
+        "crai-icon-bowling": HTMLCraiIconBowlingElement;
+        "crai-icon-box": HTMLCraiIconBoxElement;
+        "crai-icon-box-alt": HTMLCraiIconBoxAltElement;
+        "crai-icon-bread-slice": HTMLCraiIconBreadSliceElement;
+        "crai-icon-briefcase": HTMLCraiIconBriefcaseElement;
+        "crai-icon-broom": HTMLCraiIconBroomElement;
+        "crai-icon-browser": HTMLCraiIconBrowserElement;
+        "crai-icon-brush": HTMLCraiIconBrushElement;
+        "crai-icon-bug": HTMLCraiIconBugElement;
+        "crai-icon-building": HTMLCraiIconBuildingElement;
+        "crai-icon-bulb": HTMLCraiIconBulbElement;
+        "crai-icon-butterfly": HTMLCraiIconButterflyElement;
+        "crai-icon-cake-birthday": HTMLCraiIconCakeBirthdayElement;
+        "crai-icon-cake-wedding": HTMLCraiIconCakeWeddingElement;
+        "crai-icon-calculator": HTMLCraiIconCalculatorElement;
+        "crai-icon-calendar": HTMLCraiIconCalendarElement;
+        "crai-icon-call-history": HTMLCraiIconCallHistoryElement;
+        "crai-icon-call-incoming": HTMLCraiIconCallIncomingElement;
+        "crai-icon-call-missed": HTMLCraiIconCallMissedElement;
+        "crai-icon-call-outgoing": HTMLCraiIconCallOutgoingElement;
+        "crai-icon-camera": HTMLCraiIconCameraElement;
+        "crai-icon-camping": HTMLCraiIconCampingElement;
+        "crai-icon-car": HTMLCraiIconCarElement;
+        "crai-icon-caret-down": HTMLCraiIconCaretDownElement;
+        "crai-icon-caret-left": HTMLCraiIconCaretLeftElement;
+        "crai-icon-caret-right": HTMLCraiIconCaretRightElement;
+        "crai-icon-caret-up": HTMLCraiIconCaretUpElement;
+        "crai-icon-carrot": HTMLCraiIconCarrotElement;
+        "crai-icon-chart-connected": HTMLCraiIconChartConnectedElement;
+        "crai-icon-chart-histogram": HTMLCraiIconChartHistogramElement;
+        "crai-icon-chart-network": HTMLCraiIconChartNetworkElement;
+        "crai-icon-chart-pie": HTMLCraiIconChartPieElement;
+        "crai-icon-chart-pie-alt": HTMLCraiIconChartPieAltElement;
+        "crai-icon-chart-pyramid": HTMLCraiIconChartPyramidElement;
+        "crai-icon-chart-set-theory": HTMLCraiIconChartSetTheoryElement;
+        "crai-icon-chart-tree": HTMLCraiIconChartTreeElement;
+        "crai-icon-chat-arrow-down": HTMLCraiIconChatArrowDownElement;
+        "crai-icon-chat-arrow-grow": HTMLCraiIconChatArrowGrowElement;
+        "crai-icon-check": HTMLCraiIconCheckElement;
+        "crai-icon-checkbox": HTMLCraiIconCheckboxElement;
+        "crai-icon-cheese": HTMLCraiIconCheeseElement;
+        "crai-icon-chess-piece": HTMLCraiIconChessPieceElement;
+        "crai-icon-child-head": HTMLCraiIconChildHeadElement;
+        "crai-icon-circle": HTMLCraiIconCircleElement;
+        "crai-icon-circle-small": HTMLCraiIconCircleSmallElement;
+        "crai-icon-clip": HTMLCraiIconClipElement;
+        "crai-icon-clock": HTMLCraiIconClockElement;
+        "crai-icon-cloud": HTMLCraiIconCloudElement;
+        "crai-icon-cloud-check": HTMLCraiIconCloudCheckElement;
+        "crai-icon-cloud-disabled": HTMLCraiIconCloudDisabledElement;
+        "crai-icon-cloud-download": HTMLCraiIconCloudDownloadElement;
+        "crai-icon-cloud-share": HTMLCraiIconCloudShareElement;
+        "crai-icon-cloud-upload": HTMLCraiIconCloudUploadElement;
+        "crai-icon-clouds": HTMLCraiIconCloudsElement;
+        "crai-icon-cocktail": HTMLCraiIconCocktailElement;
+        "crai-icon-coffee": HTMLCraiIconCoffeeElement;
+        "crai-icon-comment": HTMLCraiIconCommentElement;
+        "crai-icon-comment-alt": HTMLCraiIconCommentAltElement;
+        "crai-icon-comment-check": HTMLCraiIconCommentCheckElement;
+        "crai-icon-comment-heart": HTMLCraiIconCommentHeartElement;
+        "crai-icon-comment-info": HTMLCraiIconCommentInfoElement;
+        "crai-icon-comment-user": HTMLCraiIconCommentUserElement;
+        "crai-icon-comments": HTMLCraiIconCommentsElement;
+        "crai-icon-compress": HTMLCraiIconCompressElement;
+        "crai-icon-compress-alt": HTMLCraiIconCompressAltElement;
+        "crai-icon-computer": HTMLCraiIconComputerElement;
+        "crai-icon-confetti": HTMLCraiIconConfettiElement;
+        "crai-icon-cookie": HTMLCraiIconCookieElement;
+        "crai-icon-copy": HTMLCraiIconCopyElement;
+        "crai-icon-copy-alt": HTMLCraiIconCopyAltElement;
+        "crai-icon-copyright": HTMLCraiIconCopyrightElement;
+        "crai-icon-cow": HTMLCraiIconCowElement;
+        "crai-icon-cream": HTMLCraiIconCreamElement;
+        "crai-icon-credit-card": HTMLCraiIconCreditCardElement;
+        "crai-icon-croissant": HTMLCraiIconCroissantElement;
+        "crai-icon-cross": HTMLCraiIconCrossElement;
+        "crai-icon-cross-circle": HTMLCraiIconCrossCircleElement;
+        "crai-icon-cross-small": HTMLCraiIconCrossSmallElement;
+        "crai-icon-crown": HTMLCraiIconCrownElement;
+        "crai-icon-cube": HTMLCraiIconCubeElement;
+        "crai-icon-cupcake": HTMLCraiIconCupcakeElement;
+        "crai-icon-cursor": HTMLCraiIconCursorElement;
+        "crai-icon-cursor-finger": HTMLCraiIconCursorFingerElement;
+        "crai-icon-cursor-plus": HTMLCraiIconCursorPlusElement;
+        "crai-icon-cursor-text": HTMLCraiIconCursorTextElement;
+        "crai-icon-cursor-text-alt": HTMLCraiIconCursorTextAltElement;
+        "crai-icon-dart": HTMLCraiIconDartElement;
+        "crai-icon-dashboard": HTMLCraiIconDashboardElement;
+        "crai-icon-data-transfer": HTMLCraiIconDataTransferElement;
+        "crai-icon-database": HTMLCraiIconDatabaseElement;
+        "crai-icon-delete": HTMLCraiIconDeleteElement;
+        "crai-icon-diamond": HTMLCraiIconDiamondElement;
+        "crai-icon-dice": HTMLCraiIconDiceElement;
+        "crai-icon-diploma": HTMLCraiIconDiplomaElement;
+        "crai-icon-disco-ball": HTMLCraiIconDiscoBallElement;
+        "crai-icon-disk": HTMLCraiIconDiskElement;
+        "crai-icon-doctor": HTMLCraiIconDoctorElement;
+        "crai-icon-document": HTMLCraiIconDocumentElement;
+        "crai-icon-document-signed": HTMLCraiIconDocumentSignedElement;
+        "crai-icon-dollar": HTMLCraiIconDollarElement;
+        "crai-icon-download": HTMLCraiIconDownloadElement;
+        "crai-icon-drink-alt": HTMLCraiIconDrinkAltElement;
+        "crai-icon-drumstick": HTMLCraiIconDrumstickElement;
+        "crai-icon-duplicate": HTMLCraiIconDuplicateElement;
+        "crai-icon-e-learning": HTMLCraiIconELearningElement;
+        "crai-icon-earnings": HTMLCraiIconEarningsElement;
+        "crai-icon-edit": HTMLCraiIconEditElement;
+        "crai-icon-edit-alt": HTMLCraiIconEditAltElement;
+        "crai-icon-envelope": HTMLCraiIconEnvelopeElement;
+        "crai-icon-envelope-ban": HTMLCraiIconEnvelopeBanElement;
+        "crai-icon-envelope-download": HTMLCraiIconEnvelopeDownloadElement;
+        "crai-icon-envelope-marker": HTMLCraiIconEnvelopeMarkerElement;
+        "crai-icon-envelope-open": HTMLCraiIconEnvelopeOpenElement;
+        "crai-icon-envelope-plus": HTMLCraiIconEnvelopePlusElement;
+        "crai-icon-euro": HTMLCraiIconEuroElement;
+        "crai-icon-exclamation": HTMLCraiIconExclamationElement;
+        "crai-icon-expand": HTMLCraiIconExpandElement;
+        "crai-icon-eye": HTMLCraiIconEyeElement;
+        "crai-icon-eye-crossed": HTMLCraiIconEyeCrossedElement;
+        "crai-icon-eye-dropper": HTMLCraiIconEyeDropperElement;
+        "crai-icon-feather": HTMLCraiIconFeatherElement;
+        "crai-icon-ferris-wheel": HTMLCraiIconFerrisWheelElement;
+        "crai-icon-file": HTMLCraiIconFileElement;
+        "crai-icon-file-add": HTMLCraiIconFileAddElement;
+        "crai-icon-file-ai": HTMLCraiIconFileAiElement;
+        "crai-icon-file-check": HTMLCraiIconFileCheckElement;
+        "crai-icon-file-delete": HTMLCraiIconFileDeleteElement;
+        "crai-icon-file-eps": HTMLCraiIconFileEpsElement;
+        "crai-icon-file-gif": HTMLCraiIconFileGifElement;
+        "crai-icon-file-music": HTMLCraiIconFileMusicElement;
+        "crai-icon-file-psd": HTMLCraiIconFilePsdElement;
+        "crai-icon-fill": HTMLCraiIconFillElement;
+        "crai-icon-film": HTMLCraiIconFilmElement;
+        "crai-icon-filter": HTMLCraiIconFilterElement;
+        "crai-icon-fingerprint": HTMLCraiIconFingerprintElement;
+        "crai-icon-fish": HTMLCraiIconFishElement;
+        "crai-icon-flag": HTMLCraiIconFlagElement;
+        "crai-icon-flame": HTMLCraiIconFlameElement;
+        "crai-icon-flip-horizontal": HTMLCraiIconFlipHorizontalElement;
+        "crai-icon-flower": HTMLCraiIconFlowerElement;
+        "crai-icon-flower-bouquet": HTMLCraiIconFlowerBouquetElement;
+        "crai-icon-flower-tulip": HTMLCraiIconFlowerTulipElement;
+        "crai-icon-folder": HTMLCraiIconFolderElement;
+        "crai-icon-folder-add": HTMLCraiIconFolderAddElement;
+        "crai-icon-following": HTMLCraiIconFollowingElement;
+        "crai-icon-football": HTMLCraiIconFootballElement;
+        "crai-icon-form": HTMLCraiIconFormElement;
+        "crai-icon-forward": HTMLCraiIconForwardElement;
+        "crai-icon-fox": HTMLCraiIconFoxElement;
+        "crai-icon-frown": HTMLCraiIconFrownElement;
+        "crai-icon-ftp": HTMLCraiIconFtpElement;
+        "crai-icon-gallery": HTMLCraiIconGalleryElement;
+        "crai-icon-gamepad": HTMLCraiIconGamepadElement;
+        "crai-icon-gas-pump": HTMLCraiIconGasPumpElement;
+        "crai-icon-gem": HTMLCraiIconGemElement;
+        "crai-icon-gift": HTMLCraiIconGiftElement;
+        "crai-icon-glass-cheers": HTMLCraiIconGlassCheersElement;
+        "crai-icon-glasses": HTMLCraiIconGlassesElement;
+        "crai-icon-globe": HTMLCraiIconGlobeElement;
+        "crai-icon-globe-alt": HTMLCraiIconGlobeAltElement;
+        "crai-icon-golf": HTMLCraiIconGolfElement;
+        "crai-icon-graduation-cap": HTMLCraiIconGraduationCapElement;
+        "crai-icon-graphic-tablet": HTMLCraiIconGraphicTabletElement;
+        "crai-icon-grid": HTMLCraiIconGridElement;
+        "crai-icon-grid-alt": HTMLCraiIconGridAltElement;
+        "crai-icon-guitar": HTMLCraiIconGuitarElement;
+        "crai-icon-gym": HTMLCraiIconGymElement;
+        "crai-icon-hamburger": HTMLCraiIconHamburgerElement;
+        "crai-icon-hand-holding-heart": HTMLCraiIconHandHoldingHeartElement;
+        "crai-icon-hastag": HTMLCraiIconHastagElement;
+        "crai-icon-hat-birthday": HTMLCraiIconHatBirthdayElement;
+        "crai-icon-head-side-thinking": HTMLCraiIconHeadSideThinkingElement;
+        "crai-icon-headphones": HTMLCraiIconHeadphonesElement;
+        "crai-icon-headset": HTMLCraiIconHeadsetElement;
+        "crai-icon-heart": HTMLCraiIconHeartElement;
+        "crai-icon-heart-arrow": HTMLCraiIconHeartArrowElement;
+        "crai-icon-home": HTMLCraiIconHomeElement;
+        "crai-icon-home-location": HTMLCraiIconHomeLocationElement;
+        "crai-icon-home-location-alt": HTMLCraiIconHomeLocationAltElement;
+        "crai-icon-hourglass": HTMLCraiIconHourglassElement;
+        "crai-icon-hourglass-end": HTMLCraiIconHourglassEndElement;
+        "crai-icon-ice-cream": HTMLCraiIconIceCreamElement;
+        "crai-icon-ice-skate": HTMLCraiIconIceSkateElement;
+        "crai-icon-id-badge": HTMLCraiIconIdBadgeElement;
+        "crai-icon-inbox": HTMLCraiIconInboxElement;
+        "crai-icon-incognito": HTMLCraiIconIncognitoElement;
+        "crai-icon-indent": HTMLCraiIconIndentElement;
+        "crai-icon-infinity": HTMLCraiIconInfinityElement;
+        "crai-icon-info": HTMLCraiIconInfoElement;
+        "crai-icon-interactive": HTMLCraiIconInteractiveElement;
+        "crai-icon-interlining": HTMLCraiIconInterliningElement;
+        "crai-icon-interrogation": HTMLCraiIconInterrogationElement;
+        "crai-icon-italic": HTMLCraiIconItalicElement;
+        "crai-icon-jpg": HTMLCraiIconJpgElement;
+        "crai-icon-key": HTMLCraiIconKeyElement;
+        "crai-icon-keyboard": HTMLCraiIconKeyboardElement;
+        "crai-icon-kite": HTMLCraiIconKiteElement;
+        "crai-icon-label": HTMLCraiIconLabelElement;
+        "crai-icon-laptop": HTMLCraiIconLaptopElement;
+        "crai-icon-lasso": HTMLCraiIconLassoElement;
+        "crai-icon-laugh": HTMLCraiIconLaughElement;
+        "crai-icon-layers": HTMLCraiIconLayersElement;
+        "crai-icon-layout-fluid": HTMLCraiIconLayoutFluidElement;
+        "crai-icon-leaf": HTMLCraiIconLeafElement;
+        "crai-icon-letter-case": HTMLCraiIconLetterCaseElement;
+        "crai-icon-life-ring": HTMLCraiIconLifeRingElement;
+        "crai-icon-line-width": HTMLCraiIconLineWidthElement;
+        "crai-icon-link": HTMLCraiIconLinkElement;
+        "crai-icon-lipstick": HTMLCraiIconLipstickElement;
+        "crai-icon-list": HTMLCraiIconListElement;
+        "crai-icon-list-check": HTMLCraiIconListCheckElement;
+        "crai-icon-location-alt": HTMLCraiIconLocationAltElement;
+        "crai-icon-lock": HTMLCraiIconLockElement;
+        "crai-icon-lock-alt": HTMLCraiIconLockAltElement;
+        "crai-icon-luggage-rolling": HTMLCraiIconLuggageRollingElement;
+        "crai-icon-magic-wand": HTMLCraiIconMagicWandElement;
+        "crai-icon-makeup-brush": HTMLCraiIconMakeupBrushElement;
+        "crai-icon-man-head": HTMLCraiIconManHeadElement;
+        "crai-icon-map": HTMLCraiIconMapElement;
+        "crai-icon-map-marker": HTMLCraiIconMapMarkerElement;
+        "crai-icon-map-marker-cross": HTMLCraiIconMapMarkerCrossElement;
+        "crai-icon-map-marker-home": HTMLCraiIconMapMarkerHomeElement;
+        "crai-icon-map-marker-minus": HTMLCraiIconMapMarkerMinusElement;
+        "crai-icon-map-marker-plus": HTMLCraiIconMapMarkerPlusElement;
+        "crai-icon-marker": HTMLCraiIconMarkerElement;
+        "crai-icon-marker-time": HTMLCraiIconMarkerTimeElement;
+        "crai-icon-mars": HTMLCraiIconMarsElement;
+        "crai-icon-mars-double": HTMLCraiIconMarsDoubleElement;
+        "crai-icon-mask-carnival": HTMLCraiIconMaskCarnivalElement;
+        "crai-icon-medicine": HTMLCraiIconMedicineElement;
+        "crai-icon-megaphone": HTMLCraiIconMegaphoneElement;
+        "crai-icon-meh": HTMLCraiIconMehElement;
+        "crai-icon-menu-burger": HTMLCraiIconMenuBurgerElement;
+        "crai-icon-menu-dots": HTMLCraiIconMenuDotsElement;
+        "crai-icon-menu-dots-vertical": HTMLCraiIconMenuDotsVerticalElement;
+        "crai-icon-microphone": HTMLCraiIconMicrophoneElement;
+        "crai-icon-microphone-alt": HTMLCraiIconMicrophoneAltElement;
+        "crai-icon-minus": HTMLCraiIconMinusElement;
+        "crai-icon-minus-small": HTMLCraiIconMinusSmallElement;
+        "crai-icon-mobile": HTMLCraiIconMobileElement;
+        "crai-icon-mode-landscape": HTMLCraiIconModeLandscapeElement;
+        "crai-icon-mode-portrait": HTMLCraiIconModePortraitElement;
+        "crai-icon-money": HTMLCraiIconMoneyElement;
+        "crai-icon-moon": HTMLCraiIconMoonElement;
+        "crai-icon-mountains": HTMLCraiIconMountainsElement;
+        "crai-icon-mouse": HTMLCraiIconMouseElement;
+        "crai-icon-mug-alt": HTMLCraiIconMugAltElement;
+        "crai-icon-music": HTMLCraiIconMusicElement;
+        "crai-icon-music-alt": HTMLCraiIconMusicAltElement;
+        "crai-icon-navigation": HTMLCraiIconNavigationElement;
+        "crai-icon-network": HTMLCraiIconNetworkElement;
+        "crai-icon-network-cloud": HTMLCraiIconNetworkCloudElement;
+        "crai-icon-notebook": HTMLCraiIconNotebookElement;
+        "crai-icon-opacity": HTMLCraiIconOpacityElement;
+        "crai-icon-package": HTMLCraiIconPackageElement;
+        "crai-icon-paint-brush": HTMLCraiIconPaintBrushElement;
+        "crai-icon-palette": HTMLCraiIconPaletteElement;
+        "crai-icon-paper-plane": HTMLCraiIconPaperPlaneElement;
+        "crai-icon-password": HTMLCraiIconPasswordElement;
+        "crai-icon-pause": HTMLCraiIconPauseElement;
+        "crai-icon-paw": HTMLCraiIconPawElement;
+        "crai-icon-pencil": HTMLCraiIconPencilElement;
+        "crai-icon-pharmacy": HTMLCraiIconPharmacyElement;
+        "crai-icon-phone-call": HTMLCraiIconPhoneCallElement;
+        "crai-icon-phone-cross": HTMLCraiIconPhoneCrossElement;
+        "crai-icon-phone-pause": HTMLCraiIconPhonePauseElement;
+        "crai-icon-phone-slash": HTMLCraiIconPhoneSlashElement;
+        "crai-icon-physics": HTMLCraiIconPhysicsElement;
+        "crai-icon-picture": HTMLCraiIconPictureElement;
+        "crai-icon-ping-pong": HTMLCraiIconPingPongElement;
+        "crai-icon-pizza-slice": HTMLCraiIconPizzaSliceElement;
+        "crai-icon-plane": HTMLCraiIconPlaneElement;
+        "crai-icon-play": HTMLCraiIconPlayElement;
+        "crai-icon-play-alt": HTMLCraiIconPlayAltElement;
+        "crai-icon-playing-cards": HTMLCraiIconPlayingCardsElement;
+        "crai-icon-plus": HTMLCraiIconPlusElement;
+        "crai-icon-plus-small": HTMLCraiIconPlusSmallElement;
+        "crai-icon-poker-chip": HTMLCraiIconPokerChipElement;
+        "crai-icon-portrait": HTMLCraiIconPortraitElement;
+        "crai-icon-pound": HTMLCraiIconPoundElement;
+        "crai-icon-power": HTMLCraiIconPowerElement;
+        "crai-icon-presentation": HTMLCraiIconPresentationElement;
+        "crai-icon-print": HTMLCraiIconPrintElement;
+        "crai-icon-protractor": HTMLCraiIconProtractorElement;
+        "crai-icon-pulse": HTMLCraiIconPulseElement;
+        "crai-icon-pyramid": HTMLCraiIconPyramidElement;
+        "crai-icon-quote-right": HTMLCraiIconQuoteRightElement;
+        "crai-icon-rainbow": HTMLCraiIconRainbowElement;
+        "crai-icon-raindrops": HTMLCraiIconRaindropsElement;
+        "crai-icon-rec": HTMLCraiIconRecElement;
+        "crai-icon-receipt": HTMLCraiIconReceiptElement;
+        "crai-icon-record-vinyl": HTMLCraiIconRecordVinylElement;
+        "crai-icon-rectabgle-vertical": HTMLCraiIconRectabgleVerticalElement;
+        "crai-icon-rectangle-horizontal": HTMLCraiIconRectangleHorizontalElement;
+        "crai-icon-rectangle-panoramic": HTMLCraiIconRectanglePanoramicElement;
+        "crai-icon-recycle": HTMLCraiIconRecycleElement;
+        "crai-icon-redo": HTMLCraiIconRedoElement;
+        "crai-icon-redo-alt": HTMLCraiIconRedoAltElement;
+        "crai-icon-reflect": HTMLCraiIconReflectElement;
+        "crai-icon-refresh": HTMLCraiIconRefreshElement;
+        "crai-icon-resize": HTMLCraiIconResizeElement;
+        "crai-icon-resources": HTMLCraiIconResourcesElement;
+        "crai-icon-rewind": HTMLCraiIconRewindElement;
+        "crai-icon-rhombus": HTMLCraiIconRhombusElement;
+        "crai-icon-rings-wedding": HTMLCraiIconRingsWeddingElement;
+        "crai-icon-road": HTMLCraiIconRoadElement;
+        "crai-icon-rocket": HTMLCraiIconRocketElement;
+        "crai-icon-room-service": HTMLCraiIconRoomServiceElement;
+        "crai-icon-rotate-right": HTMLCraiIconRotateRightElement;
+        "crai-icon-rugby": HTMLCraiIconRugbyElement;
+        "crai-icon-sad": HTMLCraiIconSadElement;
+        "crai-icon-salad": HTMLCraiIconSaladElement;
+        "crai-icon-scale": HTMLCraiIconScaleElement;
+        "crai-icon-school": HTMLCraiIconSchoolElement;
+        "crai-icon-school-bus": HTMLCraiIconSchoolBusElement;
+        "crai-icon-scissors": HTMLCraiIconScissorsElement;
+        "crai-icon-screen": HTMLCraiIconScreenElement;
+        "crai-icon-search": HTMLCraiIconSearchElement;
+        "crai-icon-search-alt": HTMLCraiIconSearchAltElement;
+        "crai-icon-search-heart": HTMLCraiIconSearchHeartElement;
+        "crai-icon-settings": HTMLCraiIconSettingsElement;
+        "crai-icon-settings-sliders": HTMLCraiIconSettingsSlidersElement;
+        "crai-icon-share": HTMLCraiIconShareElement;
+        "crai-icon-shield": HTMLCraiIconShieldElement;
+        "crai-icon-shield-check": HTMLCraiIconShieldCheckElement;
+        "crai-icon-shield-exclamation": HTMLCraiIconShieldExclamationElement;
+        "crai-icon-shield-interrogation": HTMLCraiIconShieldInterrogationElement;
+        "crai-icon-shield-plus": HTMLCraiIconShieldPlusElement;
+        "crai-icon-ship": HTMLCraiIconShipElement;
+        "crai-icon-ship-side": HTMLCraiIconShipSideElement;
+        "crai-icon-shop": HTMLCraiIconShopElement;
+        "crai-icon-shopping-bag": HTMLCraiIconShoppingBagElement;
+        "crai-icon-shopping-bag-add": HTMLCraiIconShoppingBagAddElement;
+        "crai-icon-shopping-cart": HTMLCraiIconShoppingCartElement;
+        "crai-icon-shopping-cart-add": HTMLCraiIconShoppingCartAddElement;
+        "crai-icon-shopping-cart-check": HTMLCraiIconShoppingCartCheckElement;
+        "crai-icon-shuffle": HTMLCraiIconShuffleElement;
+        "crai-icon-sign-in": HTMLCraiIconSignInElement;
+        "crai-icon-sign-in-alt": HTMLCraiIconSignInAltElement;
+        "crai-icon-sign-out": HTMLCraiIconSignOutElement;
+        "crai-icon-sign-out-alt": HTMLCraiIconSignOutAltElement;
+        "crai-icon-signal-alt": HTMLCraiIconSignalAltElement;
+        "crai-icon-signal-alt-1": HTMLCraiIconSignalAlt1Element;
+        "crai-icon-signal-alt-2": HTMLCraiIconSignalAlt2Element;
+        "crai-icon-skateboard": HTMLCraiIconSkateboardElement;
+        "crai-icon-smartphone": HTMLCraiIconSmartphoneElement;
+        "crai-icon-smile": HTMLCraiIconSmileElement;
+        "crai-icon-smile-wink": HTMLCraiIconSmileWinkElement;
+        "crai-icon-snowflake": HTMLCraiIconSnowflakeElement;
+        "crai-icon-soap": HTMLCraiIconSoapElement;
+        "crai-icon-soup": HTMLCraiIconSoupElement;
+        "crai-icon-spa": HTMLCraiIconSpaElement;
+        "crai-icon-speaker": HTMLCraiIconSpeakerElement;
+        "crai-icon-sphere": HTMLCraiIconSphereElement;
+        "crai-icon-spinner": HTMLCraiIconSpinnerElement;
+        "crai-icon-spinner-alt": HTMLCraiIconSpinnerAltElement;
+        "crai-icon-square": HTMLCraiIconSquareElement;
+        "crai-icon-square-root": HTMLCraiIconSquareRootElement;
+        "crai-icon-star": HTMLCraiIconStarElement;
+        "crai-icon-star-octogram": HTMLCraiIconStarOctogramElement;
+        "crai-icon-stats": HTMLCraiIconStatsElement;
+        "crai-icon-stethoscope": HTMLCraiIconStethoscopeElement;
+        "crai-icon-sticker": HTMLCraiIconStickerElement;
+        "crai-icon-stop": HTMLCraiIconStopElement;
+        "crai-icon-stopwatch": HTMLCraiIconStopwatchElement;
+        "crai-icon-subtitles": HTMLCraiIconSubtitlesElement;
+        "crai-icon-sun": HTMLCraiIconSunElement;
+        "crai-icon-sunrise": HTMLCraiIconSunriseElement;
+        "crai-icon-surfing": HTMLCraiIconSurfingElement;
+        "crai-icon-sword": HTMLCraiIconSwordElement;
+        "crai-icon-syringe": HTMLCraiIconSyringeElement;
+        "crai-icon-tablet": HTMLCraiIconTabletElement;
+        "crai-icon-target": HTMLCraiIconTargetElement;
+        "crai-icon-taxi": HTMLCraiIconTaxiElement;
+        "crai-icon-tennis": HTMLCraiIconTennisElement;
+        "crai-icon-terrace": HTMLCraiIconTerraceElement;
+        "crai-icon-test": HTMLCraiIconTestElement;
+        "crai-icon-test-tube": HTMLCraiIconTestTubeElement;
+        "crai-icon-text": HTMLCraiIconTextElement;
+        "crai-icon-text-check": HTMLCraiIconTextCheckElement;
+        "crai-icon-thermometer-half": HTMLCraiIconThermometerHalfElement;
+        "crai-icon-thumbs-down": HTMLCraiIconThumbsDownElement;
+        "crai-icon-thumbs-up": HTMLCraiIconThumbsUpElement;
+        "crai-icon-thumbtack": HTMLCraiIconThumbtackElement;
+        "crai-icon-ticket": HTMLCraiIconTicketElement;
+        "crai-icon-time-add": HTMLCraiIconTimeAddElement;
+        "crai-icon-time-check": HTMLCraiIconTimeCheckElement;
+        "crai-icon-time-delete": HTMLCraiIconTimeDeleteElement;
+        "crai-icon-time-fast": HTMLCraiIconTimeFastElement;
+        "crai-icon-time-forward": HTMLCraiIconTimeForwardElement;
+        "crai-icon-time-forward-sixty": HTMLCraiIconTimeForwardSixtyElement;
+        "crai-icon-time-forward-ten": HTMLCraiIconTimeForwardTenElement;
+        "crai-icon-time-half-past": HTMLCraiIconTimeHalfPastElement;
+        "crai-icon-time-oclock": HTMLCraiIconTimeOclockElement;
+        "crai-icon-time-past": HTMLCraiIconTimePastElement;
+        "crai-icon-time-quarter-past": HTMLCraiIconTimeQuarterPastElement;
+        "crai-icon-time-quarter-to": HTMLCraiIconTimeQuarterToElement;
+        "crai-icon-time-twenty-four": HTMLCraiIconTimeTwentyFourElement;
+        "crai-icon-tool-crop": HTMLCraiIconToolCropElement;
+        "crai-icon-tool-marquee": HTMLCraiIconToolMarqueeElement;
+        "crai-icon-tooth": HTMLCraiIconToothElement;
+        "crai-icon-tornado": HTMLCraiIconTornadoElement;
+        "crai-icon-train": HTMLCraiIconTrainElement;
+        "crai-icon-train-side": HTMLCraiIconTrainSideElement;
+        "crai-icon-transform": HTMLCraiIconTransformElement;
+        "crai-icon-trash": HTMLCraiIconTrashElement;
+        "crai-icon-treatment": HTMLCraiIconTreatmentElement;
+        "crai-icon-tree": HTMLCraiIconTreeElement;
+        "crai-icon-tree-christmas": HTMLCraiIconTreeChristmasElement;
+        "crai-icon-triangle": HTMLCraiIconTriangleElement;
+        "crai-icon-trophy": HTMLCraiIconTrophyElement;
+        "crai-icon-truck-side": HTMLCraiIconTruckSideElement;
+        "crai-icon-umbrella": HTMLCraiIconUmbrellaElement;
+        "crai-icon-underline": HTMLCraiIconUnderlineElement;
+        "crai-icon-undo": HTMLCraiIconUndoElement;
+        "crai-icon-undo-alt": HTMLCraiIconUndoAltElement;
+        "crai-icon-unlock": HTMLCraiIconUnlockElement;
+        "crai-icon-upload": HTMLCraiIconUploadElement;
+        "crai-icon-usb-pendrive": HTMLCraiIconUsbPendriveElement;
+        "crai-icon-user": HTMLCraiIconUserElement;
+        "crai-icon-user-add": HTMLCraiIconUserAddElement;
+        "crai-icon-user-delete": HTMLCraiIconUserDeleteElement;
+        "crai-icon-user-remove": HTMLCraiIconUserRemoveElement;
+        "crai-icon-user-time": HTMLCraiIconUserTimeElement;
+        "crai-icon-utensils": HTMLCraiIconUtensilsElement;
+        "crai-icon-vector": HTMLCraiIconVectorElement;
+        "crai-icon-vector-alt": HTMLCraiIconVectorAltElement;
+        "crai-icon-venus": HTMLCraiIconVenusElement;
+        "crai-icon-venus-double": HTMLCraiIconVenusDoubleElement;
+        "crai-icon-venus-mars": HTMLCraiIconVenusMarsElement;
+        "crai-icon-video-camera": HTMLCraiIconVideoCameraElement;
+        "crai-icon-volleyball": HTMLCraiIconVolleyballElement;
+        "crai-icon-volume": HTMLCraiIconVolumeElement;
+        "crai-icon-wheelchair": HTMLCraiIconWheelchairElement;
+        "crai-icon-wifi-alt": HTMLCraiIconWifiAltElement;
+        "crai-icon-wind": HTMLCraiIconWindElement;
+        "crai-icon-woman-head": HTMLCraiIconWomanHeadElement;
+        "crai-icon-world": HTMLCraiIconWorldElement;
+        "crai-icon-yen": HTMLCraiIconYenElement;
+        "crai-icon-zoom-in": HTMLCraiIconZoomInElement;
+        "crai-icon-zoom-out": HTMLCraiIconZoomOutElement;
         "crai-text-bubble": HTMLCraiTextBubbleElement;
         "crai-text-input": HTMLCraiTextInputElement;
     }
@@ -161,6 +8627,4986 @@ declare namespace LocalJSX {
           * @default 'primary'
          */
         "variant"?: 'primary' | 'glass';
+    }
+    interface CraiIconAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAddressBook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAlarmClock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAlignCenter {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAlignJustify {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAlignLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAlignRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAmbulance {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleDoubleLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleDoubleRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleDoubleSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleDoubleSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleSmallDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleSmallUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAngleUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconApple {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconApps {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAppsAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAppsDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAppsSort {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArchive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowFromBottom {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowSmallDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowSmallLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowSmallRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowSmallUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconArrowUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAsterik {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconAt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBackpack {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBadge {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBalloons {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBan {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBandAid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBank {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBarberShop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBaseball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBasketball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBeer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBell {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBellRing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBellSchool {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBike {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBilliard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBold {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBookAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBookmark {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBowling {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBoxAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBreadSlice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBriefcase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBroom {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBrowser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBug {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBuilding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconBulb {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconButterfly {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCakeBirthday {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCakeWedding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCalculator {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCalendar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCallHistory {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCallIncoming {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCallMissed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCallOutgoing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCamera {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCamping {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCaretDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCaretLeft {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCaretRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCaretUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCarrot {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartConnected {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartHistogram {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartNetwork {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartPie {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartPieAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartPyramid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartSetTheory {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChartTree {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChatArrowDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChatArrowGrow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCheckbox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCheese {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChessPiece {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconChildHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCircle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCircleSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconClip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconClock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloud {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloudCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloudDisabled {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloudDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloudShare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCloudUpload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconClouds {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCocktail {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCoffee {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconComment {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCommentAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCommentCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCommentHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCommentInfo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCommentUser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconComments {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCompress {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCompressAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconComputer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconConfetti {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCookie {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCopy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCopyAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCopyright {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCream {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCreditCard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCroissant {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCrossCircle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCrossSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCrown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCube {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCupcake {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCursor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCursorFinger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCursorPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCursorText {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconCursorTextAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDashboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDataTransfer {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDatabase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDiamond {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDiploma {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDiscoBall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDisk {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDoctor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDocument {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDocumentSigned {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDollar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDrinkAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDrumstick {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconDuplicate {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconELearning {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEarnings {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEdit {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEditAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelope {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelopeBan {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelopeDownload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelopeMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelopeOpen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEnvelopePlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEuro {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconExclamation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconExpand {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEye {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEyeCrossed {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconEyeDropper {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFeather {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFerrisWheel {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileAi {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileEps {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileGif {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFileMusic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFilePsd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFill {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFilm {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFilter {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFingerprint {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFish {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlame {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlipHorizontal {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlower {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlowerBouquet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFlowerTulip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFolder {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFolderAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFollowing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFootball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconForm {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconForward {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFrown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconFtp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGallery {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGamepad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGasPump {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGem {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGift {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGlassCheers {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGlasses {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGlobe {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGlobeAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGolf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGraduationCap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGraphicTablet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGrid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGridAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGuitar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconGym {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHamburger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHandHoldingHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHastag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHatBirthday {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHeadSideThinking {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHeadphones {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHeadset {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHeartArrow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHome {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHomeLocation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHomeLocationAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHourglass {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconHourglassEnd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconIceCream {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconIceSkate {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconIdBadge {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInbox {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconIncognito {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconIndent {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInfinity {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInfo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInteractive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInterlining {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconInterrogation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconItalic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconJpg {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconKey {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconKeyboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconKite {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLabel {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLaptop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLasso {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLaugh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLayers {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLayoutFluid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLeaf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLetterCase {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLifeRing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLineWidth {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLink {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLipstick {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconList {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconListCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLocationAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLockAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconLuggageRolling {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMagicWand {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMakeupBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconManHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMapMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMapMarkerCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMapMarkerHome {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMapMarkerMinus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMapMarkerPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMarker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMarkerTime {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMars {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMarsDouble {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMaskCarnival {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMedicine {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMegaphone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMeh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMenuBurger {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMenuDots {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMenuDotsVertical {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMicrophone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMicrophoneAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMinus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMinusSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMobile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconModeLandscape {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconModePortrait {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMoney {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMoon {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMountains {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMouse {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMugAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMusic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconMusicAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconNavigation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconNetwork {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconNetworkCloud {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconNotebook {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconOpacity {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPackage {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPaintBrush {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPalette {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPaperPlane {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPassword {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPause {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPaw {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPencil {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPharmacy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPhoneCall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPhoneCross {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPhonePause {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPhoneSlash {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPhysics {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPicture {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPingPong {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPizzaSlice {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlane {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlay {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlayAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlayingCards {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPlusSmall {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPokerChip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPortrait {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPound {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPower {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPresentation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPrint {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconProtractor {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPulse {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconPyramid {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconQuoteRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRainbow {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRaindrops {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRec {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconReceipt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRecordVinyl {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRectabgleVertical {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRectangleHorizontal {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRectanglePanoramic {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRecycle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRedo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRedoAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconReflect {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRefresh {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconResize {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconResources {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRewind {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRhombus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRingsWedding {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRoad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRocket {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRoomService {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRotateRight {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconRugby {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSalad {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconScale {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSchool {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSchoolBus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconScissors {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconScreen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSearch {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSearchAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSearchHeart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSettings {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSettingsSliders {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShield {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShieldCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShieldExclamation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShieldInterrogation {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShieldPlus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShip {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShipSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShoppingBag {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShoppingBagAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShoppingCart {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShoppingCartAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShoppingCartCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconShuffle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignIn {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignInAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignOut {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignOutAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignalAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignalAlt1 {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSignalAlt2 {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSkateboard {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSmartphone {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSmile {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSmileWink {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSnowflake {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSoap {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSoup {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSpa {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSpeaker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSphere {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSpinner {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSpinnerAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSquare {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSquareRoot {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStar {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStarOctogram {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStats {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStethoscope {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSticker {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconStopwatch {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSubtitles {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSun {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSunrise {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSurfing {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSword {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconSyringe {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTablet {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTarget {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTaxi {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTennis {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTerrace {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTest {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTestTube {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconText {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTextCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconThermometerHalf {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconThumbsDown {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconThumbsUp {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconThumbtack {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTicket {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeCheck {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeFast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeForward {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeForwardSixty {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeForwardTen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeHalfPast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeOclock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimePast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeQuarterPast {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeQuarterTo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTimeTwentyFour {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconToolCrop {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconToolMarquee {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTooth {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTornado {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTrain {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTrainSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTransform {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTrash {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTreatment {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTree {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTreeChristmas {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTriangle {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTrophy {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconTruckSide {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUmbrella {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUnderline {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUndo {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUndoAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUnlock {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUpload {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUsbPendrive {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUser {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUserAdd {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUserDelete {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUserRemove {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUserTime {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconUtensils {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVector {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVectorAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVenus {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVenusDouble {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVenusMars {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVideoCamera {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVolleyball {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconVolume {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconWheelchair {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconWifiAlt {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconWind {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconWomanHead {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconWorld {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconYen {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconZoomIn {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
+    }
+    interface CraiIconZoomOut {
+        /**
+          * @default 'var(--crai-icon-color, currentColor)'
+         */
+        "color"?: string;
+        /**
+          * @default '1.2rem'
+         */
+        "size"?: number | string;
     }
     interface CraiTextBubble {
         /**
@@ -221,6 +13667,504 @@ declare namespace LocalJSX {
     }
     interface IntrinsicElements {
         "crai-button": CraiButton;
+        "crai-icon-add": CraiIconAdd;
+        "crai-icon-address-book": CraiIconAddressBook;
+        "crai-icon-alarm-clock": CraiIconAlarmClock;
+        "crai-icon-align-center": CraiIconAlignCenter;
+        "crai-icon-align-justify": CraiIconAlignJustify;
+        "crai-icon-align-left": CraiIconAlignLeft;
+        "crai-icon-align-right": CraiIconAlignRight;
+        "crai-icon-ambulance": CraiIconAmbulance;
+        "crai-icon-angle-double-left": CraiIconAngleDoubleLeft;
+        "crai-icon-angle-double-right": CraiIconAngleDoubleRight;
+        "crai-icon-angle-double-small-left": CraiIconAngleDoubleSmallLeft;
+        "crai-icon-angle-double-small-right": CraiIconAngleDoubleSmallRight;
+        "crai-icon-angle-down": CraiIconAngleDown;
+        "crai-icon-angle-left": CraiIconAngleLeft;
+        "crai-icon-angle-right": CraiIconAngleRight;
+        "crai-icon-angle-small-down": CraiIconAngleSmallDown;
+        "crai-icon-angle-small-left": CraiIconAngleSmallLeft;
+        "crai-icon-angle-small-right": CraiIconAngleSmallRight;
+        "crai-icon-angle-small-up": CraiIconAngleSmallUp;
+        "crai-icon-angle-up": CraiIconAngleUp;
+        "crai-icon-apple": CraiIconApple;
+        "crai-icon-apps": CraiIconApps;
+        "crai-icon-apps-add": CraiIconAppsAdd;
+        "crai-icon-apps-delete": CraiIconAppsDelete;
+        "crai-icon-apps-sort": CraiIconAppsSort;
+        "crai-icon-archive": CraiIconArchive;
+        "crai-icon-arrow-down": CraiIconArrowDown;
+        "crai-icon-arrow-from-bottom": CraiIconArrowFromBottom;
+        "crai-icon-arrow-left": CraiIconArrowLeft;
+        "crai-icon-arrow-right": CraiIconArrowRight;
+        "crai-icon-arrow-small-down": CraiIconArrowSmallDown;
+        "crai-icon-arrow-small-left": CraiIconArrowSmallLeft;
+        "crai-icon-arrow-small-right": CraiIconArrowSmallRight;
+        "crai-icon-arrow-small-up": CraiIconArrowSmallUp;
+        "crai-icon-arrow-up": CraiIconArrowUp;
+        "crai-icon-asterik": CraiIconAsterik;
+        "crai-icon-at": CraiIconAt;
+        "crai-icon-backpack": CraiIconBackpack;
+        "crai-icon-badge": CraiIconBadge;
+        "crai-icon-balloons": CraiIconBalloons;
+        "crai-icon-ban": CraiIconBan;
+        "crai-icon-band-aid": CraiIconBandAid;
+        "crai-icon-bank": CraiIconBank;
+        "crai-icon-barber-shop": CraiIconBarberShop;
+        "crai-icon-baseball": CraiIconBaseball;
+        "crai-icon-basketball": CraiIconBasketball;
+        "crai-icon-bed": CraiIconBed;
+        "crai-icon-beer": CraiIconBeer;
+        "crai-icon-bell": CraiIconBell;
+        "crai-icon-bell-ring": CraiIconBellRing;
+        "crai-icon-bell-school": CraiIconBellSchool;
+        "crai-icon-bike": CraiIconBike;
+        "crai-icon-billiard": CraiIconBilliard;
+        "crai-icon-bold": CraiIconBold;
+        "crai-icon-book": CraiIconBook;
+        "crai-icon-book-alt": CraiIconBookAlt;
+        "crai-icon-bookmark": CraiIconBookmark;
+        "crai-icon-bowling": CraiIconBowling;
+        "crai-icon-box": CraiIconBox;
+        "crai-icon-box-alt": CraiIconBoxAlt;
+        "crai-icon-bread-slice": CraiIconBreadSlice;
+        "crai-icon-briefcase": CraiIconBriefcase;
+        "crai-icon-broom": CraiIconBroom;
+        "crai-icon-browser": CraiIconBrowser;
+        "crai-icon-brush": CraiIconBrush;
+        "crai-icon-bug": CraiIconBug;
+        "crai-icon-building": CraiIconBuilding;
+        "crai-icon-bulb": CraiIconBulb;
+        "crai-icon-butterfly": CraiIconButterfly;
+        "crai-icon-cake-birthday": CraiIconCakeBirthday;
+        "crai-icon-cake-wedding": CraiIconCakeWedding;
+        "crai-icon-calculator": CraiIconCalculator;
+        "crai-icon-calendar": CraiIconCalendar;
+        "crai-icon-call-history": CraiIconCallHistory;
+        "crai-icon-call-incoming": CraiIconCallIncoming;
+        "crai-icon-call-missed": CraiIconCallMissed;
+        "crai-icon-call-outgoing": CraiIconCallOutgoing;
+        "crai-icon-camera": CraiIconCamera;
+        "crai-icon-camping": CraiIconCamping;
+        "crai-icon-car": CraiIconCar;
+        "crai-icon-caret-down": CraiIconCaretDown;
+        "crai-icon-caret-left": CraiIconCaretLeft;
+        "crai-icon-caret-right": CraiIconCaretRight;
+        "crai-icon-caret-up": CraiIconCaretUp;
+        "crai-icon-carrot": CraiIconCarrot;
+        "crai-icon-chart-connected": CraiIconChartConnected;
+        "crai-icon-chart-histogram": CraiIconChartHistogram;
+        "crai-icon-chart-network": CraiIconChartNetwork;
+        "crai-icon-chart-pie": CraiIconChartPie;
+        "crai-icon-chart-pie-alt": CraiIconChartPieAlt;
+        "crai-icon-chart-pyramid": CraiIconChartPyramid;
+        "crai-icon-chart-set-theory": CraiIconChartSetTheory;
+        "crai-icon-chart-tree": CraiIconChartTree;
+        "crai-icon-chat-arrow-down": CraiIconChatArrowDown;
+        "crai-icon-chat-arrow-grow": CraiIconChatArrowGrow;
+        "crai-icon-check": CraiIconCheck;
+        "crai-icon-checkbox": CraiIconCheckbox;
+        "crai-icon-cheese": CraiIconCheese;
+        "crai-icon-chess-piece": CraiIconChessPiece;
+        "crai-icon-child-head": CraiIconChildHead;
+        "crai-icon-circle": CraiIconCircle;
+        "crai-icon-circle-small": CraiIconCircleSmall;
+        "crai-icon-clip": CraiIconClip;
+        "crai-icon-clock": CraiIconClock;
+        "crai-icon-cloud": CraiIconCloud;
+        "crai-icon-cloud-check": CraiIconCloudCheck;
+        "crai-icon-cloud-disabled": CraiIconCloudDisabled;
+        "crai-icon-cloud-download": CraiIconCloudDownload;
+        "crai-icon-cloud-share": CraiIconCloudShare;
+        "crai-icon-cloud-upload": CraiIconCloudUpload;
+        "crai-icon-clouds": CraiIconClouds;
+        "crai-icon-cocktail": CraiIconCocktail;
+        "crai-icon-coffee": CraiIconCoffee;
+        "crai-icon-comment": CraiIconComment;
+        "crai-icon-comment-alt": CraiIconCommentAlt;
+        "crai-icon-comment-check": CraiIconCommentCheck;
+        "crai-icon-comment-heart": CraiIconCommentHeart;
+        "crai-icon-comment-info": CraiIconCommentInfo;
+        "crai-icon-comment-user": CraiIconCommentUser;
+        "crai-icon-comments": CraiIconComments;
+        "crai-icon-compress": CraiIconCompress;
+        "crai-icon-compress-alt": CraiIconCompressAlt;
+        "crai-icon-computer": CraiIconComputer;
+        "crai-icon-confetti": CraiIconConfetti;
+        "crai-icon-cookie": CraiIconCookie;
+        "crai-icon-copy": CraiIconCopy;
+        "crai-icon-copy-alt": CraiIconCopyAlt;
+        "crai-icon-copyright": CraiIconCopyright;
+        "crai-icon-cow": CraiIconCow;
+        "crai-icon-cream": CraiIconCream;
+        "crai-icon-credit-card": CraiIconCreditCard;
+        "crai-icon-croissant": CraiIconCroissant;
+        "crai-icon-cross": CraiIconCross;
+        "crai-icon-cross-circle": CraiIconCrossCircle;
+        "crai-icon-cross-small": CraiIconCrossSmall;
+        "crai-icon-crown": CraiIconCrown;
+        "crai-icon-cube": CraiIconCube;
+        "crai-icon-cupcake": CraiIconCupcake;
+        "crai-icon-cursor": CraiIconCursor;
+        "crai-icon-cursor-finger": CraiIconCursorFinger;
+        "crai-icon-cursor-plus": CraiIconCursorPlus;
+        "crai-icon-cursor-text": CraiIconCursorText;
+        "crai-icon-cursor-text-alt": CraiIconCursorTextAlt;
+        "crai-icon-dart": CraiIconDart;
+        "crai-icon-dashboard": CraiIconDashboard;
+        "crai-icon-data-transfer": CraiIconDataTransfer;
+        "crai-icon-database": CraiIconDatabase;
+        "crai-icon-delete": CraiIconDelete;
+        "crai-icon-diamond": CraiIconDiamond;
+        "crai-icon-dice": CraiIconDice;
+        "crai-icon-diploma": CraiIconDiploma;
+        "crai-icon-disco-ball": CraiIconDiscoBall;
+        "crai-icon-disk": CraiIconDisk;
+        "crai-icon-doctor": CraiIconDoctor;
+        "crai-icon-document": CraiIconDocument;
+        "crai-icon-document-signed": CraiIconDocumentSigned;
+        "crai-icon-dollar": CraiIconDollar;
+        "crai-icon-download": CraiIconDownload;
+        "crai-icon-drink-alt": CraiIconDrinkAlt;
+        "crai-icon-drumstick": CraiIconDrumstick;
+        "crai-icon-duplicate": CraiIconDuplicate;
+        "crai-icon-e-learning": CraiIconELearning;
+        "crai-icon-earnings": CraiIconEarnings;
+        "crai-icon-edit": CraiIconEdit;
+        "crai-icon-edit-alt": CraiIconEditAlt;
+        "crai-icon-envelope": CraiIconEnvelope;
+        "crai-icon-envelope-ban": CraiIconEnvelopeBan;
+        "crai-icon-envelope-download": CraiIconEnvelopeDownload;
+        "crai-icon-envelope-marker": CraiIconEnvelopeMarker;
+        "crai-icon-envelope-open": CraiIconEnvelopeOpen;
+        "crai-icon-envelope-plus": CraiIconEnvelopePlus;
+        "crai-icon-euro": CraiIconEuro;
+        "crai-icon-exclamation": CraiIconExclamation;
+        "crai-icon-expand": CraiIconExpand;
+        "crai-icon-eye": CraiIconEye;
+        "crai-icon-eye-crossed": CraiIconEyeCrossed;
+        "crai-icon-eye-dropper": CraiIconEyeDropper;
+        "crai-icon-feather": CraiIconFeather;
+        "crai-icon-ferris-wheel": CraiIconFerrisWheel;
+        "crai-icon-file": CraiIconFile;
+        "crai-icon-file-add": CraiIconFileAdd;
+        "crai-icon-file-ai": CraiIconFileAi;
+        "crai-icon-file-check": CraiIconFileCheck;
+        "crai-icon-file-delete": CraiIconFileDelete;
+        "crai-icon-file-eps": CraiIconFileEps;
+        "crai-icon-file-gif": CraiIconFileGif;
+        "crai-icon-file-music": CraiIconFileMusic;
+        "crai-icon-file-psd": CraiIconFilePsd;
+        "crai-icon-fill": CraiIconFill;
+        "crai-icon-film": CraiIconFilm;
+        "crai-icon-filter": CraiIconFilter;
+        "crai-icon-fingerprint": CraiIconFingerprint;
+        "crai-icon-fish": CraiIconFish;
+        "crai-icon-flag": CraiIconFlag;
+        "crai-icon-flame": CraiIconFlame;
+        "crai-icon-flip-horizontal": CraiIconFlipHorizontal;
+        "crai-icon-flower": CraiIconFlower;
+        "crai-icon-flower-bouquet": CraiIconFlowerBouquet;
+        "crai-icon-flower-tulip": CraiIconFlowerTulip;
+        "crai-icon-folder": CraiIconFolder;
+        "crai-icon-folder-add": CraiIconFolderAdd;
+        "crai-icon-following": CraiIconFollowing;
+        "crai-icon-football": CraiIconFootball;
+        "crai-icon-form": CraiIconForm;
+        "crai-icon-forward": CraiIconForward;
+        "crai-icon-fox": CraiIconFox;
+        "crai-icon-frown": CraiIconFrown;
+        "crai-icon-ftp": CraiIconFtp;
+        "crai-icon-gallery": CraiIconGallery;
+        "crai-icon-gamepad": CraiIconGamepad;
+        "crai-icon-gas-pump": CraiIconGasPump;
+        "crai-icon-gem": CraiIconGem;
+        "crai-icon-gift": CraiIconGift;
+        "crai-icon-glass-cheers": CraiIconGlassCheers;
+        "crai-icon-glasses": CraiIconGlasses;
+        "crai-icon-globe": CraiIconGlobe;
+        "crai-icon-globe-alt": CraiIconGlobeAlt;
+        "crai-icon-golf": CraiIconGolf;
+        "crai-icon-graduation-cap": CraiIconGraduationCap;
+        "crai-icon-graphic-tablet": CraiIconGraphicTablet;
+        "crai-icon-grid": CraiIconGrid;
+        "crai-icon-grid-alt": CraiIconGridAlt;
+        "crai-icon-guitar": CraiIconGuitar;
+        "crai-icon-gym": CraiIconGym;
+        "crai-icon-hamburger": CraiIconHamburger;
+        "crai-icon-hand-holding-heart": CraiIconHandHoldingHeart;
+        "crai-icon-hastag": CraiIconHastag;
+        "crai-icon-hat-birthday": CraiIconHatBirthday;
+        "crai-icon-head-side-thinking": CraiIconHeadSideThinking;
+        "crai-icon-headphones": CraiIconHeadphones;
+        "crai-icon-headset": CraiIconHeadset;
+        "crai-icon-heart": CraiIconHeart;
+        "crai-icon-heart-arrow": CraiIconHeartArrow;
+        "crai-icon-home": CraiIconHome;
+        "crai-icon-home-location": CraiIconHomeLocation;
+        "crai-icon-home-location-alt": CraiIconHomeLocationAlt;
+        "crai-icon-hourglass": CraiIconHourglass;
+        "crai-icon-hourglass-end": CraiIconHourglassEnd;
+        "crai-icon-ice-cream": CraiIconIceCream;
+        "crai-icon-ice-skate": CraiIconIceSkate;
+        "crai-icon-id-badge": CraiIconIdBadge;
+        "crai-icon-inbox": CraiIconInbox;
+        "crai-icon-incognito": CraiIconIncognito;
+        "crai-icon-indent": CraiIconIndent;
+        "crai-icon-infinity": CraiIconInfinity;
+        "crai-icon-info": CraiIconInfo;
+        "crai-icon-interactive": CraiIconInteractive;
+        "crai-icon-interlining": CraiIconInterlining;
+        "crai-icon-interrogation": CraiIconInterrogation;
+        "crai-icon-italic": CraiIconItalic;
+        "crai-icon-jpg": CraiIconJpg;
+        "crai-icon-key": CraiIconKey;
+        "crai-icon-keyboard": CraiIconKeyboard;
+        "crai-icon-kite": CraiIconKite;
+        "crai-icon-label": CraiIconLabel;
+        "crai-icon-laptop": CraiIconLaptop;
+        "crai-icon-lasso": CraiIconLasso;
+        "crai-icon-laugh": CraiIconLaugh;
+        "crai-icon-layers": CraiIconLayers;
+        "crai-icon-layout-fluid": CraiIconLayoutFluid;
+        "crai-icon-leaf": CraiIconLeaf;
+        "crai-icon-letter-case": CraiIconLetterCase;
+        "crai-icon-life-ring": CraiIconLifeRing;
+        "crai-icon-line-width": CraiIconLineWidth;
+        "crai-icon-link": CraiIconLink;
+        "crai-icon-lipstick": CraiIconLipstick;
+        "crai-icon-list": CraiIconList;
+        "crai-icon-list-check": CraiIconListCheck;
+        "crai-icon-location-alt": CraiIconLocationAlt;
+        "crai-icon-lock": CraiIconLock;
+        "crai-icon-lock-alt": CraiIconLockAlt;
+        "crai-icon-luggage-rolling": CraiIconLuggageRolling;
+        "crai-icon-magic-wand": CraiIconMagicWand;
+        "crai-icon-makeup-brush": CraiIconMakeupBrush;
+        "crai-icon-man-head": CraiIconManHead;
+        "crai-icon-map": CraiIconMap;
+        "crai-icon-map-marker": CraiIconMapMarker;
+        "crai-icon-map-marker-cross": CraiIconMapMarkerCross;
+        "crai-icon-map-marker-home": CraiIconMapMarkerHome;
+        "crai-icon-map-marker-minus": CraiIconMapMarkerMinus;
+        "crai-icon-map-marker-plus": CraiIconMapMarkerPlus;
+        "crai-icon-marker": CraiIconMarker;
+        "crai-icon-marker-time": CraiIconMarkerTime;
+        "crai-icon-mars": CraiIconMars;
+        "crai-icon-mars-double": CraiIconMarsDouble;
+        "crai-icon-mask-carnival": CraiIconMaskCarnival;
+        "crai-icon-medicine": CraiIconMedicine;
+        "crai-icon-megaphone": CraiIconMegaphone;
+        "crai-icon-meh": CraiIconMeh;
+        "crai-icon-menu-burger": CraiIconMenuBurger;
+        "crai-icon-menu-dots": CraiIconMenuDots;
+        "crai-icon-menu-dots-vertical": CraiIconMenuDotsVertical;
+        "crai-icon-microphone": CraiIconMicrophone;
+        "crai-icon-microphone-alt": CraiIconMicrophoneAlt;
+        "crai-icon-minus": CraiIconMinus;
+        "crai-icon-minus-small": CraiIconMinusSmall;
+        "crai-icon-mobile": CraiIconMobile;
+        "crai-icon-mode-landscape": CraiIconModeLandscape;
+        "crai-icon-mode-portrait": CraiIconModePortrait;
+        "crai-icon-money": CraiIconMoney;
+        "crai-icon-moon": CraiIconMoon;
+        "crai-icon-mountains": CraiIconMountains;
+        "crai-icon-mouse": CraiIconMouse;
+        "crai-icon-mug-alt": CraiIconMugAlt;
+        "crai-icon-music": CraiIconMusic;
+        "crai-icon-music-alt": CraiIconMusicAlt;
+        "crai-icon-navigation": CraiIconNavigation;
+        "crai-icon-network": CraiIconNetwork;
+        "crai-icon-network-cloud": CraiIconNetworkCloud;
+        "crai-icon-notebook": CraiIconNotebook;
+        "crai-icon-opacity": CraiIconOpacity;
+        "crai-icon-package": CraiIconPackage;
+        "crai-icon-paint-brush": CraiIconPaintBrush;
+        "crai-icon-palette": CraiIconPalette;
+        "crai-icon-paper-plane": CraiIconPaperPlane;
+        "crai-icon-password": CraiIconPassword;
+        "crai-icon-pause": CraiIconPause;
+        "crai-icon-paw": CraiIconPaw;
+        "crai-icon-pencil": CraiIconPencil;
+        "crai-icon-pharmacy": CraiIconPharmacy;
+        "crai-icon-phone-call": CraiIconPhoneCall;
+        "crai-icon-phone-cross": CraiIconPhoneCross;
+        "crai-icon-phone-pause": CraiIconPhonePause;
+        "crai-icon-phone-slash": CraiIconPhoneSlash;
+        "crai-icon-physics": CraiIconPhysics;
+        "crai-icon-picture": CraiIconPicture;
+        "crai-icon-ping-pong": CraiIconPingPong;
+        "crai-icon-pizza-slice": CraiIconPizzaSlice;
+        "crai-icon-plane": CraiIconPlane;
+        "crai-icon-play": CraiIconPlay;
+        "crai-icon-play-alt": CraiIconPlayAlt;
+        "crai-icon-playing-cards": CraiIconPlayingCards;
+        "crai-icon-plus": CraiIconPlus;
+        "crai-icon-plus-small": CraiIconPlusSmall;
+        "crai-icon-poker-chip": CraiIconPokerChip;
+        "crai-icon-portrait": CraiIconPortrait;
+        "crai-icon-pound": CraiIconPound;
+        "crai-icon-power": CraiIconPower;
+        "crai-icon-presentation": CraiIconPresentation;
+        "crai-icon-print": CraiIconPrint;
+        "crai-icon-protractor": CraiIconProtractor;
+        "crai-icon-pulse": CraiIconPulse;
+        "crai-icon-pyramid": CraiIconPyramid;
+        "crai-icon-quote-right": CraiIconQuoteRight;
+        "crai-icon-rainbow": CraiIconRainbow;
+        "crai-icon-raindrops": CraiIconRaindrops;
+        "crai-icon-rec": CraiIconRec;
+        "crai-icon-receipt": CraiIconReceipt;
+        "crai-icon-record-vinyl": CraiIconRecordVinyl;
+        "crai-icon-rectabgle-vertical": CraiIconRectabgleVertical;
+        "crai-icon-rectangle-horizontal": CraiIconRectangleHorizontal;
+        "crai-icon-rectangle-panoramic": CraiIconRectanglePanoramic;
+        "crai-icon-recycle": CraiIconRecycle;
+        "crai-icon-redo": CraiIconRedo;
+        "crai-icon-redo-alt": CraiIconRedoAlt;
+        "crai-icon-reflect": CraiIconReflect;
+        "crai-icon-refresh": CraiIconRefresh;
+        "crai-icon-resize": CraiIconResize;
+        "crai-icon-resources": CraiIconResources;
+        "crai-icon-rewind": CraiIconRewind;
+        "crai-icon-rhombus": CraiIconRhombus;
+        "crai-icon-rings-wedding": CraiIconRingsWedding;
+        "crai-icon-road": CraiIconRoad;
+        "crai-icon-rocket": CraiIconRocket;
+        "crai-icon-room-service": CraiIconRoomService;
+        "crai-icon-rotate-right": CraiIconRotateRight;
+        "crai-icon-rugby": CraiIconRugby;
+        "crai-icon-sad": CraiIconSad;
+        "crai-icon-salad": CraiIconSalad;
+        "crai-icon-scale": CraiIconScale;
+        "crai-icon-school": CraiIconSchool;
+        "crai-icon-school-bus": CraiIconSchoolBus;
+        "crai-icon-scissors": CraiIconScissors;
+        "crai-icon-screen": CraiIconScreen;
+        "crai-icon-search": CraiIconSearch;
+        "crai-icon-search-alt": CraiIconSearchAlt;
+        "crai-icon-search-heart": CraiIconSearchHeart;
+        "crai-icon-settings": CraiIconSettings;
+        "crai-icon-settings-sliders": CraiIconSettingsSliders;
+        "crai-icon-share": CraiIconShare;
+        "crai-icon-shield": CraiIconShield;
+        "crai-icon-shield-check": CraiIconShieldCheck;
+        "crai-icon-shield-exclamation": CraiIconShieldExclamation;
+        "crai-icon-shield-interrogation": CraiIconShieldInterrogation;
+        "crai-icon-shield-plus": CraiIconShieldPlus;
+        "crai-icon-ship": CraiIconShip;
+        "crai-icon-ship-side": CraiIconShipSide;
+        "crai-icon-shop": CraiIconShop;
+        "crai-icon-shopping-bag": CraiIconShoppingBag;
+        "crai-icon-shopping-bag-add": CraiIconShoppingBagAdd;
+        "crai-icon-shopping-cart": CraiIconShoppingCart;
+        "crai-icon-shopping-cart-add": CraiIconShoppingCartAdd;
+        "crai-icon-shopping-cart-check": CraiIconShoppingCartCheck;
+        "crai-icon-shuffle": CraiIconShuffle;
+        "crai-icon-sign-in": CraiIconSignIn;
+        "crai-icon-sign-in-alt": CraiIconSignInAlt;
+        "crai-icon-sign-out": CraiIconSignOut;
+        "crai-icon-sign-out-alt": CraiIconSignOutAlt;
+        "crai-icon-signal-alt": CraiIconSignalAlt;
+        "crai-icon-signal-alt-1": CraiIconSignalAlt1;
+        "crai-icon-signal-alt-2": CraiIconSignalAlt2;
+        "crai-icon-skateboard": CraiIconSkateboard;
+        "crai-icon-smartphone": CraiIconSmartphone;
+        "crai-icon-smile": CraiIconSmile;
+        "crai-icon-smile-wink": CraiIconSmileWink;
+        "crai-icon-snowflake": CraiIconSnowflake;
+        "crai-icon-soap": CraiIconSoap;
+        "crai-icon-soup": CraiIconSoup;
+        "crai-icon-spa": CraiIconSpa;
+        "crai-icon-speaker": CraiIconSpeaker;
+        "crai-icon-sphere": CraiIconSphere;
+        "crai-icon-spinner": CraiIconSpinner;
+        "crai-icon-spinner-alt": CraiIconSpinnerAlt;
+        "crai-icon-square": CraiIconSquare;
+        "crai-icon-square-root": CraiIconSquareRoot;
+        "crai-icon-star": CraiIconStar;
+        "crai-icon-star-octogram": CraiIconStarOctogram;
+        "crai-icon-stats": CraiIconStats;
+        "crai-icon-stethoscope": CraiIconStethoscope;
+        "crai-icon-sticker": CraiIconSticker;
+        "crai-icon-stop": CraiIconStop;
+        "crai-icon-stopwatch": CraiIconStopwatch;
+        "crai-icon-subtitles": CraiIconSubtitles;
+        "crai-icon-sun": CraiIconSun;
+        "crai-icon-sunrise": CraiIconSunrise;
+        "crai-icon-surfing": CraiIconSurfing;
+        "crai-icon-sword": CraiIconSword;
+        "crai-icon-syringe": CraiIconSyringe;
+        "crai-icon-tablet": CraiIconTablet;
+        "crai-icon-target": CraiIconTarget;
+        "crai-icon-taxi": CraiIconTaxi;
+        "crai-icon-tennis": CraiIconTennis;
+        "crai-icon-terrace": CraiIconTerrace;
+        "crai-icon-test": CraiIconTest;
+        "crai-icon-test-tube": CraiIconTestTube;
+        "crai-icon-text": CraiIconText;
+        "crai-icon-text-check": CraiIconTextCheck;
+        "crai-icon-thermometer-half": CraiIconThermometerHalf;
+        "crai-icon-thumbs-down": CraiIconThumbsDown;
+        "crai-icon-thumbs-up": CraiIconThumbsUp;
+        "crai-icon-thumbtack": CraiIconThumbtack;
+        "crai-icon-ticket": CraiIconTicket;
+        "crai-icon-time-add": CraiIconTimeAdd;
+        "crai-icon-time-check": CraiIconTimeCheck;
+        "crai-icon-time-delete": CraiIconTimeDelete;
+        "crai-icon-time-fast": CraiIconTimeFast;
+        "crai-icon-time-forward": CraiIconTimeForward;
+        "crai-icon-time-forward-sixty": CraiIconTimeForwardSixty;
+        "crai-icon-time-forward-ten": CraiIconTimeForwardTen;
+        "crai-icon-time-half-past": CraiIconTimeHalfPast;
+        "crai-icon-time-oclock": CraiIconTimeOclock;
+        "crai-icon-time-past": CraiIconTimePast;
+        "crai-icon-time-quarter-past": CraiIconTimeQuarterPast;
+        "crai-icon-time-quarter-to": CraiIconTimeQuarterTo;
+        "crai-icon-time-twenty-four": CraiIconTimeTwentyFour;
+        "crai-icon-tool-crop": CraiIconToolCrop;
+        "crai-icon-tool-marquee": CraiIconToolMarquee;
+        "crai-icon-tooth": CraiIconTooth;
+        "crai-icon-tornado": CraiIconTornado;
+        "crai-icon-train": CraiIconTrain;
+        "crai-icon-train-side": CraiIconTrainSide;
+        "crai-icon-transform": CraiIconTransform;
+        "crai-icon-trash": CraiIconTrash;
+        "crai-icon-treatment": CraiIconTreatment;
+        "crai-icon-tree": CraiIconTree;
+        "crai-icon-tree-christmas": CraiIconTreeChristmas;
+        "crai-icon-triangle": CraiIconTriangle;
+        "crai-icon-trophy": CraiIconTrophy;
+        "crai-icon-truck-side": CraiIconTruckSide;
+        "crai-icon-umbrella": CraiIconUmbrella;
+        "crai-icon-underline": CraiIconUnderline;
+        "crai-icon-undo": CraiIconUndo;
+        "crai-icon-undo-alt": CraiIconUndoAlt;
+        "crai-icon-unlock": CraiIconUnlock;
+        "crai-icon-upload": CraiIconUpload;
+        "crai-icon-usb-pendrive": CraiIconUsbPendrive;
+        "crai-icon-user": CraiIconUser;
+        "crai-icon-user-add": CraiIconUserAdd;
+        "crai-icon-user-delete": CraiIconUserDelete;
+        "crai-icon-user-remove": CraiIconUserRemove;
+        "crai-icon-user-time": CraiIconUserTime;
+        "crai-icon-utensils": CraiIconUtensils;
+        "crai-icon-vector": CraiIconVector;
+        "crai-icon-vector-alt": CraiIconVectorAlt;
+        "crai-icon-venus": CraiIconVenus;
+        "crai-icon-venus-double": CraiIconVenusDouble;
+        "crai-icon-venus-mars": CraiIconVenusMars;
+        "crai-icon-video-camera": CraiIconVideoCamera;
+        "crai-icon-volleyball": CraiIconVolleyball;
+        "crai-icon-volume": CraiIconVolume;
+        "crai-icon-wheelchair": CraiIconWheelchair;
+        "crai-icon-wifi-alt": CraiIconWifiAlt;
+        "crai-icon-wind": CraiIconWind;
+        "crai-icon-woman-head": CraiIconWomanHead;
+        "crai-icon-world": CraiIconWorld;
+        "crai-icon-yen": CraiIconYen;
+        "crai-icon-zoom-in": CraiIconZoomIn;
+        "crai-icon-zoom-out": CraiIconZoomOut;
         "crai-text-bubble": CraiTextBubble;
         "crai-text-input": CraiTextInput;
     }
@@ -230,6 +14174,504 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "crai-button": LocalJSX.CraiButton & JSXBase.HTMLAttributes<HTMLCraiButtonElement>;
+            "crai-icon-add": LocalJSX.CraiIconAdd & JSXBase.HTMLAttributes<HTMLCraiIconAddElement>;
+            "crai-icon-address-book": LocalJSX.CraiIconAddressBook & JSXBase.HTMLAttributes<HTMLCraiIconAddressBookElement>;
+            "crai-icon-alarm-clock": LocalJSX.CraiIconAlarmClock & JSXBase.HTMLAttributes<HTMLCraiIconAlarmClockElement>;
+            "crai-icon-align-center": LocalJSX.CraiIconAlignCenter & JSXBase.HTMLAttributes<HTMLCraiIconAlignCenterElement>;
+            "crai-icon-align-justify": LocalJSX.CraiIconAlignJustify & JSXBase.HTMLAttributes<HTMLCraiIconAlignJustifyElement>;
+            "crai-icon-align-left": LocalJSX.CraiIconAlignLeft & JSXBase.HTMLAttributes<HTMLCraiIconAlignLeftElement>;
+            "crai-icon-align-right": LocalJSX.CraiIconAlignRight & JSXBase.HTMLAttributes<HTMLCraiIconAlignRightElement>;
+            "crai-icon-ambulance": LocalJSX.CraiIconAmbulance & JSXBase.HTMLAttributes<HTMLCraiIconAmbulanceElement>;
+            "crai-icon-angle-double-left": LocalJSX.CraiIconAngleDoubleLeft & JSXBase.HTMLAttributes<HTMLCraiIconAngleDoubleLeftElement>;
+            "crai-icon-angle-double-right": LocalJSX.CraiIconAngleDoubleRight & JSXBase.HTMLAttributes<HTMLCraiIconAngleDoubleRightElement>;
+            "crai-icon-angle-double-small-left": LocalJSX.CraiIconAngleDoubleSmallLeft & JSXBase.HTMLAttributes<HTMLCraiIconAngleDoubleSmallLeftElement>;
+            "crai-icon-angle-double-small-right": LocalJSX.CraiIconAngleDoubleSmallRight & JSXBase.HTMLAttributes<HTMLCraiIconAngleDoubleSmallRightElement>;
+            "crai-icon-angle-down": LocalJSX.CraiIconAngleDown & JSXBase.HTMLAttributes<HTMLCraiIconAngleDownElement>;
+            "crai-icon-angle-left": LocalJSX.CraiIconAngleLeft & JSXBase.HTMLAttributes<HTMLCraiIconAngleLeftElement>;
+            "crai-icon-angle-right": LocalJSX.CraiIconAngleRight & JSXBase.HTMLAttributes<HTMLCraiIconAngleRightElement>;
+            "crai-icon-angle-small-down": LocalJSX.CraiIconAngleSmallDown & JSXBase.HTMLAttributes<HTMLCraiIconAngleSmallDownElement>;
+            "crai-icon-angle-small-left": LocalJSX.CraiIconAngleSmallLeft & JSXBase.HTMLAttributes<HTMLCraiIconAngleSmallLeftElement>;
+            "crai-icon-angle-small-right": LocalJSX.CraiIconAngleSmallRight & JSXBase.HTMLAttributes<HTMLCraiIconAngleSmallRightElement>;
+            "crai-icon-angle-small-up": LocalJSX.CraiIconAngleSmallUp & JSXBase.HTMLAttributes<HTMLCraiIconAngleSmallUpElement>;
+            "crai-icon-angle-up": LocalJSX.CraiIconAngleUp & JSXBase.HTMLAttributes<HTMLCraiIconAngleUpElement>;
+            "crai-icon-apple": LocalJSX.CraiIconApple & JSXBase.HTMLAttributes<HTMLCraiIconAppleElement>;
+            "crai-icon-apps": LocalJSX.CraiIconApps & JSXBase.HTMLAttributes<HTMLCraiIconAppsElement>;
+            "crai-icon-apps-add": LocalJSX.CraiIconAppsAdd & JSXBase.HTMLAttributes<HTMLCraiIconAppsAddElement>;
+            "crai-icon-apps-delete": LocalJSX.CraiIconAppsDelete & JSXBase.HTMLAttributes<HTMLCraiIconAppsDeleteElement>;
+            "crai-icon-apps-sort": LocalJSX.CraiIconAppsSort & JSXBase.HTMLAttributes<HTMLCraiIconAppsSortElement>;
+            "crai-icon-archive": LocalJSX.CraiIconArchive & JSXBase.HTMLAttributes<HTMLCraiIconArchiveElement>;
+            "crai-icon-arrow-down": LocalJSX.CraiIconArrowDown & JSXBase.HTMLAttributes<HTMLCraiIconArrowDownElement>;
+            "crai-icon-arrow-from-bottom": LocalJSX.CraiIconArrowFromBottom & JSXBase.HTMLAttributes<HTMLCraiIconArrowFromBottomElement>;
+            "crai-icon-arrow-left": LocalJSX.CraiIconArrowLeft & JSXBase.HTMLAttributes<HTMLCraiIconArrowLeftElement>;
+            "crai-icon-arrow-right": LocalJSX.CraiIconArrowRight & JSXBase.HTMLAttributes<HTMLCraiIconArrowRightElement>;
+            "crai-icon-arrow-small-down": LocalJSX.CraiIconArrowSmallDown & JSXBase.HTMLAttributes<HTMLCraiIconArrowSmallDownElement>;
+            "crai-icon-arrow-small-left": LocalJSX.CraiIconArrowSmallLeft & JSXBase.HTMLAttributes<HTMLCraiIconArrowSmallLeftElement>;
+            "crai-icon-arrow-small-right": LocalJSX.CraiIconArrowSmallRight & JSXBase.HTMLAttributes<HTMLCraiIconArrowSmallRightElement>;
+            "crai-icon-arrow-small-up": LocalJSX.CraiIconArrowSmallUp & JSXBase.HTMLAttributes<HTMLCraiIconArrowSmallUpElement>;
+            "crai-icon-arrow-up": LocalJSX.CraiIconArrowUp & JSXBase.HTMLAttributes<HTMLCraiIconArrowUpElement>;
+            "crai-icon-asterik": LocalJSX.CraiIconAsterik & JSXBase.HTMLAttributes<HTMLCraiIconAsterikElement>;
+            "crai-icon-at": LocalJSX.CraiIconAt & JSXBase.HTMLAttributes<HTMLCraiIconAtElement>;
+            "crai-icon-backpack": LocalJSX.CraiIconBackpack & JSXBase.HTMLAttributes<HTMLCraiIconBackpackElement>;
+            "crai-icon-badge": LocalJSX.CraiIconBadge & JSXBase.HTMLAttributes<HTMLCraiIconBadgeElement>;
+            "crai-icon-balloons": LocalJSX.CraiIconBalloons & JSXBase.HTMLAttributes<HTMLCraiIconBalloonsElement>;
+            "crai-icon-ban": LocalJSX.CraiIconBan & JSXBase.HTMLAttributes<HTMLCraiIconBanElement>;
+            "crai-icon-band-aid": LocalJSX.CraiIconBandAid & JSXBase.HTMLAttributes<HTMLCraiIconBandAidElement>;
+            "crai-icon-bank": LocalJSX.CraiIconBank & JSXBase.HTMLAttributes<HTMLCraiIconBankElement>;
+            "crai-icon-barber-shop": LocalJSX.CraiIconBarberShop & JSXBase.HTMLAttributes<HTMLCraiIconBarberShopElement>;
+            "crai-icon-baseball": LocalJSX.CraiIconBaseball & JSXBase.HTMLAttributes<HTMLCraiIconBaseballElement>;
+            "crai-icon-basketball": LocalJSX.CraiIconBasketball & JSXBase.HTMLAttributes<HTMLCraiIconBasketballElement>;
+            "crai-icon-bed": LocalJSX.CraiIconBed & JSXBase.HTMLAttributes<HTMLCraiIconBedElement>;
+            "crai-icon-beer": LocalJSX.CraiIconBeer & JSXBase.HTMLAttributes<HTMLCraiIconBeerElement>;
+            "crai-icon-bell": LocalJSX.CraiIconBell & JSXBase.HTMLAttributes<HTMLCraiIconBellElement>;
+            "crai-icon-bell-ring": LocalJSX.CraiIconBellRing & JSXBase.HTMLAttributes<HTMLCraiIconBellRingElement>;
+            "crai-icon-bell-school": LocalJSX.CraiIconBellSchool & JSXBase.HTMLAttributes<HTMLCraiIconBellSchoolElement>;
+            "crai-icon-bike": LocalJSX.CraiIconBike & JSXBase.HTMLAttributes<HTMLCraiIconBikeElement>;
+            "crai-icon-billiard": LocalJSX.CraiIconBilliard & JSXBase.HTMLAttributes<HTMLCraiIconBilliardElement>;
+            "crai-icon-bold": LocalJSX.CraiIconBold & JSXBase.HTMLAttributes<HTMLCraiIconBoldElement>;
+            "crai-icon-book": LocalJSX.CraiIconBook & JSXBase.HTMLAttributes<HTMLCraiIconBookElement>;
+            "crai-icon-book-alt": LocalJSX.CraiIconBookAlt & JSXBase.HTMLAttributes<HTMLCraiIconBookAltElement>;
+            "crai-icon-bookmark": LocalJSX.CraiIconBookmark & JSXBase.HTMLAttributes<HTMLCraiIconBookmarkElement>;
+            "crai-icon-bowling": LocalJSX.CraiIconBowling & JSXBase.HTMLAttributes<HTMLCraiIconBowlingElement>;
+            "crai-icon-box": LocalJSX.CraiIconBox & JSXBase.HTMLAttributes<HTMLCraiIconBoxElement>;
+            "crai-icon-box-alt": LocalJSX.CraiIconBoxAlt & JSXBase.HTMLAttributes<HTMLCraiIconBoxAltElement>;
+            "crai-icon-bread-slice": LocalJSX.CraiIconBreadSlice & JSXBase.HTMLAttributes<HTMLCraiIconBreadSliceElement>;
+            "crai-icon-briefcase": LocalJSX.CraiIconBriefcase & JSXBase.HTMLAttributes<HTMLCraiIconBriefcaseElement>;
+            "crai-icon-broom": LocalJSX.CraiIconBroom & JSXBase.HTMLAttributes<HTMLCraiIconBroomElement>;
+            "crai-icon-browser": LocalJSX.CraiIconBrowser & JSXBase.HTMLAttributes<HTMLCraiIconBrowserElement>;
+            "crai-icon-brush": LocalJSX.CraiIconBrush & JSXBase.HTMLAttributes<HTMLCraiIconBrushElement>;
+            "crai-icon-bug": LocalJSX.CraiIconBug & JSXBase.HTMLAttributes<HTMLCraiIconBugElement>;
+            "crai-icon-building": LocalJSX.CraiIconBuilding & JSXBase.HTMLAttributes<HTMLCraiIconBuildingElement>;
+            "crai-icon-bulb": LocalJSX.CraiIconBulb & JSXBase.HTMLAttributes<HTMLCraiIconBulbElement>;
+            "crai-icon-butterfly": LocalJSX.CraiIconButterfly & JSXBase.HTMLAttributes<HTMLCraiIconButterflyElement>;
+            "crai-icon-cake-birthday": LocalJSX.CraiIconCakeBirthday & JSXBase.HTMLAttributes<HTMLCraiIconCakeBirthdayElement>;
+            "crai-icon-cake-wedding": LocalJSX.CraiIconCakeWedding & JSXBase.HTMLAttributes<HTMLCraiIconCakeWeddingElement>;
+            "crai-icon-calculator": LocalJSX.CraiIconCalculator & JSXBase.HTMLAttributes<HTMLCraiIconCalculatorElement>;
+            "crai-icon-calendar": LocalJSX.CraiIconCalendar & JSXBase.HTMLAttributes<HTMLCraiIconCalendarElement>;
+            "crai-icon-call-history": LocalJSX.CraiIconCallHistory & JSXBase.HTMLAttributes<HTMLCraiIconCallHistoryElement>;
+            "crai-icon-call-incoming": LocalJSX.CraiIconCallIncoming & JSXBase.HTMLAttributes<HTMLCraiIconCallIncomingElement>;
+            "crai-icon-call-missed": LocalJSX.CraiIconCallMissed & JSXBase.HTMLAttributes<HTMLCraiIconCallMissedElement>;
+            "crai-icon-call-outgoing": LocalJSX.CraiIconCallOutgoing & JSXBase.HTMLAttributes<HTMLCraiIconCallOutgoingElement>;
+            "crai-icon-camera": LocalJSX.CraiIconCamera & JSXBase.HTMLAttributes<HTMLCraiIconCameraElement>;
+            "crai-icon-camping": LocalJSX.CraiIconCamping & JSXBase.HTMLAttributes<HTMLCraiIconCampingElement>;
+            "crai-icon-car": LocalJSX.CraiIconCar & JSXBase.HTMLAttributes<HTMLCraiIconCarElement>;
+            "crai-icon-caret-down": LocalJSX.CraiIconCaretDown & JSXBase.HTMLAttributes<HTMLCraiIconCaretDownElement>;
+            "crai-icon-caret-left": LocalJSX.CraiIconCaretLeft & JSXBase.HTMLAttributes<HTMLCraiIconCaretLeftElement>;
+            "crai-icon-caret-right": LocalJSX.CraiIconCaretRight & JSXBase.HTMLAttributes<HTMLCraiIconCaretRightElement>;
+            "crai-icon-caret-up": LocalJSX.CraiIconCaretUp & JSXBase.HTMLAttributes<HTMLCraiIconCaretUpElement>;
+            "crai-icon-carrot": LocalJSX.CraiIconCarrot & JSXBase.HTMLAttributes<HTMLCraiIconCarrotElement>;
+            "crai-icon-chart-connected": LocalJSX.CraiIconChartConnected & JSXBase.HTMLAttributes<HTMLCraiIconChartConnectedElement>;
+            "crai-icon-chart-histogram": LocalJSX.CraiIconChartHistogram & JSXBase.HTMLAttributes<HTMLCraiIconChartHistogramElement>;
+            "crai-icon-chart-network": LocalJSX.CraiIconChartNetwork & JSXBase.HTMLAttributes<HTMLCraiIconChartNetworkElement>;
+            "crai-icon-chart-pie": LocalJSX.CraiIconChartPie & JSXBase.HTMLAttributes<HTMLCraiIconChartPieElement>;
+            "crai-icon-chart-pie-alt": LocalJSX.CraiIconChartPieAlt & JSXBase.HTMLAttributes<HTMLCraiIconChartPieAltElement>;
+            "crai-icon-chart-pyramid": LocalJSX.CraiIconChartPyramid & JSXBase.HTMLAttributes<HTMLCraiIconChartPyramidElement>;
+            "crai-icon-chart-set-theory": LocalJSX.CraiIconChartSetTheory & JSXBase.HTMLAttributes<HTMLCraiIconChartSetTheoryElement>;
+            "crai-icon-chart-tree": LocalJSX.CraiIconChartTree & JSXBase.HTMLAttributes<HTMLCraiIconChartTreeElement>;
+            "crai-icon-chat-arrow-down": LocalJSX.CraiIconChatArrowDown & JSXBase.HTMLAttributes<HTMLCraiIconChatArrowDownElement>;
+            "crai-icon-chat-arrow-grow": LocalJSX.CraiIconChatArrowGrow & JSXBase.HTMLAttributes<HTMLCraiIconChatArrowGrowElement>;
+            "crai-icon-check": LocalJSX.CraiIconCheck & JSXBase.HTMLAttributes<HTMLCraiIconCheckElement>;
+            "crai-icon-checkbox": LocalJSX.CraiIconCheckbox & JSXBase.HTMLAttributes<HTMLCraiIconCheckboxElement>;
+            "crai-icon-cheese": LocalJSX.CraiIconCheese & JSXBase.HTMLAttributes<HTMLCraiIconCheeseElement>;
+            "crai-icon-chess-piece": LocalJSX.CraiIconChessPiece & JSXBase.HTMLAttributes<HTMLCraiIconChessPieceElement>;
+            "crai-icon-child-head": LocalJSX.CraiIconChildHead & JSXBase.HTMLAttributes<HTMLCraiIconChildHeadElement>;
+            "crai-icon-circle": LocalJSX.CraiIconCircle & JSXBase.HTMLAttributes<HTMLCraiIconCircleElement>;
+            "crai-icon-circle-small": LocalJSX.CraiIconCircleSmall & JSXBase.HTMLAttributes<HTMLCraiIconCircleSmallElement>;
+            "crai-icon-clip": LocalJSX.CraiIconClip & JSXBase.HTMLAttributes<HTMLCraiIconClipElement>;
+            "crai-icon-clock": LocalJSX.CraiIconClock & JSXBase.HTMLAttributes<HTMLCraiIconClockElement>;
+            "crai-icon-cloud": LocalJSX.CraiIconCloud & JSXBase.HTMLAttributes<HTMLCraiIconCloudElement>;
+            "crai-icon-cloud-check": LocalJSX.CraiIconCloudCheck & JSXBase.HTMLAttributes<HTMLCraiIconCloudCheckElement>;
+            "crai-icon-cloud-disabled": LocalJSX.CraiIconCloudDisabled & JSXBase.HTMLAttributes<HTMLCraiIconCloudDisabledElement>;
+            "crai-icon-cloud-download": LocalJSX.CraiIconCloudDownload & JSXBase.HTMLAttributes<HTMLCraiIconCloudDownloadElement>;
+            "crai-icon-cloud-share": LocalJSX.CraiIconCloudShare & JSXBase.HTMLAttributes<HTMLCraiIconCloudShareElement>;
+            "crai-icon-cloud-upload": LocalJSX.CraiIconCloudUpload & JSXBase.HTMLAttributes<HTMLCraiIconCloudUploadElement>;
+            "crai-icon-clouds": LocalJSX.CraiIconClouds & JSXBase.HTMLAttributes<HTMLCraiIconCloudsElement>;
+            "crai-icon-cocktail": LocalJSX.CraiIconCocktail & JSXBase.HTMLAttributes<HTMLCraiIconCocktailElement>;
+            "crai-icon-coffee": LocalJSX.CraiIconCoffee & JSXBase.HTMLAttributes<HTMLCraiIconCoffeeElement>;
+            "crai-icon-comment": LocalJSX.CraiIconComment & JSXBase.HTMLAttributes<HTMLCraiIconCommentElement>;
+            "crai-icon-comment-alt": LocalJSX.CraiIconCommentAlt & JSXBase.HTMLAttributes<HTMLCraiIconCommentAltElement>;
+            "crai-icon-comment-check": LocalJSX.CraiIconCommentCheck & JSXBase.HTMLAttributes<HTMLCraiIconCommentCheckElement>;
+            "crai-icon-comment-heart": LocalJSX.CraiIconCommentHeart & JSXBase.HTMLAttributes<HTMLCraiIconCommentHeartElement>;
+            "crai-icon-comment-info": LocalJSX.CraiIconCommentInfo & JSXBase.HTMLAttributes<HTMLCraiIconCommentInfoElement>;
+            "crai-icon-comment-user": LocalJSX.CraiIconCommentUser & JSXBase.HTMLAttributes<HTMLCraiIconCommentUserElement>;
+            "crai-icon-comments": LocalJSX.CraiIconComments & JSXBase.HTMLAttributes<HTMLCraiIconCommentsElement>;
+            "crai-icon-compress": LocalJSX.CraiIconCompress & JSXBase.HTMLAttributes<HTMLCraiIconCompressElement>;
+            "crai-icon-compress-alt": LocalJSX.CraiIconCompressAlt & JSXBase.HTMLAttributes<HTMLCraiIconCompressAltElement>;
+            "crai-icon-computer": LocalJSX.CraiIconComputer & JSXBase.HTMLAttributes<HTMLCraiIconComputerElement>;
+            "crai-icon-confetti": LocalJSX.CraiIconConfetti & JSXBase.HTMLAttributes<HTMLCraiIconConfettiElement>;
+            "crai-icon-cookie": LocalJSX.CraiIconCookie & JSXBase.HTMLAttributes<HTMLCraiIconCookieElement>;
+            "crai-icon-copy": LocalJSX.CraiIconCopy & JSXBase.HTMLAttributes<HTMLCraiIconCopyElement>;
+            "crai-icon-copy-alt": LocalJSX.CraiIconCopyAlt & JSXBase.HTMLAttributes<HTMLCraiIconCopyAltElement>;
+            "crai-icon-copyright": LocalJSX.CraiIconCopyright & JSXBase.HTMLAttributes<HTMLCraiIconCopyrightElement>;
+            "crai-icon-cow": LocalJSX.CraiIconCow & JSXBase.HTMLAttributes<HTMLCraiIconCowElement>;
+            "crai-icon-cream": LocalJSX.CraiIconCream & JSXBase.HTMLAttributes<HTMLCraiIconCreamElement>;
+            "crai-icon-credit-card": LocalJSX.CraiIconCreditCard & JSXBase.HTMLAttributes<HTMLCraiIconCreditCardElement>;
+            "crai-icon-croissant": LocalJSX.CraiIconCroissant & JSXBase.HTMLAttributes<HTMLCraiIconCroissantElement>;
+            "crai-icon-cross": LocalJSX.CraiIconCross & JSXBase.HTMLAttributes<HTMLCraiIconCrossElement>;
+            "crai-icon-cross-circle": LocalJSX.CraiIconCrossCircle & JSXBase.HTMLAttributes<HTMLCraiIconCrossCircleElement>;
+            "crai-icon-cross-small": LocalJSX.CraiIconCrossSmall & JSXBase.HTMLAttributes<HTMLCraiIconCrossSmallElement>;
+            "crai-icon-crown": LocalJSX.CraiIconCrown & JSXBase.HTMLAttributes<HTMLCraiIconCrownElement>;
+            "crai-icon-cube": LocalJSX.CraiIconCube & JSXBase.HTMLAttributes<HTMLCraiIconCubeElement>;
+            "crai-icon-cupcake": LocalJSX.CraiIconCupcake & JSXBase.HTMLAttributes<HTMLCraiIconCupcakeElement>;
+            "crai-icon-cursor": LocalJSX.CraiIconCursor & JSXBase.HTMLAttributes<HTMLCraiIconCursorElement>;
+            "crai-icon-cursor-finger": LocalJSX.CraiIconCursorFinger & JSXBase.HTMLAttributes<HTMLCraiIconCursorFingerElement>;
+            "crai-icon-cursor-plus": LocalJSX.CraiIconCursorPlus & JSXBase.HTMLAttributes<HTMLCraiIconCursorPlusElement>;
+            "crai-icon-cursor-text": LocalJSX.CraiIconCursorText & JSXBase.HTMLAttributes<HTMLCraiIconCursorTextElement>;
+            "crai-icon-cursor-text-alt": LocalJSX.CraiIconCursorTextAlt & JSXBase.HTMLAttributes<HTMLCraiIconCursorTextAltElement>;
+            "crai-icon-dart": LocalJSX.CraiIconDart & JSXBase.HTMLAttributes<HTMLCraiIconDartElement>;
+            "crai-icon-dashboard": LocalJSX.CraiIconDashboard & JSXBase.HTMLAttributes<HTMLCraiIconDashboardElement>;
+            "crai-icon-data-transfer": LocalJSX.CraiIconDataTransfer & JSXBase.HTMLAttributes<HTMLCraiIconDataTransferElement>;
+            "crai-icon-database": LocalJSX.CraiIconDatabase & JSXBase.HTMLAttributes<HTMLCraiIconDatabaseElement>;
+            "crai-icon-delete": LocalJSX.CraiIconDelete & JSXBase.HTMLAttributes<HTMLCraiIconDeleteElement>;
+            "crai-icon-diamond": LocalJSX.CraiIconDiamond & JSXBase.HTMLAttributes<HTMLCraiIconDiamondElement>;
+            "crai-icon-dice": LocalJSX.CraiIconDice & JSXBase.HTMLAttributes<HTMLCraiIconDiceElement>;
+            "crai-icon-diploma": LocalJSX.CraiIconDiploma & JSXBase.HTMLAttributes<HTMLCraiIconDiplomaElement>;
+            "crai-icon-disco-ball": LocalJSX.CraiIconDiscoBall & JSXBase.HTMLAttributes<HTMLCraiIconDiscoBallElement>;
+            "crai-icon-disk": LocalJSX.CraiIconDisk & JSXBase.HTMLAttributes<HTMLCraiIconDiskElement>;
+            "crai-icon-doctor": LocalJSX.CraiIconDoctor & JSXBase.HTMLAttributes<HTMLCraiIconDoctorElement>;
+            "crai-icon-document": LocalJSX.CraiIconDocument & JSXBase.HTMLAttributes<HTMLCraiIconDocumentElement>;
+            "crai-icon-document-signed": LocalJSX.CraiIconDocumentSigned & JSXBase.HTMLAttributes<HTMLCraiIconDocumentSignedElement>;
+            "crai-icon-dollar": LocalJSX.CraiIconDollar & JSXBase.HTMLAttributes<HTMLCraiIconDollarElement>;
+            "crai-icon-download": LocalJSX.CraiIconDownload & JSXBase.HTMLAttributes<HTMLCraiIconDownloadElement>;
+            "crai-icon-drink-alt": LocalJSX.CraiIconDrinkAlt & JSXBase.HTMLAttributes<HTMLCraiIconDrinkAltElement>;
+            "crai-icon-drumstick": LocalJSX.CraiIconDrumstick & JSXBase.HTMLAttributes<HTMLCraiIconDrumstickElement>;
+            "crai-icon-duplicate": LocalJSX.CraiIconDuplicate & JSXBase.HTMLAttributes<HTMLCraiIconDuplicateElement>;
+            "crai-icon-e-learning": LocalJSX.CraiIconELearning & JSXBase.HTMLAttributes<HTMLCraiIconELearningElement>;
+            "crai-icon-earnings": LocalJSX.CraiIconEarnings & JSXBase.HTMLAttributes<HTMLCraiIconEarningsElement>;
+            "crai-icon-edit": LocalJSX.CraiIconEdit & JSXBase.HTMLAttributes<HTMLCraiIconEditElement>;
+            "crai-icon-edit-alt": LocalJSX.CraiIconEditAlt & JSXBase.HTMLAttributes<HTMLCraiIconEditAltElement>;
+            "crai-icon-envelope": LocalJSX.CraiIconEnvelope & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopeElement>;
+            "crai-icon-envelope-ban": LocalJSX.CraiIconEnvelopeBan & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopeBanElement>;
+            "crai-icon-envelope-download": LocalJSX.CraiIconEnvelopeDownload & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopeDownloadElement>;
+            "crai-icon-envelope-marker": LocalJSX.CraiIconEnvelopeMarker & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopeMarkerElement>;
+            "crai-icon-envelope-open": LocalJSX.CraiIconEnvelopeOpen & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopeOpenElement>;
+            "crai-icon-envelope-plus": LocalJSX.CraiIconEnvelopePlus & JSXBase.HTMLAttributes<HTMLCraiIconEnvelopePlusElement>;
+            "crai-icon-euro": LocalJSX.CraiIconEuro & JSXBase.HTMLAttributes<HTMLCraiIconEuroElement>;
+            "crai-icon-exclamation": LocalJSX.CraiIconExclamation & JSXBase.HTMLAttributes<HTMLCraiIconExclamationElement>;
+            "crai-icon-expand": LocalJSX.CraiIconExpand & JSXBase.HTMLAttributes<HTMLCraiIconExpandElement>;
+            "crai-icon-eye": LocalJSX.CraiIconEye & JSXBase.HTMLAttributes<HTMLCraiIconEyeElement>;
+            "crai-icon-eye-crossed": LocalJSX.CraiIconEyeCrossed & JSXBase.HTMLAttributes<HTMLCraiIconEyeCrossedElement>;
+            "crai-icon-eye-dropper": LocalJSX.CraiIconEyeDropper & JSXBase.HTMLAttributes<HTMLCraiIconEyeDropperElement>;
+            "crai-icon-feather": LocalJSX.CraiIconFeather & JSXBase.HTMLAttributes<HTMLCraiIconFeatherElement>;
+            "crai-icon-ferris-wheel": LocalJSX.CraiIconFerrisWheel & JSXBase.HTMLAttributes<HTMLCraiIconFerrisWheelElement>;
+            "crai-icon-file": LocalJSX.CraiIconFile & JSXBase.HTMLAttributes<HTMLCraiIconFileElement>;
+            "crai-icon-file-add": LocalJSX.CraiIconFileAdd & JSXBase.HTMLAttributes<HTMLCraiIconFileAddElement>;
+            "crai-icon-file-ai": LocalJSX.CraiIconFileAi & JSXBase.HTMLAttributes<HTMLCraiIconFileAiElement>;
+            "crai-icon-file-check": LocalJSX.CraiIconFileCheck & JSXBase.HTMLAttributes<HTMLCraiIconFileCheckElement>;
+            "crai-icon-file-delete": LocalJSX.CraiIconFileDelete & JSXBase.HTMLAttributes<HTMLCraiIconFileDeleteElement>;
+            "crai-icon-file-eps": LocalJSX.CraiIconFileEps & JSXBase.HTMLAttributes<HTMLCraiIconFileEpsElement>;
+            "crai-icon-file-gif": LocalJSX.CraiIconFileGif & JSXBase.HTMLAttributes<HTMLCraiIconFileGifElement>;
+            "crai-icon-file-music": LocalJSX.CraiIconFileMusic & JSXBase.HTMLAttributes<HTMLCraiIconFileMusicElement>;
+            "crai-icon-file-psd": LocalJSX.CraiIconFilePsd & JSXBase.HTMLAttributes<HTMLCraiIconFilePsdElement>;
+            "crai-icon-fill": LocalJSX.CraiIconFill & JSXBase.HTMLAttributes<HTMLCraiIconFillElement>;
+            "crai-icon-film": LocalJSX.CraiIconFilm & JSXBase.HTMLAttributes<HTMLCraiIconFilmElement>;
+            "crai-icon-filter": LocalJSX.CraiIconFilter & JSXBase.HTMLAttributes<HTMLCraiIconFilterElement>;
+            "crai-icon-fingerprint": LocalJSX.CraiIconFingerprint & JSXBase.HTMLAttributes<HTMLCraiIconFingerprintElement>;
+            "crai-icon-fish": LocalJSX.CraiIconFish & JSXBase.HTMLAttributes<HTMLCraiIconFishElement>;
+            "crai-icon-flag": LocalJSX.CraiIconFlag & JSXBase.HTMLAttributes<HTMLCraiIconFlagElement>;
+            "crai-icon-flame": LocalJSX.CraiIconFlame & JSXBase.HTMLAttributes<HTMLCraiIconFlameElement>;
+            "crai-icon-flip-horizontal": LocalJSX.CraiIconFlipHorizontal & JSXBase.HTMLAttributes<HTMLCraiIconFlipHorizontalElement>;
+            "crai-icon-flower": LocalJSX.CraiIconFlower & JSXBase.HTMLAttributes<HTMLCraiIconFlowerElement>;
+            "crai-icon-flower-bouquet": LocalJSX.CraiIconFlowerBouquet & JSXBase.HTMLAttributes<HTMLCraiIconFlowerBouquetElement>;
+            "crai-icon-flower-tulip": LocalJSX.CraiIconFlowerTulip & JSXBase.HTMLAttributes<HTMLCraiIconFlowerTulipElement>;
+            "crai-icon-folder": LocalJSX.CraiIconFolder & JSXBase.HTMLAttributes<HTMLCraiIconFolderElement>;
+            "crai-icon-folder-add": LocalJSX.CraiIconFolderAdd & JSXBase.HTMLAttributes<HTMLCraiIconFolderAddElement>;
+            "crai-icon-following": LocalJSX.CraiIconFollowing & JSXBase.HTMLAttributes<HTMLCraiIconFollowingElement>;
+            "crai-icon-football": LocalJSX.CraiIconFootball & JSXBase.HTMLAttributes<HTMLCraiIconFootballElement>;
+            "crai-icon-form": LocalJSX.CraiIconForm & JSXBase.HTMLAttributes<HTMLCraiIconFormElement>;
+            "crai-icon-forward": LocalJSX.CraiIconForward & JSXBase.HTMLAttributes<HTMLCraiIconForwardElement>;
+            "crai-icon-fox": LocalJSX.CraiIconFox & JSXBase.HTMLAttributes<HTMLCraiIconFoxElement>;
+            "crai-icon-frown": LocalJSX.CraiIconFrown & JSXBase.HTMLAttributes<HTMLCraiIconFrownElement>;
+            "crai-icon-ftp": LocalJSX.CraiIconFtp & JSXBase.HTMLAttributes<HTMLCraiIconFtpElement>;
+            "crai-icon-gallery": LocalJSX.CraiIconGallery & JSXBase.HTMLAttributes<HTMLCraiIconGalleryElement>;
+            "crai-icon-gamepad": LocalJSX.CraiIconGamepad & JSXBase.HTMLAttributes<HTMLCraiIconGamepadElement>;
+            "crai-icon-gas-pump": LocalJSX.CraiIconGasPump & JSXBase.HTMLAttributes<HTMLCraiIconGasPumpElement>;
+            "crai-icon-gem": LocalJSX.CraiIconGem & JSXBase.HTMLAttributes<HTMLCraiIconGemElement>;
+            "crai-icon-gift": LocalJSX.CraiIconGift & JSXBase.HTMLAttributes<HTMLCraiIconGiftElement>;
+            "crai-icon-glass-cheers": LocalJSX.CraiIconGlassCheers & JSXBase.HTMLAttributes<HTMLCraiIconGlassCheersElement>;
+            "crai-icon-glasses": LocalJSX.CraiIconGlasses & JSXBase.HTMLAttributes<HTMLCraiIconGlassesElement>;
+            "crai-icon-globe": LocalJSX.CraiIconGlobe & JSXBase.HTMLAttributes<HTMLCraiIconGlobeElement>;
+            "crai-icon-globe-alt": LocalJSX.CraiIconGlobeAlt & JSXBase.HTMLAttributes<HTMLCraiIconGlobeAltElement>;
+            "crai-icon-golf": LocalJSX.CraiIconGolf & JSXBase.HTMLAttributes<HTMLCraiIconGolfElement>;
+            "crai-icon-graduation-cap": LocalJSX.CraiIconGraduationCap & JSXBase.HTMLAttributes<HTMLCraiIconGraduationCapElement>;
+            "crai-icon-graphic-tablet": LocalJSX.CraiIconGraphicTablet & JSXBase.HTMLAttributes<HTMLCraiIconGraphicTabletElement>;
+            "crai-icon-grid": LocalJSX.CraiIconGrid & JSXBase.HTMLAttributes<HTMLCraiIconGridElement>;
+            "crai-icon-grid-alt": LocalJSX.CraiIconGridAlt & JSXBase.HTMLAttributes<HTMLCraiIconGridAltElement>;
+            "crai-icon-guitar": LocalJSX.CraiIconGuitar & JSXBase.HTMLAttributes<HTMLCraiIconGuitarElement>;
+            "crai-icon-gym": LocalJSX.CraiIconGym & JSXBase.HTMLAttributes<HTMLCraiIconGymElement>;
+            "crai-icon-hamburger": LocalJSX.CraiIconHamburger & JSXBase.HTMLAttributes<HTMLCraiIconHamburgerElement>;
+            "crai-icon-hand-holding-heart": LocalJSX.CraiIconHandHoldingHeart & JSXBase.HTMLAttributes<HTMLCraiIconHandHoldingHeartElement>;
+            "crai-icon-hastag": LocalJSX.CraiIconHastag & JSXBase.HTMLAttributes<HTMLCraiIconHastagElement>;
+            "crai-icon-hat-birthday": LocalJSX.CraiIconHatBirthday & JSXBase.HTMLAttributes<HTMLCraiIconHatBirthdayElement>;
+            "crai-icon-head-side-thinking": LocalJSX.CraiIconHeadSideThinking & JSXBase.HTMLAttributes<HTMLCraiIconHeadSideThinkingElement>;
+            "crai-icon-headphones": LocalJSX.CraiIconHeadphones & JSXBase.HTMLAttributes<HTMLCraiIconHeadphonesElement>;
+            "crai-icon-headset": LocalJSX.CraiIconHeadset & JSXBase.HTMLAttributes<HTMLCraiIconHeadsetElement>;
+            "crai-icon-heart": LocalJSX.CraiIconHeart & JSXBase.HTMLAttributes<HTMLCraiIconHeartElement>;
+            "crai-icon-heart-arrow": LocalJSX.CraiIconHeartArrow & JSXBase.HTMLAttributes<HTMLCraiIconHeartArrowElement>;
+            "crai-icon-home": LocalJSX.CraiIconHome & JSXBase.HTMLAttributes<HTMLCraiIconHomeElement>;
+            "crai-icon-home-location": LocalJSX.CraiIconHomeLocation & JSXBase.HTMLAttributes<HTMLCraiIconHomeLocationElement>;
+            "crai-icon-home-location-alt": LocalJSX.CraiIconHomeLocationAlt & JSXBase.HTMLAttributes<HTMLCraiIconHomeLocationAltElement>;
+            "crai-icon-hourglass": LocalJSX.CraiIconHourglass & JSXBase.HTMLAttributes<HTMLCraiIconHourglassElement>;
+            "crai-icon-hourglass-end": LocalJSX.CraiIconHourglassEnd & JSXBase.HTMLAttributes<HTMLCraiIconHourglassEndElement>;
+            "crai-icon-ice-cream": LocalJSX.CraiIconIceCream & JSXBase.HTMLAttributes<HTMLCraiIconIceCreamElement>;
+            "crai-icon-ice-skate": LocalJSX.CraiIconIceSkate & JSXBase.HTMLAttributes<HTMLCraiIconIceSkateElement>;
+            "crai-icon-id-badge": LocalJSX.CraiIconIdBadge & JSXBase.HTMLAttributes<HTMLCraiIconIdBadgeElement>;
+            "crai-icon-inbox": LocalJSX.CraiIconInbox & JSXBase.HTMLAttributes<HTMLCraiIconInboxElement>;
+            "crai-icon-incognito": LocalJSX.CraiIconIncognito & JSXBase.HTMLAttributes<HTMLCraiIconIncognitoElement>;
+            "crai-icon-indent": LocalJSX.CraiIconIndent & JSXBase.HTMLAttributes<HTMLCraiIconIndentElement>;
+            "crai-icon-infinity": LocalJSX.CraiIconInfinity & JSXBase.HTMLAttributes<HTMLCraiIconInfinityElement>;
+            "crai-icon-info": LocalJSX.CraiIconInfo & JSXBase.HTMLAttributes<HTMLCraiIconInfoElement>;
+            "crai-icon-interactive": LocalJSX.CraiIconInteractive & JSXBase.HTMLAttributes<HTMLCraiIconInteractiveElement>;
+            "crai-icon-interlining": LocalJSX.CraiIconInterlining & JSXBase.HTMLAttributes<HTMLCraiIconInterliningElement>;
+            "crai-icon-interrogation": LocalJSX.CraiIconInterrogation & JSXBase.HTMLAttributes<HTMLCraiIconInterrogationElement>;
+            "crai-icon-italic": LocalJSX.CraiIconItalic & JSXBase.HTMLAttributes<HTMLCraiIconItalicElement>;
+            "crai-icon-jpg": LocalJSX.CraiIconJpg & JSXBase.HTMLAttributes<HTMLCraiIconJpgElement>;
+            "crai-icon-key": LocalJSX.CraiIconKey & JSXBase.HTMLAttributes<HTMLCraiIconKeyElement>;
+            "crai-icon-keyboard": LocalJSX.CraiIconKeyboard & JSXBase.HTMLAttributes<HTMLCraiIconKeyboardElement>;
+            "crai-icon-kite": LocalJSX.CraiIconKite & JSXBase.HTMLAttributes<HTMLCraiIconKiteElement>;
+            "crai-icon-label": LocalJSX.CraiIconLabel & JSXBase.HTMLAttributes<HTMLCraiIconLabelElement>;
+            "crai-icon-laptop": LocalJSX.CraiIconLaptop & JSXBase.HTMLAttributes<HTMLCraiIconLaptopElement>;
+            "crai-icon-lasso": LocalJSX.CraiIconLasso & JSXBase.HTMLAttributes<HTMLCraiIconLassoElement>;
+            "crai-icon-laugh": LocalJSX.CraiIconLaugh & JSXBase.HTMLAttributes<HTMLCraiIconLaughElement>;
+            "crai-icon-layers": LocalJSX.CraiIconLayers & JSXBase.HTMLAttributes<HTMLCraiIconLayersElement>;
+            "crai-icon-layout-fluid": LocalJSX.CraiIconLayoutFluid & JSXBase.HTMLAttributes<HTMLCraiIconLayoutFluidElement>;
+            "crai-icon-leaf": LocalJSX.CraiIconLeaf & JSXBase.HTMLAttributes<HTMLCraiIconLeafElement>;
+            "crai-icon-letter-case": LocalJSX.CraiIconLetterCase & JSXBase.HTMLAttributes<HTMLCraiIconLetterCaseElement>;
+            "crai-icon-life-ring": LocalJSX.CraiIconLifeRing & JSXBase.HTMLAttributes<HTMLCraiIconLifeRingElement>;
+            "crai-icon-line-width": LocalJSX.CraiIconLineWidth & JSXBase.HTMLAttributes<HTMLCraiIconLineWidthElement>;
+            "crai-icon-link": LocalJSX.CraiIconLink & JSXBase.HTMLAttributes<HTMLCraiIconLinkElement>;
+            "crai-icon-lipstick": LocalJSX.CraiIconLipstick & JSXBase.HTMLAttributes<HTMLCraiIconLipstickElement>;
+            "crai-icon-list": LocalJSX.CraiIconList & JSXBase.HTMLAttributes<HTMLCraiIconListElement>;
+            "crai-icon-list-check": LocalJSX.CraiIconListCheck & JSXBase.HTMLAttributes<HTMLCraiIconListCheckElement>;
+            "crai-icon-location-alt": LocalJSX.CraiIconLocationAlt & JSXBase.HTMLAttributes<HTMLCraiIconLocationAltElement>;
+            "crai-icon-lock": LocalJSX.CraiIconLock & JSXBase.HTMLAttributes<HTMLCraiIconLockElement>;
+            "crai-icon-lock-alt": LocalJSX.CraiIconLockAlt & JSXBase.HTMLAttributes<HTMLCraiIconLockAltElement>;
+            "crai-icon-luggage-rolling": LocalJSX.CraiIconLuggageRolling & JSXBase.HTMLAttributes<HTMLCraiIconLuggageRollingElement>;
+            "crai-icon-magic-wand": LocalJSX.CraiIconMagicWand & JSXBase.HTMLAttributes<HTMLCraiIconMagicWandElement>;
+            "crai-icon-makeup-brush": LocalJSX.CraiIconMakeupBrush & JSXBase.HTMLAttributes<HTMLCraiIconMakeupBrushElement>;
+            "crai-icon-man-head": LocalJSX.CraiIconManHead & JSXBase.HTMLAttributes<HTMLCraiIconManHeadElement>;
+            "crai-icon-map": LocalJSX.CraiIconMap & JSXBase.HTMLAttributes<HTMLCraiIconMapElement>;
+            "crai-icon-map-marker": LocalJSX.CraiIconMapMarker & JSXBase.HTMLAttributes<HTMLCraiIconMapMarkerElement>;
+            "crai-icon-map-marker-cross": LocalJSX.CraiIconMapMarkerCross & JSXBase.HTMLAttributes<HTMLCraiIconMapMarkerCrossElement>;
+            "crai-icon-map-marker-home": LocalJSX.CraiIconMapMarkerHome & JSXBase.HTMLAttributes<HTMLCraiIconMapMarkerHomeElement>;
+            "crai-icon-map-marker-minus": LocalJSX.CraiIconMapMarkerMinus & JSXBase.HTMLAttributes<HTMLCraiIconMapMarkerMinusElement>;
+            "crai-icon-map-marker-plus": LocalJSX.CraiIconMapMarkerPlus & JSXBase.HTMLAttributes<HTMLCraiIconMapMarkerPlusElement>;
+            "crai-icon-marker": LocalJSX.CraiIconMarker & JSXBase.HTMLAttributes<HTMLCraiIconMarkerElement>;
+            "crai-icon-marker-time": LocalJSX.CraiIconMarkerTime & JSXBase.HTMLAttributes<HTMLCraiIconMarkerTimeElement>;
+            "crai-icon-mars": LocalJSX.CraiIconMars & JSXBase.HTMLAttributes<HTMLCraiIconMarsElement>;
+            "crai-icon-mars-double": LocalJSX.CraiIconMarsDouble & JSXBase.HTMLAttributes<HTMLCraiIconMarsDoubleElement>;
+            "crai-icon-mask-carnival": LocalJSX.CraiIconMaskCarnival & JSXBase.HTMLAttributes<HTMLCraiIconMaskCarnivalElement>;
+            "crai-icon-medicine": LocalJSX.CraiIconMedicine & JSXBase.HTMLAttributes<HTMLCraiIconMedicineElement>;
+            "crai-icon-megaphone": LocalJSX.CraiIconMegaphone & JSXBase.HTMLAttributes<HTMLCraiIconMegaphoneElement>;
+            "crai-icon-meh": LocalJSX.CraiIconMeh & JSXBase.HTMLAttributes<HTMLCraiIconMehElement>;
+            "crai-icon-menu-burger": LocalJSX.CraiIconMenuBurger & JSXBase.HTMLAttributes<HTMLCraiIconMenuBurgerElement>;
+            "crai-icon-menu-dots": LocalJSX.CraiIconMenuDots & JSXBase.HTMLAttributes<HTMLCraiIconMenuDotsElement>;
+            "crai-icon-menu-dots-vertical": LocalJSX.CraiIconMenuDotsVertical & JSXBase.HTMLAttributes<HTMLCraiIconMenuDotsVerticalElement>;
+            "crai-icon-microphone": LocalJSX.CraiIconMicrophone & JSXBase.HTMLAttributes<HTMLCraiIconMicrophoneElement>;
+            "crai-icon-microphone-alt": LocalJSX.CraiIconMicrophoneAlt & JSXBase.HTMLAttributes<HTMLCraiIconMicrophoneAltElement>;
+            "crai-icon-minus": LocalJSX.CraiIconMinus & JSXBase.HTMLAttributes<HTMLCraiIconMinusElement>;
+            "crai-icon-minus-small": LocalJSX.CraiIconMinusSmall & JSXBase.HTMLAttributes<HTMLCraiIconMinusSmallElement>;
+            "crai-icon-mobile": LocalJSX.CraiIconMobile & JSXBase.HTMLAttributes<HTMLCraiIconMobileElement>;
+            "crai-icon-mode-landscape": LocalJSX.CraiIconModeLandscape & JSXBase.HTMLAttributes<HTMLCraiIconModeLandscapeElement>;
+            "crai-icon-mode-portrait": LocalJSX.CraiIconModePortrait & JSXBase.HTMLAttributes<HTMLCraiIconModePortraitElement>;
+            "crai-icon-money": LocalJSX.CraiIconMoney & JSXBase.HTMLAttributes<HTMLCraiIconMoneyElement>;
+            "crai-icon-moon": LocalJSX.CraiIconMoon & JSXBase.HTMLAttributes<HTMLCraiIconMoonElement>;
+            "crai-icon-mountains": LocalJSX.CraiIconMountains & JSXBase.HTMLAttributes<HTMLCraiIconMountainsElement>;
+            "crai-icon-mouse": LocalJSX.CraiIconMouse & JSXBase.HTMLAttributes<HTMLCraiIconMouseElement>;
+            "crai-icon-mug-alt": LocalJSX.CraiIconMugAlt & JSXBase.HTMLAttributes<HTMLCraiIconMugAltElement>;
+            "crai-icon-music": LocalJSX.CraiIconMusic & JSXBase.HTMLAttributes<HTMLCraiIconMusicElement>;
+            "crai-icon-music-alt": LocalJSX.CraiIconMusicAlt & JSXBase.HTMLAttributes<HTMLCraiIconMusicAltElement>;
+            "crai-icon-navigation": LocalJSX.CraiIconNavigation & JSXBase.HTMLAttributes<HTMLCraiIconNavigationElement>;
+            "crai-icon-network": LocalJSX.CraiIconNetwork & JSXBase.HTMLAttributes<HTMLCraiIconNetworkElement>;
+            "crai-icon-network-cloud": LocalJSX.CraiIconNetworkCloud & JSXBase.HTMLAttributes<HTMLCraiIconNetworkCloudElement>;
+            "crai-icon-notebook": LocalJSX.CraiIconNotebook & JSXBase.HTMLAttributes<HTMLCraiIconNotebookElement>;
+            "crai-icon-opacity": LocalJSX.CraiIconOpacity & JSXBase.HTMLAttributes<HTMLCraiIconOpacityElement>;
+            "crai-icon-package": LocalJSX.CraiIconPackage & JSXBase.HTMLAttributes<HTMLCraiIconPackageElement>;
+            "crai-icon-paint-brush": LocalJSX.CraiIconPaintBrush & JSXBase.HTMLAttributes<HTMLCraiIconPaintBrushElement>;
+            "crai-icon-palette": LocalJSX.CraiIconPalette & JSXBase.HTMLAttributes<HTMLCraiIconPaletteElement>;
+            "crai-icon-paper-plane": LocalJSX.CraiIconPaperPlane & JSXBase.HTMLAttributes<HTMLCraiIconPaperPlaneElement>;
+            "crai-icon-password": LocalJSX.CraiIconPassword & JSXBase.HTMLAttributes<HTMLCraiIconPasswordElement>;
+            "crai-icon-pause": LocalJSX.CraiIconPause & JSXBase.HTMLAttributes<HTMLCraiIconPauseElement>;
+            "crai-icon-paw": LocalJSX.CraiIconPaw & JSXBase.HTMLAttributes<HTMLCraiIconPawElement>;
+            "crai-icon-pencil": LocalJSX.CraiIconPencil & JSXBase.HTMLAttributes<HTMLCraiIconPencilElement>;
+            "crai-icon-pharmacy": LocalJSX.CraiIconPharmacy & JSXBase.HTMLAttributes<HTMLCraiIconPharmacyElement>;
+            "crai-icon-phone-call": LocalJSX.CraiIconPhoneCall & JSXBase.HTMLAttributes<HTMLCraiIconPhoneCallElement>;
+            "crai-icon-phone-cross": LocalJSX.CraiIconPhoneCross & JSXBase.HTMLAttributes<HTMLCraiIconPhoneCrossElement>;
+            "crai-icon-phone-pause": LocalJSX.CraiIconPhonePause & JSXBase.HTMLAttributes<HTMLCraiIconPhonePauseElement>;
+            "crai-icon-phone-slash": LocalJSX.CraiIconPhoneSlash & JSXBase.HTMLAttributes<HTMLCraiIconPhoneSlashElement>;
+            "crai-icon-physics": LocalJSX.CraiIconPhysics & JSXBase.HTMLAttributes<HTMLCraiIconPhysicsElement>;
+            "crai-icon-picture": LocalJSX.CraiIconPicture & JSXBase.HTMLAttributes<HTMLCraiIconPictureElement>;
+            "crai-icon-ping-pong": LocalJSX.CraiIconPingPong & JSXBase.HTMLAttributes<HTMLCraiIconPingPongElement>;
+            "crai-icon-pizza-slice": LocalJSX.CraiIconPizzaSlice & JSXBase.HTMLAttributes<HTMLCraiIconPizzaSliceElement>;
+            "crai-icon-plane": LocalJSX.CraiIconPlane & JSXBase.HTMLAttributes<HTMLCraiIconPlaneElement>;
+            "crai-icon-play": LocalJSX.CraiIconPlay & JSXBase.HTMLAttributes<HTMLCraiIconPlayElement>;
+            "crai-icon-play-alt": LocalJSX.CraiIconPlayAlt & JSXBase.HTMLAttributes<HTMLCraiIconPlayAltElement>;
+            "crai-icon-playing-cards": LocalJSX.CraiIconPlayingCards & JSXBase.HTMLAttributes<HTMLCraiIconPlayingCardsElement>;
+            "crai-icon-plus": LocalJSX.CraiIconPlus & JSXBase.HTMLAttributes<HTMLCraiIconPlusElement>;
+            "crai-icon-plus-small": LocalJSX.CraiIconPlusSmall & JSXBase.HTMLAttributes<HTMLCraiIconPlusSmallElement>;
+            "crai-icon-poker-chip": LocalJSX.CraiIconPokerChip & JSXBase.HTMLAttributes<HTMLCraiIconPokerChipElement>;
+            "crai-icon-portrait": LocalJSX.CraiIconPortrait & JSXBase.HTMLAttributes<HTMLCraiIconPortraitElement>;
+            "crai-icon-pound": LocalJSX.CraiIconPound & JSXBase.HTMLAttributes<HTMLCraiIconPoundElement>;
+            "crai-icon-power": LocalJSX.CraiIconPower & JSXBase.HTMLAttributes<HTMLCraiIconPowerElement>;
+            "crai-icon-presentation": LocalJSX.CraiIconPresentation & JSXBase.HTMLAttributes<HTMLCraiIconPresentationElement>;
+            "crai-icon-print": LocalJSX.CraiIconPrint & JSXBase.HTMLAttributes<HTMLCraiIconPrintElement>;
+            "crai-icon-protractor": LocalJSX.CraiIconProtractor & JSXBase.HTMLAttributes<HTMLCraiIconProtractorElement>;
+            "crai-icon-pulse": LocalJSX.CraiIconPulse & JSXBase.HTMLAttributes<HTMLCraiIconPulseElement>;
+            "crai-icon-pyramid": LocalJSX.CraiIconPyramid & JSXBase.HTMLAttributes<HTMLCraiIconPyramidElement>;
+            "crai-icon-quote-right": LocalJSX.CraiIconQuoteRight & JSXBase.HTMLAttributes<HTMLCraiIconQuoteRightElement>;
+            "crai-icon-rainbow": LocalJSX.CraiIconRainbow & JSXBase.HTMLAttributes<HTMLCraiIconRainbowElement>;
+            "crai-icon-raindrops": LocalJSX.CraiIconRaindrops & JSXBase.HTMLAttributes<HTMLCraiIconRaindropsElement>;
+            "crai-icon-rec": LocalJSX.CraiIconRec & JSXBase.HTMLAttributes<HTMLCraiIconRecElement>;
+            "crai-icon-receipt": LocalJSX.CraiIconReceipt & JSXBase.HTMLAttributes<HTMLCraiIconReceiptElement>;
+            "crai-icon-record-vinyl": LocalJSX.CraiIconRecordVinyl & JSXBase.HTMLAttributes<HTMLCraiIconRecordVinylElement>;
+            "crai-icon-rectabgle-vertical": LocalJSX.CraiIconRectabgleVertical & JSXBase.HTMLAttributes<HTMLCraiIconRectabgleVerticalElement>;
+            "crai-icon-rectangle-horizontal": LocalJSX.CraiIconRectangleHorizontal & JSXBase.HTMLAttributes<HTMLCraiIconRectangleHorizontalElement>;
+            "crai-icon-rectangle-panoramic": LocalJSX.CraiIconRectanglePanoramic & JSXBase.HTMLAttributes<HTMLCraiIconRectanglePanoramicElement>;
+            "crai-icon-recycle": LocalJSX.CraiIconRecycle & JSXBase.HTMLAttributes<HTMLCraiIconRecycleElement>;
+            "crai-icon-redo": LocalJSX.CraiIconRedo & JSXBase.HTMLAttributes<HTMLCraiIconRedoElement>;
+            "crai-icon-redo-alt": LocalJSX.CraiIconRedoAlt & JSXBase.HTMLAttributes<HTMLCraiIconRedoAltElement>;
+            "crai-icon-reflect": LocalJSX.CraiIconReflect & JSXBase.HTMLAttributes<HTMLCraiIconReflectElement>;
+            "crai-icon-refresh": LocalJSX.CraiIconRefresh & JSXBase.HTMLAttributes<HTMLCraiIconRefreshElement>;
+            "crai-icon-resize": LocalJSX.CraiIconResize & JSXBase.HTMLAttributes<HTMLCraiIconResizeElement>;
+            "crai-icon-resources": LocalJSX.CraiIconResources & JSXBase.HTMLAttributes<HTMLCraiIconResourcesElement>;
+            "crai-icon-rewind": LocalJSX.CraiIconRewind & JSXBase.HTMLAttributes<HTMLCraiIconRewindElement>;
+            "crai-icon-rhombus": LocalJSX.CraiIconRhombus & JSXBase.HTMLAttributes<HTMLCraiIconRhombusElement>;
+            "crai-icon-rings-wedding": LocalJSX.CraiIconRingsWedding & JSXBase.HTMLAttributes<HTMLCraiIconRingsWeddingElement>;
+            "crai-icon-road": LocalJSX.CraiIconRoad & JSXBase.HTMLAttributes<HTMLCraiIconRoadElement>;
+            "crai-icon-rocket": LocalJSX.CraiIconRocket & JSXBase.HTMLAttributes<HTMLCraiIconRocketElement>;
+            "crai-icon-room-service": LocalJSX.CraiIconRoomService & JSXBase.HTMLAttributes<HTMLCraiIconRoomServiceElement>;
+            "crai-icon-rotate-right": LocalJSX.CraiIconRotateRight & JSXBase.HTMLAttributes<HTMLCraiIconRotateRightElement>;
+            "crai-icon-rugby": LocalJSX.CraiIconRugby & JSXBase.HTMLAttributes<HTMLCraiIconRugbyElement>;
+            "crai-icon-sad": LocalJSX.CraiIconSad & JSXBase.HTMLAttributes<HTMLCraiIconSadElement>;
+            "crai-icon-salad": LocalJSX.CraiIconSalad & JSXBase.HTMLAttributes<HTMLCraiIconSaladElement>;
+            "crai-icon-scale": LocalJSX.CraiIconScale & JSXBase.HTMLAttributes<HTMLCraiIconScaleElement>;
+            "crai-icon-school": LocalJSX.CraiIconSchool & JSXBase.HTMLAttributes<HTMLCraiIconSchoolElement>;
+            "crai-icon-school-bus": LocalJSX.CraiIconSchoolBus & JSXBase.HTMLAttributes<HTMLCraiIconSchoolBusElement>;
+            "crai-icon-scissors": LocalJSX.CraiIconScissors & JSXBase.HTMLAttributes<HTMLCraiIconScissorsElement>;
+            "crai-icon-screen": LocalJSX.CraiIconScreen & JSXBase.HTMLAttributes<HTMLCraiIconScreenElement>;
+            "crai-icon-search": LocalJSX.CraiIconSearch & JSXBase.HTMLAttributes<HTMLCraiIconSearchElement>;
+            "crai-icon-search-alt": LocalJSX.CraiIconSearchAlt & JSXBase.HTMLAttributes<HTMLCraiIconSearchAltElement>;
+            "crai-icon-search-heart": LocalJSX.CraiIconSearchHeart & JSXBase.HTMLAttributes<HTMLCraiIconSearchHeartElement>;
+            "crai-icon-settings": LocalJSX.CraiIconSettings & JSXBase.HTMLAttributes<HTMLCraiIconSettingsElement>;
+            "crai-icon-settings-sliders": LocalJSX.CraiIconSettingsSliders & JSXBase.HTMLAttributes<HTMLCraiIconSettingsSlidersElement>;
+            "crai-icon-share": LocalJSX.CraiIconShare & JSXBase.HTMLAttributes<HTMLCraiIconShareElement>;
+            "crai-icon-shield": LocalJSX.CraiIconShield & JSXBase.HTMLAttributes<HTMLCraiIconShieldElement>;
+            "crai-icon-shield-check": LocalJSX.CraiIconShieldCheck & JSXBase.HTMLAttributes<HTMLCraiIconShieldCheckElement>;
+            "crai-icon-shield-exclamation": LocalJSX.CraiIconShieldExclamation & JSXBase.HTMLAttributes<HTMLCraiIconShieldExclamationElement>;
+            "crai-icon-shield-interrogation": LocalJSX.CraiIconShieldInterrogation & JSXBase.HTMLAttributes<HTMLCraiIconShieldInterrogationElement>;
+            "crai-icon-shield-plus": LocalJSX.CraiIconShieldPlus & JSXBase.HTMLAttributes<HTMLCraiIconShieldPlusElement>;
+            "crai-icon-ship": LocalJSX.CraiIconShip & JSXBase.HTMLAttributes<HTMLCraiIconShipElement>;
+            "crai-icon-ship-side": LocalJSX.CraiIconShipSide & JSXBase.HTMLAttributes<HTMLCraiIconShipSideElement>;
+            "crai-icon-shop": LocalJSX.CraiIconShop & JSXBase.HTMLAttributes<HTMLCraiIconShopElement>;
+            "crai-icon-shopping-bag": LocalJSX.CraiIconShoppingBag & JSXBase.HTMLAttributes<HTMLCraiIconShoppingBagElement>;
+            "crai-icon-shopping-bag-add": LocalJSX.CraiIconShoppingBagAdd & JSXBase.HTMLAttributes<HTMLCraiIconShoppingBagAddElement>;
+            "crai-icon-shopping-cart": LocalJSX.CraiIconShoppingCart & JSXBase.HTMLAttributes<HTMLCraiIconShoppingCartElement>;
+            "crai-icon-shopping-cart-add": LocalJSX.CraiIconShoppingCartAdd & JSXBase.HTMLAttributes<HTMLCraiIconShoppingCartAddElement>;
+            "crai-icon-shopping-cart-check": LocalJSX.CraiIconShoppingCartCheck & JSXBase.HTMLAttributes<HTMLCraiIconShoppingCartCheckElement>;
+            "crai-icon-shuffle": LocalJSX.CraiIconShuffle & JSXBase.HTMLAttributes<HTMLCraiIconShuffleElement>;
+            "crai-icon-sign-in": LocalJSX.CraiIconSignIn & JSXBase.HTMLAttributes<HTMLCraiIconSignInElement>;
+            "crai-icon-sign-in-alt": LocalJSX.CraiIconSignInAlt & JSXBase.HTMLAttributes<HTMLCraiIconSignInAltElement>;
+            "crai-icon-sign-out": LocalJSX.CraiIconSignOut & JSXBase.HTMLAttributes<HTMLCraiIconSignOutElement>;
+            "crai-icon-sign-out-alt": LocalJSX.CraiIconSignOutAlt & JSXBase.HTMLAttributes<HTMLCraiIconSignOutAltElement>;
+            "crai-icon-signal-alt": LocalJSX.CraiIconSignalAlt & JSXBase.HTMLAttributes<HTMLCraiIconSignalAltElement>;
+            "crai-icon-signal-alt-1": LocalJSX.CraiIconSignalAlt1 & JSXBase.HTMLAttributes<HTMLCraiIconSignalAlt1Element>;
+            "crai-icon-signal-alt-2": LocalJSX.CraiIconSignalAlt2 & JSXBase.HTMLAttributes<HTMLCraiIconSignalAlt2Element>;
+            "crai-icon-skateboard": LocalJSX.CraiIconSkateboard & JSXBase.HTMLAttributes<HTMLCraiIconSkateboardElement>;
+            "crai-icon-smartphone": LocalJSX.CraiIconSmartphone & JSXBase.HTMLAttributes<HTMLCraiIconSmartphoneElement>;
+            "crai-icon-smile": LocalJSX.CraiIconSmile & JSXBase.HTMLAttributes<HTMLCraiIconSmileElement>;
+            "crai-icon-smile-wink": LocalJSX.CraiIconSmileWink & JSXBase.HTMLAttributes<HTMLCraiIconSmileWinkElement>;
+            "crai-icon-snowflake": LocalJSX.CraiIconSnowflake & JSXBase.HTMLAttributes<HTMLCraiIconSnowflakeElement>;
+            "crai-icon-soap": LocalJSX.CraiIconSoap & JSXBase.HTMLAttributes<HTMLCraiIconSoapElement>;
+            "crai-icon-soup": LocalJSX.CraiIconSoup & JSXBase.HTMLAttributes<HTMLCraiIconSoupElement>;
+            "crai-icon-spa": LocalJSX.CraiIconSpa & JSXBase.HTMLAttributes<HTMLCraiIconSpaElement>;
+            "crai-icon-speaker": LocalJSX.CraiIconSpeaker & JSXBase.HTMLAttributes<HTMLCraiIconSpeakerElement>;
+            "crai-icon-sphere": LocalJSX.CraiIconSphere & JSXBase.HTMLAttributes<HTMLCraiIconSphereElement>;
+            "crai-icon-spinner": LocalJSX.CraiIconSpinner & JSXBase.HTMLAttributes<HTMLCraiIconSpinnerElement>;
+            "crai-icon-spinner-alt": LocalJSX.CraiIconSpinnerAlt & JSXBase.HTMLAttributes<HTMLCraiIconSpinnerAltElement>;
+            "crai-icon-square": LocalJSX.CraiIconSquare & JSXBase.HTMLAttributes<HTMLCraiIconSquareElement>;
+            "crai-icon-square-root": LocalJSX.CraiIconSquareRoot & JSXBase.HTMLAttributes<HTMLCraiIconSquareRootElement>;
+            "crai-icon-star": LocalJSX.CraiIconStar & JSXBase.HTMLAttributes<HTMLCraiIconStarElement>;
+            "crai-icon-star-octogram": LocalJSX.CraiIconStarOctogram & JSXBase.HTMLAttributes<HTMLCraiIconStarOctogramElement>;
+            "crai-icon-stats": LocalJSX.CraiIconStats & JSXBase.HTMLAttributes<HTMLCraiIconStatsElement>;
+            "crai-icon-stethoscope": LocalJSX.CraiIconStethoscope & JSXBase.HTMLAttributes<HTMLCraiIconStethoscopeElement>;
+            "crai-icon-sticker": LocalJSX.CraiIconSticker & JSXBase.HTMLAttributes<HTMLCraiIconStickerElement>;
+            "crai-icon-stop": LocalJSX.CraiIconStop & JSXBase.HTMLAttributes<HTMLCraiIconStopElement>;
+            "crai-icon-stopwatch": LocalJSX.CraiIconStopwatch & JSXBase.HTMLAttributes<HTMLCraiIconStopwatchElement>;
+            "crai-icon-subtitles": LocalJSX.CraiIconSubtitles & JSXBase.HTMLAttributes<HTMLCraiIconSubtitlesElement>;
+            "crai-icon-sun": LocalJSX.CraiIconSun & JSXBase.HTMLAttributes<HTMLCraiIconSunElement>;
+            "crai-icon-sunrise": LocalJSX.CraiIconSunrise & JSXBase.HTMLAttributes<HTMLCraiIconSunriseElement>;
+            "crai-icon-surfing": LocalJSX.CraiIconSurfing & JSXBase.HTMLAttributes<HTMLCraiIconSurfingElement>;
+            "crai-icon-sword": LocalJSX.CraiIconSword & JSXBase.HTMLAttributes<HTMLCraiIconSwordElement>;
+            "crai-icon-syringe": LocalJSX.CraiIconSyringe & JSXBase.HTMLAttributes<HTMLCraiIconSyringeElement>;
+            "crai-icon-tablet": LocalJSX.CraiIconTablet & JSXBase.HTMLAttributes<HTMLCraiIconTabletElement>;
+            "crai-icon-target": LocalJSX.CraiIconTarget & JSXBase.HTMLAttributes<HTMLCraiIconTargetElement>;
+            "crai-icon-taxi": LocalJSX.CraiIconTaxi & JSXBase.HTMLAttributes<HTMLCraiIconTaxiElement>;
+            "crai-icon-tennis": LocalJSX.CraiIconTennis & JSXBase.HTMLAttributes<HTMLCraiIconTennisElement>;
+            "crai-icon-terrace": LocalJSX.CraiIconTerrace & JSXBase.HTMLAttributes<HTMLCraiIconTerraceElement>;
+            "crai-icon-test": LocalJSX.CraiIconTest & JSXBase.HTMLAttributes<HTMLCraiIconTestElement>;
+            "crai-icon-test-tube": LocalJSX.CraiIconTestTube & JSXBase.HTMLAttributes<HTMLCraiIconTestTubeElement>;
+            "crai-icon-text": LocalJSX.CraiIconText & JSXBase.HTMLAttributes<HTMLCraiIconTextElement>;
+            "crai-icon-text-check": LocalJSX.CraiIconTextCheck & JSXBase.HTMLAttributes<HTMLCraiIconTextCheckElement>;
+            "crai-icon-thermometer-half": LocalJSX.CraiIconThermometerHalf & JSXBase.HTMLAttributes<HTMLCraiIconThermometerHalfElement>;
+            "crai-icon-thumbs-down": LocalJSX.CraiIconThumbsDown & JSXBase.HTMLAttributes<HTMLCraiIconThumbsDownElement>;
+            "crai-icon-thumbs-up": LocalJSX.CraiIconThumbsUp & JSXBase.HTMLAttributes<HTMLCraiIconThumbsUpElement>;
+            "crai-icon-thumbtack": LocalJSX.CraiIconThumbtack & JSXBase.HTMLAttributes<HTMLCraiIconThumbtackElement>;
+            "crai-icon-ticket": LocalJSX.CraiIconTicket & JSXBase.HTMLAttributes<HTMLCraiIconTicketElement>;
+            "crai-icon-time-add": LocalJSX.CraiIconTimeAdd & JSXBase.HTMLAttributes<HTMLCraiIconTimeAddElement>;
+            "crai-icon-time-check": LocalJSX.CraiIconTimeCheck & JSXBase.HTMLAttributes<HTMLCraiIconTimeCheckElement>;
+            "crai-icon-time-delete": LocalJSX.CraiIconTimeDelete & JSXBase.HTMLAttributes<HTMLCraiIconTimeDeleteElement>;
+            "crai-icon-time-fast": LocalJSX.CraiIconTimeFast & JSXBase.HTMLAttributes<HTMLCraiIconTimeFastElement>;
+            "crai-icon-time-forward": LocalJSX.CraiIconTimeForward & JSXBase.HTMLAttributes<HTMLCraiIconTimeForwardElement>;
+            "crai-icon-time-forward-sixty": LocalJSX.CraiIconTimeForwardSixty & JSXBase.HTMLAttributes<HTMLCraiIconTimeForwardSixtyElement>;
+            "crai-icon-time-forward-ten": LocalJSX.CraiIconTimeForwardTen & JSXBase.HTMLAttributes<HTMLCraiIconTimeForwardTenElement>;
+            "crai-icon-time-half-past": LocalJSX.CraiIconTimeHalfPast & JSXBase.HTMLAttributes<HTMLCraiIconTimeHalfPastElement>;
+            "crai-icon-time-oclock": LocalJSX.CraiIconTimeOclock & JSXBase.HTMLAttributes<HTMLCraiIconTimeOclockElement>;
+            "crai-icon-time-past": LocalJSX.CraiIconTimePast & JSXBase.HTMLAttributes<HTMLCraiIconTimePastElement>;
+            "crai-icon-time-quarter-past": LocalJSX.CraiIconTimeQuarterPast & JSXBase.HTMLAttributes<HTMLCraiIconTimeQuarterPastElement>;
+            "crai-icon-time-quarter-to": LocalJSX.CraiIconTimeQuarterTo & JSXBase.HTMLAttributes<HTMLCraiIconTimeQuarterToElement>;
+            "crai-icon-time-twenty-four": LocalJSX.CraiIconTimeTwentyFour & JSXBase.HTMLAttributes<HTMLCraiIconTimeTwentyFourElement>;
+            "crai-icon-tool-crop": LocalJSX.CraiIconToolCrop & JSXBase.HTMLAttributes<HTMLCraiIconToolCropElement>;
+            "crai-icon-tool-marquee": LocalJSX.CraiIconToolMarquee & JSXBase.HTMLAttributes<HTMLCraiIconToolMarqueeElement>;
+            "crai-icon-tooth": LocalJSX.CraiIconTooth & JSXBase.HTMLAttributes<HTMLCraiIconToothElement>;
+            "crai-icon-tornado": LocalJSX.CraiIconTornado & JSXBase.HTMLAttributes<HTMLCraiIconTornadoElement>;
+            "crai-icon-train": LocalJSX.CraiIconTrain & JSXBase.HTMLAttributes<HTMLCraiIconTrainElement>;
+            "crai-icon-train-side": LocalJSX.CraiIconTrainSide & JSXBase.HTMLAttributes<HTMLCraiIconTrainSideElement>;
+            "crai-icon-transform": LocalJSX.CraiIconTransform & JSXBase.HTMLAttributes<HTMLCraiIconTransformElement>;
+            "crai-icon-trash": LocalJSX.CraiIconTrash & JSXBase.HTMLAttributes<HTMLCraiIconTrashElement>;
+            "crai-icon-treatment": LocalJSX.CraiIconTreatment & JSXBase.HTMLAttributes<HTMLCraiIconTreatmentElement>;
+            "crai-icon-tree": LocalJSX.CraiIconTree & JSXBase.HTMLAttributes<HTMLCraiIconTreeElement>;
+            "crai-icon-tree-christmas": LocalJSX.CraiIconTreeChristmas & JSXBase.HTMLAttributes<HTMLCraiIconTreeChristmasElement>;
+            "crai-icon-triangle": LocalJSX.CraiIconTriangle & JSXBase.HTMLAttributes<HTMLCraiIconTriangleElement>;
+            "crai-icon-trophy": LocalJSX.CraiIconTrophy & JSXBase.HTMLAttributes<HTMLCraiIconTrophyElement>;
+            "crai-icon-truck-side": LocalJSX.CraiIconTruckSide & JSXBase.HTMLAttributes<HTMLCraiIconTruckSideElement>;
+            "crai-icon-umbrella": LocalJSX.CraiIconUmbrella & JSXBase.HTMLAttributes<HTMLCraiIconUmbrellaElement>;
+            "crai-icon-underline": LocalJSX.CraiIconUnderline & JSXBase.HTMLAttributes<HTMLCraiIconUnderlineElement>;
+            "crai-icon-undo": LocalJSX.CraiIconUndo & JSXBase.HTMLAttributes<HTMLCraiIconUndoElement>;
+            "crai-icon-undo-alt": LocalJSX.CraiIconUndoAlt & JSXBase.HTMLAttributes<HTMLCraiIconUndoAltElement>;
+            "crai-icon-unlock": LocalJSX.CraiIconUnlock & JSXBase.HTMLAttributes<HTMLCraiIconUnlockElement>;
+            "crai-icon-upload": LocalJSX.CraiIconUpload & JSXBase.HTMLAttributes<HTMLCraiIconUploadElement>;
+            "crai-icon-usb-pendrive": LocalJSX.CraiIconUsbPendrive & JSXBase.HTMLAttributes<HTMLCraiIconUsbPendriveElement>;
+            "crai-icon-user": LocalJSX.CraiIconUser & JSXBase.HTMLAttributes<HTMLCraiIconUserElement>;
+            "crai-icon-user-add": LocalJSX.CraiIconUserAdd & JSXBase.HTMLAttributes<HTMLCraiIconUserAddElement>;
+            "crai-icon-user-delete": LocalJSX.CraiIconUserDelete & JSXBase.HTMLAttributes<HTMLCraiIconUserDeleteElement>;
+            "crai-icon-user-remove": LocalJSX.CraiIconUserRemove & JSXBase.HTMLAttributes<HTMLCraiIconUserRemoveElement>;
+            "crai-icon-user-time": LocalJSX.CraiIconUserTime & JSXBase.HTMLAttributes<HTMLCraiIconUserTimeElement>;
+            "crai-icon-utensils": LocalJSX.CraiIconUtensils & JSXBase.HTMLAttributes<HTMLCraiIconUtensilsElement>;
+            "crai-icon-vector": LocalJSX.CraiIconVector & JSXBase.HTMLAttributes<HTMLCraiIconVectorElement>;
+            "crai-icon-vector-alt": LocalJSX.CraiIconVectorAlt & JSXBase.HTMLAttributes<HTMLCraiIconVectorAltElement>;
+            "crai-icon-venus": LocalJSX.CraiIconVenus & JSXBase.HTMLAttributes<HTMLCraiIconVenusElement>;
+            "crai-icon-venus-double": LocalJSX.CraiIconVenusDouble & JSXBase.HTMLAttributes<HTMLCraiIconVenusDoubleElement>;
+            "crai-icon-venus-mars": LocalJSX.CraiIconVenusMars & JSXBase.HTMLAttributes<HTMLCraiIconVenusMarsElement>;
+            "crai-icon-video-camera": LocalJSX.CraiIconVideoCamera & JSXBase.HTMLAttributes<HTMLCraiIconVideoCameraElement>;
+            "crai-icon-volleyball": LocalJSX.CraiIconVolleyball & JSXBase.HTMLAttributes<HTMLCraiIconVolleyballElement>;
+            "crai-icon-volume": LocalJSX.CraiIconVolume & JSXBase.HTMLAttributes<HTMLCraiIconVolumeElement>;
+            "crai-icon-wheelchair": LocalJSX.CraiIconWheelchair & JSXBase.HTMLAttributes<HTMLCraiIconWheelchairElement>;
+            "crai-icon-wifi-alt": LocalJSX.CraiIconWifiAlt & JSXBase.HTMLAttributes<HTMLCraiIconWifiAltElement>;
+            "crai-icon-wind": LocalJSX.CraiIconWind & JSXBase.HTMLAttributes<HTMLCraiIconWindElement>;
+            "crai-icon-woman-head": LocalJSX.CraiIconWomanHead & JSXBase.HTMLAttributes<HTMLCraiIconWomanHeadElement>;
+            "crai-icon-world": LocalJSX.CraiIconWorld & JSXBase.HTMLAttributes<HTMLCraiIconWorldElement>;
+            "crai-icon-yen": LocalJSX.CraiIconYen & JSXBase.HTMLAttributes<HTMLCraiIconYenElement>;
+            "crai-icon-zoom-in": LocalJSX.CraiIconZoomIn & JSXBase.HTMLAttributes<HTMLCraiIconZoomInElement>;
+            "crai-icon-zoom-out": LocalJSX.CraiIconZoomOut & JSXBase.HTMLAttributes<HTMLCraiIconZoomOutElement>;
             "crai-text-bubble": LocalJSX.CraiTextBubble & JSXBase.HTMLAttributes<HTMLCraiTextBubbleElement>;
             "crai-text-input": LocalJSX.CraiTextInput & JSXBase.HTMLAttributes<HTMLCraiTextInputElement>;
         }
