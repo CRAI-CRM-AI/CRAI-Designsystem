@@ -16,6 +16,9 @@
       "import": "./dist/designsystem/designsystem.esm.js",
       "require": "./dist/designsystem/designsystem.cjs.js"
     },
+    "./designsystem.css": {
+      "import": "./dist/designsystem/designsystem.css"
+    },
     "./components": {
       "import": "./dist/components/*.js",
       "types": "./dist/components/*.d.ts"
