@@ -1,6 +1,6 @@
 {
   "name": "@cr-ai/designsystem",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -16,9 +16,9 @@
       "import": "./dist/designsystem/designsystem.esm.js",
       "require": "./dist/designsystem/designsystem.cjs.js"
     },
-    "./my-component": {
-      "import": "./dist/components/my-component.js",
-      "types": "./dist/components/my-component.d.ts"
+    "./components": {
+      "import": "./dist/components/*.js",
+      "types": "./dist/components/*.d.ts"
     },
     "./loader": {
       "import": "./loader/index.js",
