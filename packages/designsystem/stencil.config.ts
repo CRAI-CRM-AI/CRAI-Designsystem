@@ -14,6 +14,9 @@ export const config: Config = {
       externalRuntime: false,
     },
     {
+      type: 'dist-hydrate-script',
+    },
+    {
       type: 'docs-readme',
     },
     {
