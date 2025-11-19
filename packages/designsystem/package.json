@@ -1,10 +1,10 @@
 {
   "name": "@cr-ai/designsystem",
-  "version": "0.1.8",
+  "version": "0.1.81",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
-  "module": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "module": "dist/components/index.js",
+  "types": "dist/components/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/designsystem/designsystem.esm.js",
@@ -19,7 +19,7 @@
     "./designsystem.css": {
       "import": "./dist/designsystem/designsystem.css"
     },
-    "./components": {
+    "./components/*": {
       "import": "./dist/components/*.js",
       "types": "./dist/components/*.d.ts"
     },
@@ -45,8 +45,12 @@
     "generate": "stencil generate",
     "icons": "node scripts/generate-icon-components.js --input src/assets/icons --output src/components/icons --clean-output-folder"
   },
+  "dependencies": {
+    "@stencil/core": "^4.27.1"
+  },
   "devDependencies": {
     "@stencil/core": "^4.27.1",
+    "@stencil/react-output-target": "^1.2.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.5",
     "jest": "^29.7.0",

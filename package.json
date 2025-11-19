@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "lerna": "^9.0.0"
-  }
+  },
+  "workspaces": [
+    ".packages/designsystem",
+    ".packages/designsystem-react"
+  ]
 }

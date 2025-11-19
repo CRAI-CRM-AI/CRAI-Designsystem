@@ -1,4 +1,5 @@
 import { Config } from '@stencil/core';
+import { reactOutputTarget } from '@stencil/react-output-target';
 
 export const config: Config = {
   namespace: 'designsystem',
@@ -8,9 +9,13 @@ export const config: Config = {
       type: 'dist',
       esmLoaderPath: '../loader',
     },
+    reactOutputTarget({
+      // Relative path to where the React components will be generated
+      outDir: '../designsystem-react/lib/components/stencil-generated',
+    }),
     {
       type: 'dist-custom-elements',
-      customElementsExportBehavior: 'auto-define-custom-elements',
+      generateTypeDeclarations: true,
       externalRuntime: false,
     },
     {
