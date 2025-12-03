@@ -9,9 +9,7 @@ export const config: Config = {
       esmLoaderPath: '../loader',
     },
     {
-      type: 'dist-custom-elements',
-      customElementsExportBehavior: 'auto-define-custom-elements',
-      externalRuntime: false,
+      type: 'dist',
     },
     {
       type: 'dist-hydrate-script',
