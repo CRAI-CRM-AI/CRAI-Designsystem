@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+  /* fonts */
+  --font-family: 'DM Sans', sans-serif;
+  --font-size: 16px;
+  --font-weight-default: 400;
+  --font-style-normal: normal;
+  --font-optical-sizing-default: auto;
+  --letter-spacing-default: 0.6px;
+  --letter-spacing-large: 0.8px;
+
+  /* Colors */
+  --crai-green-50: #eaeeec;
+  --crai-green-100: #bfc9c3;
+  --crai-green-200: #9fafa6;
+  --crai-green-300: #748a7e;
+  --crai-green-400: #597365;
+  --crai-green-500: #2f503e;
+  --crai-green-600: #2b4938;
+  --crai-green-700: #21392c;
+  --crai-green-800: #1a2c22;
+  --crai-green-900: #14221a;
+
+  --color-primary: var(--crai-green-500);
+  --color-secondary: var(--crai-green-200);
+  --color-text: var(--crai-green-800);
+  --crai-icon-color: var(--crai-green-800);
+  --color-text-inverse: var(--crai-green-50);
+  --color-primary-disabled: var(--crai-green-200);
+  --color-secondary-disabled: var(--crai-green-50);
+
+  --color-input-bg: var(--color-secondary);
+  --color-button-bg: var(--crai-green-600);
+  --color-button: var(--crai-green-50);
+  --color-button-border: var(--crai-green-800);
+
+  --glass-bg: rgba(255, 255, 255, 0.45);
+
+  /* dimensions */
+  --border-radius-md: 1.2rem;
+  --dimension-border-radius-circle: 50%;
+
+  /* filter */
+  --filter-blur-sm: 2px;
+  --filter-blur: 4px;
+  --filter-blur-lg: 6px;
+
+  /*glass */
+  --glass-inner-shadow: inset 2px 2px 0px -2px rgba(255, 255, 255, 0.25), inset 0 0 3px 1px rgba(255, 255, 255, 0.25);
+}
+body {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dark {
+  --color-text: var(--crai-green-50);
+  --crai-icon-color: var(--crai-green-50);
+  --color-input-bg: var(--color-primary);
+  --color-button-bg: var(--crai-green-300);
+  --color-button: var(--crai-green-900);
+  --color-button-border: var(--crai-green-200);
+  --glass-bg: rgba(0, 0, 0, 0.45);
+}

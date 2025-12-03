@@ -35,7 +35,7 @@ export class CraiButton {
   render() {
     return (
       <Host>
-        <button onClick={this.handleClick} ref={el => (this.btn = el as HTMLButtonElement)} type={this.type} disabled={this.disabled}>
+        <button title="CraiButton" onClick={this.handleClick} ref={el => (this.btn = el as HTMLButtonElement)} type={this.type} disabled={this.disabled}>
           <span class="content">
             <slot></slot>
           </span>
