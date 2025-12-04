@@ -28,7 +28,6 @@ dist-ssr
 /playwright/.cache/
 
 *storybook.log
-index.html
 
 design-tokens.source.json
 
