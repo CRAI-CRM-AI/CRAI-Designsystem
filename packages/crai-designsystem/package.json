@@ -2,7 +2,7 @@
   "title": "CRAI Designsystem",
   "author": "CRAI Development Team",
   "name": "@cr-ai/designsystem",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "The designsystem for the CRAI Project",
   "keywords": [
     "designsystem",
@@ -57,7 +57,7 @@
     "publish:npm": "pnpm build && cd dist/npm && npm publish",
     "changelog:ci": "release-it --ci",
     "analyze": "cem analyze --litelement",
-    "gen:react": "pnpm analyze && lit labs gen --framework=react && node ./scripts/fix-react-wrapper.js",
+    "gen:react": "pnpm analyze && lit labs gen --framework=react && node ./scripts/fix-react-wrapper.js && node ./scripts/fix-react-package-json.js",
     "clean": "rimraf .temp"
   },
   "peerDependencies": {
