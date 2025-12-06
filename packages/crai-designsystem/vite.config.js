@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import generateFile from 'vite-plugin-generate-file';
+import dts from 'vite-plugin-dts';
 import fs from 'fs';
 import path from 'path';
 
@@ -143,6 +144,31 @@ export default defineConfig(({ mode }) => {
                 dest: './',
               },
             ],
+          }),
+          dts({
+            outDir: `${OUTPUT_DIRECTORY}/${env.DEPLOY_TARGET}`,
+            include: ['src/components'],
+            afterBuild: () => {
+              const dtsDir = path.join(process.cwd(), OUTPUT_DIRECTORY, env.DEPLOY_TARGET);
+              const componentKeys = Object.keys(listOfComponents);
+
+              // Move component declaration files
+              componentKeys.forEach(key => {
+                const possiblePath1 = path.join(dtsDir, 'src', 'components', key, `${key}.component.d.ts`);
+                const possiblePath2 = path.join(dtsDir, 'components', key, `${key}.component.d.ts`);
+                const targetPath = path.join(dtsDir, `${key}.d.ts`);
+
+                if (fs.existsSync(possiblePath1)) {
+                  fs.renameSync(possiblePath1, targetPath);
+                } else if (fs.existsSync(possiblePath2)) {
+                  fs.renameSync(possiblePath2, targetPath);
+                }
+              });
+
+              // Generate index.d.ts
+              const indexDtsContent = componentKeys.map(key => `export * from './${key}';`).join('\n');
+              fs.writeFileSync(path.join(dtsDir, 'index.d.ts'), indexDtsContent);
+            },
           }),
         ],
         build: {

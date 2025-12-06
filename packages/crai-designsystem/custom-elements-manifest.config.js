@@ -35,5 +35,17 @@ export default {
     }),
     typeParserPlugin({ propertyName: 'expandedType' }),
     customElementJetBrainsPlugin(options),
+    {
+      name: 'rewrite-paths',
+      packageLinkPhase({ customElementsManifest }) {
+        customElementsManifest.modules.forEach(mod => {
+          if (mod.path.startsWith('src/components/')) {
+            const filename = mod.path.split('/').pop();
+            const basename = filename.replace('.component.ts', '');
+            mod.path = `${basename}.js`;
+          }
+        });
+      },
+    },
   ],
 };

@@ -7,26 +7,64 @@ export const CraiButtonSelector = 'crai-button';
 /**
  * ## CRAI Button
  *
- * Button component for CRAI
+ * Button component for CRAI Design System.
+ *
+ * @summary A versatile button component supporting multiple variants, loading states, and icons.
  *
  * @tag crai-button
  * @element crai-button
  *
- * @slot default - Content of the button
+ * @slot - The content of the button.
+ *
+ * @fires click - Fired when the button is clicked.
+ *
+ * @cssprop [--color-button=currentColor] - Text color of the button.
+ * @cssprop [--color-button-bg=transparent] - Background color of the button.
+ * @cssprop [--color-button-border=transparent] - Border color of the button.
+ * @cssprop [--border-radius-md=0.375rem] - Border radius of the button.
+ * @cssprop [--font-family=inherit] - Font family of the button.
+ * @cssprop [--font-size=inherit] - Font size of the button.
+ * @cssprop [--font-weight-default=400] - Font weight of the button.
+ * @cssprop [--letter-spacing-large=normal] - Letter spacing of the button text.
+ * @cssprop [--glass-inner-shadow=none] - Inner shadow for the glass literal.
+ * @cssprop [--filter-blur=0px] - Blur amount for the glass literal.
+ * @cssprop [--dimension-border-radius-circle=50%] - Border radius for icon-only buttons.
  */
 @customElement(CraiButtonSelector)
 export class CraiButton extends LitElement {
   static readonly formAssociated = true;
-
+  /**
+   * The type of the button.
+   * Dictionary: `button`, `submit`, `reset`
+   * @default 'button'
+   */
   @property() type: 'button' | 'submit' | 'reset' = 'button';
 
-  @property() disabled: boolean = false;
+  /**
+   * Whether the button is disabled.
+   * @default false
+   */
+  @property({ type: Boolean }) disabled: boolean = false;
 
+  /**
+   * The variant style of the button.
+   * Dictionary: `primary`, `glass`
+   * @default 'primary'
+   */
   @property() variant: 'primary' | 'glass' = 'primary';
 
-  @property() icon: boolean = false;
+  /**
+   * Whether the button is an icon-only button.
+   * @default false
+   */
+  @property({ type: Boolean }) icon: boolean = false;
 
-  @property() loading: boolean = false;
+  /**
+   * Whether the button is in a loading state.
+   * When true, shows a spinner and hides the content.
+   * @default false
+   */
+  @property({ type: Boolean }) loading: boolean = false;
 
   private _internals: ElementInternals;
 
